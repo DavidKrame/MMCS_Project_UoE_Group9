@@ -4,8 +4,8 @@
 
 ### 0. Project Files
 
-This project contains several Jupyter notebooks for data analysis:
-- **DataAnalysis...**: Various analyses of the datasets.
+This project contains several Jupyter notebooks :
+- **DataAnalysis_...**: Various analyses of the datasets.
 - **FirstWeek_only_Extraction**: Extracts the first week of data.
 - **Vanilla_Model_1**: The optimization model implemented in Xpress-Python.
 
