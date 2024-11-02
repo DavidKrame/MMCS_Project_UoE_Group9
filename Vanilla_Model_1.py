@@ -6,7 +6,7 @@ xp.init('C:/xpressmp/bin/xpauth.xpr')
 start_time = time()
 # dataset loading
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
-movie_db_df = pd.read_csv('data/movie_database.csv', parse_dates=['release_date'])
+movie_db_df = pd.read_csv('data/reduced_movie_database_1000.csv', parse_dates=['release_date'])
 other_channels_0_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
 other_channels_1_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_1_schedule.csv', parse_dates=['Date-Time'])
 other_channels_2_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_2_schedule.csv', parse_dates=['Date-Time'])
