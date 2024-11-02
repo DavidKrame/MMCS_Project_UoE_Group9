@@ -50,10 +50,19 @@ def extract_first_week_data(file_path, output_file='first_week_data.csv'):
             df = df.drop(column, axis=1)
 
     # for each aggregate the numerical columns over half an hour length
+    # for ii in range(7):
+    #     first_week_data_day = df[(df['Date-Time'] >= f'2024-10-0{ii+1}') & (df['Date-Time'] < f'2024-10-0{ii+2}')]
+    #     first_week_data_day = first_week_data_day.set_index('Date-Time').resample('30Min',closed = 'right',label ='right').mean()
+    #     first_week_data_list.append(first_week_data_day)
     for ii in range(7):
-        first_week_data_day = df[(df['Date-Time'] >= f'2024-10-0{ii+1}') & (df['Date-Time'] < f'2024-10-0{ii+2}')]
-        first_week_data_day = first_week_data_day.set_index('Date-Time').resample('30Min',closed = 'right',label ='right').mean()
-        first_week_data_list.append(first_week_data_day)
+        first_week_data = df[(df['Date-Time'] >= f'2024-10-0{ii+1}') & (df['Date-Time'] < f'2024-10-0{ii+2}')]
+        first_week_data = first_week_data.set_index('Date-Time').resample('30Min', closed='right', label='right').mean()
+        
+        # Forward fill to fill missing values with the last valid observation
+        first_week_data = first_week_data.ffill()  # Fill forward
+    
+        first_week_data_list.append(first_week_data)
+        
 
     first_week_data = pd.concat(first_week_data_list)
 
