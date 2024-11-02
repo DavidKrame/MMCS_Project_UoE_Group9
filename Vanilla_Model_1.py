@@ -30,6 +30,7 @@ model.addVariable(list(ad_vars.values()))
 print('desicion vars added at time ', time() - start_time)
 # Objective Function: Maximization of the total viewership's revenue minus costs
 viewership_from_movies = xp.Sum(x[i][j] * movie_db_df['scaled_popularity'].iloc[i] for i in movie_indices for j in range(len(my_channel_df)))
+print('viewership_from_movies intialised at time ', time() - start_time)
 # Create a mapping of conversion rates for each channel
 conversion_rates_mapping = {
     'Channel_0': conversion_rates_0_df,
@@ -43,15 +44,15 @@ viewership_from_ads = xp.Sum(
     )
     for ch in ad_indices
 )
-print('viewrship_from_ads intialised at time ', start_time - time())
+print('viewrship_from_ads intialised at time ', time() - start_time)
 # Total costs
 license_fees = xp.Sum(x[i][j] * movie_db_df['license_fee'].iloc[i] for i in movie_indices for j in range(len(my_channel_df)))
-print('license_fee intialised at time ', start_time - time())
+print('license_fee intialised at time ', time() - start_time)
 ad_costs = xp.Sum(ad_vars[ch] * (other_channels_0_df['ad_slot_price'].sum() if ch == 'Channel_0' else
                                   other_channels_1_df['ad_slot_price'].sum() if ch == 'Channel_1' else
                                   other_channels_2_df['ad_slot_price'].sum())
                   for ch in ad_indices)  # Add advertising costs
-print('ad_cost intialised at time ', start_time - time())
+print('ad_cost intialised at time ', time() - start_time)
 
 # Objective Function: Maximize total viewership minus costs
 model.setObjective(viewership_from_movies + viewership_from_ads - license_fees - ad_costs, sense=xp.maximize)
