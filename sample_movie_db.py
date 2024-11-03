@@ -14,3 +14,4 @@ def get_sample_of_movie_db(file_path, output_file, sample_size):
 
 sample_size = 1000
 get_sample_of_movie_db('data/movie_database.csv', f'data/reduced_movie_database_{sample_size}.csv', sample_size)
+get_sample_of_movie_db('data/movie_database_with_license_fee.csv', f'data/movie_database_with_license_fee{sample_size}.csv', sample_size)
