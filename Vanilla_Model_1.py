@@ -1,12 +1,13 @@
 import pandas as pd
 import xpress as xp
+import ast
 from time import time
 
 xp.init('C:/xpressmp/bin/xpauth.xpr')
 start_time = time()
 # dataset loading
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
-movie_db_df = pd.read_csv('data/reduced_movie_database_1000.csv', parse_dates=['release_date'])
+movie_db_df = pd.read_csv('data/movie_database_with_license_fee_1000.csv', parse_dates=['release_date'])
 other_channels_0_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
 other_channels_1_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_1_schedule.csv', parse_dates=['Date-Time'])
 other_channels_2_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_2_schedule.csv', parse_dates=['Date-Time'])
@@ -37,13 +38,15 @@ conversion_rates_mapping = {
     'Channel_1': conversion_rates_1_df,
     'Channel_2': conversion_rates_2_df
 }
-viewership_from_ads = xp.Sum(
-    ad_vars[ch] * xp.Sum(
-        x[i][j] * conversion_rates_mapping[ch].iloc[i][1:]  # Select conversion rates for the respective channel + Need to multiply by a certain cost
-        for i in movie_indices for j in range(len(my_channel_df))
-    )
-    for ch in ad_indices
-)
+# movie_db_df['genres'] = movie_db_df['genres'].apply(ast.literal_eval)
+# viewership_from_ads = xp.Sum(
+#     ad_vars[ch] * xp.Sum(
+#         x[i][j] * conversion_rates_mapping[ch].loc[j, genre]  # Usage of genre-based conversion rates
+#         for j in range(len(my_channel_df))
+#         for genre in list(movie_db_df.loc[i, 'genres'])  # Iterating through genres for each movie
+#     )
+#     for i in movie_indices for ch in ad_indices
+# )
 print('viewrship_from_ads intialised at time ', time() - start_time)
 # Total costs
 license_fees = xp.Sum(x[i][j] * movie_db_df['license_fee'].iloc[i] for i in movie_indices for j in range(len(my_channel_df)))
@@ -55,46 +58,42 @@ ad_costs = xp.Sum(ad_vars[ch] * (other_channels_0_df['ad_slot_price'].sum() if c
 print('ad_cost intialised at time ', time() - start_time)
 
 # Objective Function: Maximize total viewership minus costs
-model.setObjective(viewership_from_movies + viewership_from_ads - license_fees - ad_costs, sense=xp.maximize)
+# model.setObjective(viewership_from_movies + viewership_from_ads - license_fees - ad_costs, sense=xp.maximize)
 print('objective function set at time ', time() - start_time)
 
 # Constraints
 
+No_of_Time_slots = range(len(my_channel_df))
+
 # 1. Time slot constraint: You can only schedule one movie per time slot
 time_slots = my_channel_df['Date-Time'].unique()
-for j in range(len(my_channel_df)):
-    model.addConstraint(xp.Sum(x[i][j] for i in movie_indices) <= 1, f"TimeConstraint_{j}")
+model.addConstraint(xp.Sum(x[i][j] for i in movie_indices) == 1 for j in No_of_Time_slots)
 print('constraint 1 added at time ', time() - start_time)
 
 # 2. Movie must be scheduled for its whole time
-for i in movie_indices:
-    runtime = movie_db_df['runtime'].iloc[i]  # Movie runtime in minutes
-    for j in range(len(my_channel_df)):
-        # Ensure the movie is scheduled for its entire runtime if it is scheduled at time slot j
-        model.addConstraint(xp.Sum(x[i][j + k] for k in range(runtime // 5) if j + k < len(my_channel_df)) == x[i][j] * runtime, f"FullRuntime_{i}_{j}")
-print('constraint 2 added at time ', time() - start_time)
+# Ensure the movie is scheduled for its entire runtime if it is scheduled at time slot j
+# model.addConstraint(
+#     xp.Sum(x[i][j + k] for k in range(movie_db_df['runtime'].iloc[i] // 30) if j + k < len(my_channel_df)) == x[i][j] * movie_db_df['runtime'].iloc[i]
+#     for i in movie_indices for j in No_of_Time_slots
+#     )
+# print('constraint 2 added at time ', time() - start_time)
 
 # 3. Total runtime constraint: Total scheduled runtime should not exceed a limit (24 hours for us)
 max_runtime = 24 * 60  # in minutes
-model.addConstraint(
-    xp.Sum(x[i][j] * movie_db_df['runtime'].iloc[i] for i in movie_indices for j in range(len(my_channel_df))) <= max_runtime,
-    "MaxRuntime"
-)
+model.addConstraint(xp.Sum(x[i][j] * movie_db_df['runtime'].iloc[i] for i in movie_indices for j in No_of_Time_slots) <= max_runtime)
 print('constraint 3 added at time ', time() - start_time)
 
-# 4. Consecutive time slots constraint
-for i in movie_indices:
-    for j in range(len(my_channel_df)):
-        for k in range(j + 1, len(my_channel_df)):
-            model.addConstraint(x[i][j] * my_channel_df['Date-Time'].iloc[k] - x[i][j] * my_channel_df['Date-Time'].iloc[j] <= x[i][j] * movie_db_df['runtime'].iloc[i],
-                                f"ConsecutiveSlots_{i}_{j}_{k}")
-print('constraint 4 added at time ', time() - start_time)
+# # 4. Consecutive time slots constraint
+# for i in movie_indices:
+#     for j in range(len(my_channel_df)):
+#         for k in range(j + 1, len(my_channel_df)):
+#             model.addConstraint(x[i][j] * (my_channel_df['Date-Time'].iloc[k] - my_channel_df['Date-Time'].iloc[j]) <= x[i][j] * movie_db_df['runtime'].iloc[i])
+# print('constraint 4 added at time ', time() - start_time)
 
 # 5. Budget constraint for movies
 total_budget = 1000000  # Example budget
 model.addConstraint(
-    xp.Sum(x[i][j] * movie_db_df['budget'].iloc[i] for i in movie_indices for j in range(len(my_channel_df))) <= total_budget,
-    "BudgetConstraint"
+    xp.Sum(x[i][j] * movie_db_df['budget'].iloc[i] for i in movie_indices for j in range(len(my_channel_df))) <= total_budget
 )
 print('constraint 5 added at time ', time() - start_time)
 
@@ -104,24 +103,25 @@ model.addConstraint(
     xp.Sum(ad_vars[ch] * (other_channels_0_df['ad_slot_price'].sum() if ch == 'Channel_0' else
                           other_channels_1_df['ad_slot_price'].sum() if ch == 'Channel_1' else
                           other_channels_2_df['ad_slot_price'].sum())
-               for ch in ad_indices) <= total_ad_budget,
-    "AdBudgetConstraint"
+               for ch in ad_indices) <= total_ad_budget
 )
 print('constraint 6 added at time ', time() - start_time)
 
 # 7. Threshold for Conversion Rates
-conversion_rate_threshold = 0.2  # Example threshold
-for i in movie_indices:
-    model.addConstraint(x[i][j] * (xp.Sum(conversion_rates_mapping[ch].iloc[i][1:] for ch in ad_indices) >= conversion_rate_threshold), 
-                                     f"ConversionRateConstraint_{i}")
-print('constraint 7 added at time ', time() - start_time)
+
+# need new decision variable for movie i advertised pon channel c at slot t
+
+# conversion_rate_threshold = 0.2  # Example threshold
+# model.addConstraint(x[i][j] * (xp.Sum(conversion_rates_mapping[ch].iloc[i][1:] for ch in ad_indices) >= conversion_rate_threshold) for i in movie_indices for j in No_of_Time_slots)
+# print('constraint 7 added at time ', time() - start_time)
 
 # 8. Daily Genre Diversity Constraint
 max_genres_per_day = 3  # Example limit for genres
-for j in range(len(my_channel_df)):
-    valid_movies = my_channel_df[my_channel_df['Date-Time'] == my_channel_df['Date-Time'].iloc[j]]
-    genre_count = valid_movies['genre'].nunique()  # We can adjust this depending on how each genre is represented
-    model.addConstraint(genre_count <= max_genres_per_day, f"GenreDiversityConstraint_{j}")
+model.addConstraint(
+    my_channel_df[my_channel_df['Date-Time'] == my_channel_df['Date-Time'].iloc[j]]['genres'] <= max_genres_per_day 
+    for j in No_of_Time_slots
+)
+
 print('constraint 8 added at time ', time() - start_time)
 
 # 9. Genre Clashes Constraint
