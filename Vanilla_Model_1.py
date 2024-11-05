@@ -7,7 +7,7 @@ from time import time
 xp.init('C:/xpressmp/bin/xpauth.xpr')
 
 start_time = time()
-# dataset loading
+# dataset 1 loading
 # my_channel_df = pd.read_csv('data/FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
 # movie_db_df = pd.read_csv('data/movie_database_with_license_fee.csv', parse_dates=['release_date'])
 # other_channels_0_df = pd.read_csv('data/FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
@@ -17,6 +17,7 @@ start_time = time()
 # conversion_rates_1_df = pd.read_csv('data/FIRST_WEEK_channel_1_conversion_rates.csv', parse_dates=['Date-Time'])
 # conversion_rates_2_df = pd.read_csv('data/FIRST_WEEK_channel_2_conversion_rates.csv', parse_dates=['Date-Time'])
 
+# dataset 2 loading
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
 movie_db_df = pd.read_csv('data/movie_database_with_license_fee_1000.csv', parse_dates=['release_date'])
 other_channels_0_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
