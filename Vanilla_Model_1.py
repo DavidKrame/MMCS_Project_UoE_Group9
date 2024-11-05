@@ -5,9 +5,8 @@ import datetime as dt
 from time import time
 
 xp.init('C:/xpressmp/bin/xpauth.xpr')
-
 start_time = time()
-# dataset 1 loading
+# dataset loading
 # my_channel_df = pd.read_csv('data/FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
 # movie_db_df = pd.read_csv('data/movie_database_with_license_fee.csv', parse_dates=['release_date'])
 # other_channels_0_df = pd.read_csv('data/FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
@@ -17,7 +16,6 @@ start_time = time()
 # conversion_rates_1_df = pd.read_csv('data/FIRST_WEEK_channel_1_conversion_rates.csv', parse_dates=['Date-Time'])
 # conversion_rates_2_df = pd.read_csv('data/FIRST_WEEK_channel_2_conversion_rates.csv', parse_dates=['Date-Time'])
 
-# dataset 2 loading
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
 movie_db_df = pd.read_csv('data/movie_database_with_license_fee_1000.csv', parse_dates=['release_date'])
 other_channels_0_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
@@ -165,16 +163,19 @@ for day in my_channel_df['Day'].unique():
     daily_slots = my_channel_df[my_channel_df['Day'] == day].index.tolist()
     
     for genre in movie_db_df['genres'].explode().unique():
-        # Enforce that genre_presence[day, genre] is set to 1 if the genre is scheduled at least once on this day
-        model.addConstraint(
-            xp.Sum(
-                x[i][j] for i in movie_indices for j in daily_slots if genre in movie_db_df['genres'].iloc[i]
-            ) >= genre_presence[day, genre]
-        )
+        # Check if (day, genre) is a valid key in genre_presence
+        if (day, genre) in genre_presence:
+            # Enforce that genre_presence[day, genre] is set to 1 if the genre is scheduled at least once on this day
+            model.addConstraint(
+                xp.Sum(
+                    x[i][j] for i in movie_indices for j in daily_slots if genre in movie_db_df['genres'].iloc[i]
+                ) >= genre_presence[day, genre]
+            )
     
     # Total genres per day should not exceed max_genres_per_day
     model.addConstraint(
-        xp.Sum(genre_presence[day, genre] for genre in movie_db_df['genres'].explode().unique()) <= max_genres_per_day
+        xp.Sum(genre_presence[day, genre] for genre in movie_db_df['genres'].explode().unique() 
+               if (day, genre) in genre_presence) <= max_genres_per_day
     )
 
 print('Constraint 8: Daily genre diversity constraint added at time :', time() - start_time)
@@ -224,13 +225,13 @@ print('model solved at time ', time() - start_time)
 # Output the results for scheduled movies
 for i in movie_indices:
     for j in range(len(my_channel_df)):
-        if x[i][j].getSolution() > 0.5:  # Movie is scheduled
+        if model.getSolution(x[i][j]) > 1:  # Movie is scheduled
             scheduled_time = my_channel_df['Date-Time'].iloc[j]
             print(f"Scheduled Movie: {movie_db_df['title'].iloc[i]}, Time Slot: {scheduled_time}")
 
 # Output the results for advertising
 for ch in ad_indices:
-    if ad_vars[ch].getSolution() > 0.5:  # Advertising on this channel
+    if model.getSolution(ad_vars[ch]) > 1:
         print(f"Advertising on {ch}")
 
 # Optionally, display the objective value
