@@ -225,13 +225,13 @@ print('model solved at time ', time() - start_time)
 # Output the results for scheduled movies
 for i in movie_indices:
     for j in range(len(my_channel_df)):
-        if model.getSolution(x[i][j]) > 1:  # Movie is scheduled
+        if model.getSolution(x[i][j]) > 0:  # Movie is scheduled
             scheduled_time = my_channel_df['Date-Time'].iloc[j]
             print(f"Scheduled Movie: {movie_db_df['title'].iloc[i]}, Time Slot: {scheduled_time}")
 
 # Output the results for advertising
 for ch in ad_indices:
-    if model.getSolution(ad_vars[ch]) > 1:
+    if model.getSolution(ad_vars[ch]) > 0:
         print(f"Advertising on {ch}")
 
 # Optionally, display the objective value
