@@ -129,7 +129,7 @@ model.addConstraint(
 
 # 5. Only one ad can be bought per avialable slot
 model.addConstraint(
-    xp.Sum(z[i][j][c] for i in Movies) == 1 for j in Time_slots for c in Channels
+    xp.Sum(z[i][j][c] for i in Movies) <= 1 for j in Time_slots for c in Channels
 )
 
 model.addConstraint(
@@ -172,24 +172,24 @@ model.addConstraint(
     for j in Time_slots
 )
 
-# 9. Ad slot is only sold if own movie is not advertised at time slot j
+#9. Ad slot is only sold if own movie is not advertised at time slot j
 model.addConstraint(
     u[j] <= v[j]*(population/viewership_units)
     for j in Time_slots
 )
 
 # 10. license fees and advertising slots bought must be within budget
-# model.addConstraint(
-#     xp.Sum(
-#         x[i][j] * movie_db_df['license_fee'].iloc[i]
-#         for i in Movies for j in Time_slots
-#     )
-#     + xp.Sum(
-#         z[i][j][c] * calculate_ad_slot_price(j, channel_dict[c])
-#         for i in Movies for j in Time_slots for c in Channels
-#     )
-#     <= budget
-# )
+model.addConstraint(
+    xp.Sum(
+        x[i][j] * movie_db_df['license_fee'].iloc[i]
+        for i in Movies for j in Time_slots
+    )
+    + xp.Sum(
+        z[i][j][c] * calculate_ad_slot_price(j, channel_dict[c])
+        for i in Movies for j in Time_slots for c in Channels
+    )
+    <= budget
+)
 
 ##########################
 # Objective Function
