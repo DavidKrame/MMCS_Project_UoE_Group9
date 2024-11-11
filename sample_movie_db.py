@@ -22,7 +22,7 @@ def get_sample_of_movie_db(file_path, reduced_df_output_file, genre_hot_one_outp
 
 
 
-sample_size = 50
+sample_size = 100
 # get_sample_of_movie_db('data/movie_database.csv', f'data/reduced_movie_database_{sample_size}.csv', sample_size)
 get_sample_of_movie_db(
     'data/movie_database_with_license_fee.csv',
