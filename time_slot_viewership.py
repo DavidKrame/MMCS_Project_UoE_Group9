@@ -12,14 +12,14 @@ def movie_views_for_time_slot(x, i, j, movie_db_df, my_channel_df, Demos, popula
                     for k in Demos)
     return views
 
-def comp_advertised_views_for_time_slot(z, i, j, c, movie_db_df, channel_dict, conversion_dict, Demos, Genres, population):
+def comp_advertised_views_for_time_slot(z, i, j, movie_db_df, channel_df, conversion_df, Demos, Genres, population):
     """
     Calculate the viewership gained from adveretising movie i on channel c at time slot j 
     """
-    views = z[i][j][c]*xp.Sum(
+    views = z[i][j]*xp.Sum(
         (population * movie_db_df[f'{k}_scaled_popularity'].iloc[i])
-        *channel_dict[c][f'{k}_baseline_view_count'].loc[j]
-        *conversion_dict[c][g].loc[j]
+        *channel_df[f'{k}_baseline_view_count'].loc[j]
+        *conversion_df[g].loc[j]
         for g in Genres for k in Demos
         )
     return views
