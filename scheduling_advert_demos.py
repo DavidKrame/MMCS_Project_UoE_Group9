@@ -3,6 +3,7 @@ import numpy as np
 import xpress as xp
 from datetime import datetime, timedelta
 from time import time
+import os
 
 from time_slot_viewership import movie_views_for_time_slot,comp_advertised_views_for_time_slot, own_advertised_views_for_time_slot, calculate_ad_slot_price
 
@@ -218,6 +219,11 @@ model.write(saved_sol_path)
 
 cost = sum(model.getSolution(x[i][j]) * movie_db_df['license_fee'].iloc[i] for i in Movies for j in Time_slots) + sum(model.getSolution(z[i][j][c]) * calculate_ad_slot_price(j, channel_dict[c]) for i in Movies for j in Time_slots for c in Channels)
 print(cost)
+
+output_dir = "./output"
+# create the dir if it doesn't exist
+os.makedirs(output_dir, exist_ok=True)
+
 if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
     with open(f"./output/output_{str(now)}.txt", "w") as f:
         f.write('Viewership: ')
