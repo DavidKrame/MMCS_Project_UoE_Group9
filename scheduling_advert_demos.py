@@ -133,7 +133,7 @@ model.addConstraint(
 )
 
 model.addConstraint(
-    xp.Sum(w[i][j] for i in Movies) + v[j] == 1 for j in Time_slots
+    xp.Sum(w[i][j] for i in Movies) + v[j] <= 1 for j in Time_slots
 )
 
 # 6. Only advertise movie if it is shown
@@ -146,11 +146,11 @@ model.addConstraint(
 
 # 7. Only advertise before the movie is scheduled
 model.addConstraint(
-    z[i][j][c]*(my_channel_df['Date-Time'].loc[j] - start_of_week).total_seconds()/60 <= s[i] - 30
+    z[i][j][c]*(my_channel_df['Date-Time'].loc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= s[i]
     for i in Movies for j in Time_slots for c in Channels
 )
 model.addConstraint(
-    w[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week).total_seconds()/60 <= s[i] - 30
+    w[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= s[i]
     for i in Movies for j in Time_slots
 )
 
@@ -179,17 +179,17 @@ model.addConstraint(
 )
 
 # 10. license fees and advertising slots bought must be within budget
-model.addConstraint(
-    xp.Sum(
-        x[i][j] * movie_db_df['license_fee'].iloc[i]
-        for i in Movies for j in Time_slots
-    )
-    + xp.Sum(
-        z[i][j][c] * calculate_ad_slot_price(j, channel_dict[c])
-        for i in Movies for j in Time_slots for c in Channels
-    )
-    <= budget
-)
+# model.addConstraint(
+#     xp.Sum(
+#         x[i][j] * movie_db_df['license_fee'].iloc[i]
+#         for i in Movies for j in Time_slots
+#     )
+#     + xp.Sum(
+#         z[i][j][c] * calculate_ad_slot_price(j, channel_dict[c])
+#         for i in Movies for j in Time_slots for c in Channels
+#     )
+#     <= budget
+# )
 
 ##########################
 # Objective Function
