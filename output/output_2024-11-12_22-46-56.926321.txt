@@ -1,0 +1,70 @@
+Viewership: <built-in method getObjVal of xpress.problem object at 0x00000184BD6D4590>
+At 2024-10-01 07:00:00 show movie Blade
+At 2024-10-01 07:30:00 show movie Blade
+At 2024-10-01 08:00:00 show movie Blade
+At 2024-10-01 08:30:00 show movie Blade
+At 2024-10-01 09:00:00 show movie Blade
+At 2024-10-01 09:30:00 show movie Memento
+At 2024-10-01 10:00:00 show movie Memento
+At 2024-10-01 10:30:00 show movie Memento
+At 2024-10-01 11:00:00 show movie Memento
+At 2024-10-01 11:30:00 show movie The Fault in Our Stars
+At 2024-10-01 12:00:00 show movie The Fault in Our Stars
+At 2024-10-01 12:30:00 show movie The Fault in Our Stars
+At 2024-10-01 13:00:00 show movie The Fault in Our Stars
+At 2024-10-01 13:30:00 show movie The Fault in Our Stars
+At 2024-10-01 14:00:00 show movie Movie 43
+At 2024-10-01 14:30:00 show movie Movie 43
+At 2024-10-01 15:00:00 show movie Movie 43
+At 2024-10-01 15:30:00 show movie Movie 43
+At 2024-10-01 16:00:00 show movie Monster Hunter
+At 2024-10-01 16:30:00 show movie Monster Hunter
+At 2024-10-01 17:00:00 show movie Monster Hunter
+At 2024-10-01 17:30:00 show movie Monster Hunter
+At 2024-10-01 18:00:00 show movie The Fifth Element
+At 2024-10-01 18:30:00 show movie The Fifth Element
+At 2024-10-01 19:00:00 show movie The Fifth Element
+At 2024-10-01 19:30:00 show movie The Fifth Element
+At 2024-10-01 20:00:00 show movie The Fifth Element
+At 2024-10-01 20:30:00 show movie Demolition Man
+At 2024-10-01 21:00:00 show movie Demolition Man
+At 2024-10-01 21:30:00 show movie Demolition Man
+At 2024-10-01 22:00:00 show movie Demolition Man
+At 2024-10-01 22:30:00 show movie The Purge: Anarchy
+At 2024-10-01 23:00:00 show movie The Purge: Anarchy
+At 2024-10-01 23:30:00 show movie The Purge: Anarchy
+At 2024-10-02 00:00:00 show movie The Purge: Anarchy
+At 2024-10-02 07:00:00 show movie The Incredibles
+At 2024-10-02 07:30:00 show movie The Incredibles
+At 2024-10-02 08:00:00 show movie The Incredibles
+At 2024-10-02 08:30:00 show movie The Incredibles
+At 2024-10-02 09:00:00 show movie Secretary
+At 2024-10-02 09:30:00 show movie Secretary
+At 2024-10-02 10:00:00 show movie Secretary
+At 2024-10-02 10:30:00 show movie Secretary
+At 2024-10-02 11:00:00 show movie 300: Rise of an Empire
+At 2024-10-02 11:30:00 show movie 300: Rise of an Empire
+At 2024-10-02 12:00:00 show movie 300: Rise of an Empire
+At 2024-10-02 12:30:00 show movie 300: Rise of an Empire
+At 2024-10-02 13:00:00 show movie The Lost Boys
+At 2024-10-02 13:30:00 show movie The Lost Boys
+At 2024-10-02 14:00:00 show movie The Lost Boys
+At 2024-10-02 14:30:00 show movie The Lost Boys
+At 2024-10-02 15:00:00 show movie Life of Pi
+At 2024-10-02 15:30:00 show movie Life of Pi
+At 2024-10-02 16:00:00 show movie Life of Pi
+At 2024-10-02 16:30:00 show movie Life of Pi
+At 2024-10-02 17:00:00 show movie Life of Pi
+At 2024-10-02 17:30:00 show movie Jungle Cruise
+At 2024-10-02 18:00:00 show movie Jungle Cruise
+At 2024-10-02 18:30:00 show movie Jungle Cruise
+At 2024-10-02 19:00:00 show movie Jungle Cruise
+At 2024-10-02 19:30:00 show movie Jungle Cruise
+At 2024-10-02 20:00:00 show movie Alien
+At 2024-10-02 20:30:00 show movie Alien
+At 2024-10-02 21:00:00 show movie Alien
+At 2024-10-02 21:30:00 show movie Alien
+At 2024-10-02 22:00:00 show movie Alien
+At 2024-10-02 22:30:00 show movie The Good Son
+At 2024-10-02 23:00:00 show movie The Good Son
+At 2024-10-02 23:30:00 show movie The Good Son

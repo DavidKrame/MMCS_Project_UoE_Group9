@@ -10,6 +10,11 @@ from time_slot_viewership import movie_views_for_time_slot,comp_advertised_views
 start_time = time()
 time_stamp = 0
 
+# Useful to keep track of the time taken by different approaches
+now_start_time = datetime.now()
+now_start_time = str(now_start_time).replace(" ", "_")
+now_start_time = now_start_time.replace(":", "-")
+
 xp.init('C:/xpressmp/bin/xpauth.xpr')
 
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
@@ -266,8 +271,11 @@ def calculate_competitor_viewers(movie_idx, time_adv_idx, conversion_rates_i_df,
                                  Demos, population_factors, total_population=population):
     total_viewers = 0
     for demo in Demos:
-        # select randomly view count for the demographic
-        view_count = random_view_count(channel_i_df, demo)[time_adv_idx]
+        # # select randomly view count for the demographic
+        # view_count = random_view_count(channel_i_df, demo)[time_adv_idx]
+
+        # use of "DEMO_baseline_view_count" instead of selecting randomly view true view count for the demographic
+        view_count = channel_i_df[f"{demo}_baseline_view_count"][time_adv_idx]
 
         advertized_movie_pop = movie_db_df[f"{demo.lower()}_scaled_popularity"].iloc[movie_idx]
         demographic_popularity = channel_i_df.get(f"{demo.lower()}_popularity_factor", pd.Series([1])).iloc[time_adv_idx]
@@ -285,8 +293,14 @@ def calculate_competitor_viewers(movie_idx, time_adv_idx, conversion_rates_i_df,
 
         # Sample viewers with precision based on p; if p >= 1, viewers = expected_viewers
         viewers = np.random.normal(expected_viewers, standard_deviation) if standard_deviation > 0 else expected_viewers
-        # Let's add the value but ensuring non-negative viewers count
-        total_viewers += max(0, viewers) 
+
+        # here we are trying to ensure that viewers are always less than the expected value, but not negative
+        if viewers >= expected_viewers:
+            # here we substract a value chosen uniformly from the 4th quartile to ensure it's far enough from
+            #  the expected value
+            viewers = expected_viewers - np.random.uniform(0.75 * expected_viewers, expected_viewers)
+
+        total_viewers += max(0, viewers) # just in case
     
     return total_viewers
 
@@ -413,8 +427,10 @@ output_dir = "./output"
 # create the dir if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 
-with open(f"./output/output_{str(now)}.txt", "w") as f:
-    f.write('Viewership: ')
+with open(f"./output/output_proba1_{str(now)}.txt", "w") as f:
+    f.write(f'From {now_start_time} to {now}')
+    f.write('\n')
+    f.write('VIEWERSHIP: ')
     f.write(str(model.getObjVal))
     f.write('\n')
     for j in Time_slots:
@@ -433,6 +449,9 @@ with open(f"./output/output_{str(now)}.txt", "w") as f:
     #             f.write(" on own channel advertise movie ")
     #             f.write(movie_db_df['title'].loc[i])
     #             f.write('\n')
+    f.write('AD SLOTS: ')
+    f.write('\n')
+
     for j in Ad_slots_0:
         for i in Movies:
             if model.getSolution(z0[i][j]) == 1:

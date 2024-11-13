@@ -1,0 +1,216 @@
+Viewership: <built-in method getObjVal of xpress.problem object at 0x0000022EAF81E8E0>
+At 2024-10-01 07:00:00 show movie Dark Skies
+At 2024-10-01 07:30:00 show movie Dark Skies
+At 2024-10-01 08:30:00 show movie Dark Skies
+At 2024-10-01 10:00:00 show movie RED 2
+At 2024-10-01 11:30:00 show movie Secretary
+At 2024-10-01 12:00:00 show movie Secretary
+At 2024-10-01 12:30:00 show movie Secretary
+At 2024-10-01 13:00:00 show movie Secretary
+At 2024-10-01 14:30:00 show movie Blade
+At 2024-10-01 15:00:00 show movie Blade
+At 2024-10-01 15:30:00 show movie Blade
+At 2024-10-01 16:00:00 show movie Monster Hunter
+At 2024-10-01 16:30:00 show movie Monster Hunter
+At 2024-10-01 17:00:00 show movie Monster Hunter
+At 2024-10-01 17:30:00 show movie Monster Hunter
+At 2024-10-01 20:00:00 show movie Safe
+At 2024-10-01 20:30:00 show movie Safe
+At 2024-10-01 21:00:00 show movie Safe
+At 2024-10-01 21:30:00 show movie Safe
+At 2024-10-01 22:00:00 show movie Star Trek Into Darkness
+At 2024-10-01 23:30:00 show movie Star Trek Into Darkness
+At 2024-10-02 00:00:00 show movie Star Trek Into Darkness
+At 2024-10-02 07:30:00 show movie The One
+At 2024-10-02 13:00:00 show movie Life of Pi
+At 2024-10-02 13:30:00 show movie Jungle Cruise
+At 2024-10-02 14:00:00 show movie Jungle Cruise
+At 2024-10-02 15:00:00 show movie Jungle Cruise
+At 2024-10-02 15:30:00 show movie Jungle Cruise
+At 2024-10-02 16:30:00 show movie The Lost Boys
+At 2024-10-02 17:00:00 show movie The Lost Boys
+At 2024-10-02 17:30:00 show movie The Lost Boys
+At 2024-10-02 18:00:00 show movie Demolition Man
+At 2024-10-02 18:30:00 show movie Demolition Man
+At 2024-10-02 19:00:00 show movie Demolition Man
+At 2024-10-02 19:30:00 show movie Demolition Man
+At 2024-10-02 20:00:00 show movie The Fifth Element
+At 2024-10-02 20:30:00 show movie The Fifth Element
+At 2024-10-02 21:00:00 show movie The Fifth Element
+At 2024-10-02 21:30:00 show movie The Fifth Element
+At 2024-10-02 22:00:00 show movie The Fifth Element
+At 2024-10-02 22:30:00 show movie The Good Son
+At 2024-10-02 23:00:00 show movie The Good Son
+At 2024-10-02 23:30:00 show movie The Good Son
+At 2024-10-01 07:05:00 on channel 0 advertise movie RED 2
+At 2024-10-01 07:35:00 on channel 0 advertise movie Alien
+At 2024-10-01 08:40:00 on channel 0 advertise movie Life of Pi
+At 2024-10-01 09:10:00 on channel 0 advertise movie Alien
+At 2024-10-01 09:40:00 on channel 0 advertise movie The Lost Boys
+At 2024-10-01 10:15:00 on channel 0 advertise movie The Purge: Anarchy
+At 2024-10-01 10:45:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 11:15:00 on channel 0 advertise movie Monster Hunter
+At 2024-10-01 11:45:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 12:20:00 on channel 0 advertise movie Jungle Cruise
+At 2024-10-01 12:50:00 on channel 0 advertise movie Monster Hunter
+At 2024-10-01 13:20:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 13:50:00 on channel 0 advertise movie Alien
+At 2024-10-01 14:55:00 on channel 0 advertise movie Life of Pi
+At 2024-10-01 15:25:00 on channel 0 advertise movie Monster Hunter
+At 2024-10-01 15:55:00 on channel 0 advertise movie Safe
+At 2024-10-01 16:30:00 on channel 0 advertise movie Alien
+At 2024-10-01 17:00:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 17:30:00 on channel 0 advertise movie Star Trek Into Darkness
+At 2024-10-01 18:00:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 18:30:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 19:05:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 20:05:00 on channel 0 advertise movie Star Trek Into Darkness
+At 2024-10-01 20:35:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 21:05:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 21:35:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 22:40:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 23:10:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 23:40:00 on channel 0 advertise movie Alien
+At 2024-10-02 07:25:00 on channel 0 advertise movie Jungle Cruise
+At 2024-10-02 08:00:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 08:30:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 09:00:00 on channel 0 advertise movie Jungle Cruise
+At 2024-10-02 09:35:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 10:05:00 on channel 0 advertise movie Jungle Cruise
+At 2024-10-02 10:35:00 on channel 0 advertise movie Demolition Man
+At 2024-10-02 11:05:00 on channel 0 advertise movie Demolition Man
+At 2024-10-02 11:40:00 on channel 0 advertise movie Jungle Cruise
+At 2024-10-02 12:10:00 on channel 0 advertise movie Demolition Man
+At 2024-10-02 12:40:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 13:10:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 13:40:00 on channel 0 advertise movie Demolition Man
+At 2024-10-02 14:10:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 14:40:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 15:45:00 on channel 0 advertise movie Demolition Man
+At 2024-10-02 16:15:00 on channel 0 advertise movie Demolition Man
+At 2024-10-02 16:45:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 17:15:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 17:45:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 18:50:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 19:20:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-02 19:50:00 on channel 0 advertise movie The Good Son
+At 2024-10-02 20:20:00 on channel 0 advertise movie The Good Son
+At 2024-10-02 20:55:00 on channel 0 advertise movie The Good Son
+At 2024-10-02 21:25:00 on channel 0 advertise movie The Good Son
+At 2024-10-02 21:55:00 on channel 0 advertise movie The Good Son
+At 2024-10-01 07:05:00 on channel 1 advertise movie Life of Pi
+At 2024-10-01 07:35:00 on channel 1 advertise movie Demolition Man
+At 2024-10-01 08:10:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-01 08:40:00 on channel 1 advertise movie Safe
+At 2024-10-01 09:10:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 09:40:00 on channel 1 advertise movie Life of Pi
+At 2024-10-01 10:15:00 on channel 1 advertise movie Alien
+At 2024-10-01 10:45:00 on channel 1 advertise movie Safe
+At 2024-10-01 11:15:00 on channel 1 advertise movie The Purge: Anarchy
+At 2024-10-01 11:45:00 on channel 1 advertise movie The Purge: Anarchy
+At 2024-10-01 12:20:00 on channel 1 advertise movie Blade
+At 2024-10-01 12:50:00 on channel 1 advertise movie Alien
+At 2024-10-01 13:20:00 on channel 1 advertise movie Safe
+At 2024-10-01 13:50:00 on channel 1 advertise movie Alien
+At 2024-10-01 14:25:00 on channel 1 advertise movie Alien
+At 2024-10-01 14:55:00 on channel 1 advertise movie The Good Son
+At 2024-10-01 15:25:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-01 15:55:00 on channel 1 advertise movie The Purge: Anarchy
+At 2024-10-01 16:30:00 on channel 1 advertise movie Alien
+At 2024-10-01 17:00:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 17:30:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-01 18:00:00 on channel 1 advertise movie Alien
+At 2024-10-01 18:30:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-01 19:05:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-01 19:35:00 on channel 1 advertise movie Life of Pi
+At 2024-10-01 20:05:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 20:35:00 on channel 1 advertise movie Life of Pi
+At 2024-10-01 21:05:00 on channel 1 advertise movie Alien
+At 2024-10-01 21:35:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-01 22:40:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 23:10:00 on channel 1 advertise movie Life of Pi
+At 2024-10-01 23:40:00 on channel 1 advertise movie Alien
+At 2024-10-02 07:25:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 08:00:00 on channel 1 advertise movie Life of Pi
+At 2024-10-02 08:30:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 09:00:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 09:35:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 10:05:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 10:35:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 11:05:00 on channel 1 advertise movie Demolition Man
+At 2024-10-02 11:40:00 on channel 1 advertise movie Demolition Man
+At 2024-10-02 12:10:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-02 12:40:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-02 13:40:00 on channel 1 advertise movie Demolition Man
+At 2024-10-02 14:10:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-02 14:40:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-02 15:45:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-02 16:45:00 on channel 1 advertise movie Demolition Man
+At 2024-10-02 17:15:00 on channel 1 advertise movie Demolition Man
+At 2024-10-02 17:45:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 18:20:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 18:50:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 19:20:00 on channel 1 advertise movie The Good Son
+At 2024-10-02 19:50:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-02 20:20:00 on channel 1 advertise movie The Good Son
+At 2024-10-02 20:55:00 on channel 1 advertise movie The Good Son
+At 2024-10-02 21:25:00 on channel 1 advertise movie The Good Son
+At 2024-10-02 21:55:00 on channel 1 advertise movie The Good Son
+At 2024-10-02 22:25:00 on channel 1 advertise movie The Good Son
+At 2024-10-01 07:05:00 on channel 2 advertise movie The Good Son
+At 2024-10-01 07:35:00 on channel 2 advertise movie Monster Hunter
+At 2024-10-01 08:10:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 08:40:00 on channel 2 advertise movie Blade
+At 2024-10-01 09:10:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 09:40:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 10:15:00 on channel 2 advertise movie The Purge: Anarchy
+At 2024-10-01 10:45:00 on channel 2 advertise movie Secretary
+At 2024-10-01 11:15:00 on channel 2 advertise movie Safe
+At 2024-10-01 11:45:00 on channel 2 advertise movie Alien
+At 2024-10-01 12:20:00 on channel 2 advertise movie Life of Pi
+At 2024-10-01 12:50:00 on channel 2 advertise movie Safe
+At 2024-10-01 13:20:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 13:50:00 on channel 2 advertise movie Monster Hunter
+At 2024-10-01 14:25:00 on channel 2 advertise movie The Purge: Anarchy
+At 2024-10-01 14:55:00 on channel 2 advertise movie Monster Hunter
+At 2024-10-01 15:25:00 on channel 2 advertise movie Alien
+At 2024-10-01 15:55:00 on channel 2 advertise movie Alien
+At 2024-10-01 16:30:00 on channel 2 advertise movie Alien
+At 2024-10-01 17:00:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 17:30:00 on channel 2 advertise movie Alien
+At 2024-10-01 18:00:00 on channel 2 advertise movie The Good Son
+At 2024-10-01 18:30:00 on channel 2 advertise movie Safe
+At 2024-10-01 19:05:00 on channel 2 advertise movie Demolition Man
+At 2024-10-01 19:35:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 20:05:00 on channel 2 advertise movie Star Trek Into Darkness
+At 2024-10-01 20:35:00 on channel 2 advertise movie Life of Pi
+At 2024-10-01 21:05:00 on channel 2 advertise movie Life of Pi
+At 2024-10-01 21:35:00 on channel 2 advertise movie Alien
+At 2024-10-01 22:40:00 on channel 2 advertise movie Jungle Cruise
+At 2024-10-01 23:10:00 on channel 2 advertise movie Alien
+At 2024-10-01 23:40:00 on channel 2 advertise movie Jungle Cruise
+At 2024-10-02 07:25:00 on channel 2 advertise movie Demolition Man
+At 2024-10-02 08:00:00 on channel 2 advertise movie Alien
+At 2024-10-02 08:30:00 on channel 2 advertise movie Jungle Cruise
+At 2024-10-02 09:00:00 on channel 2 advertise movie Life of Pi
+At 2024-10-02 09:35:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 10:35:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 11:05:00 on channel 2 advertise movie Demolition Man
+At 2024-10-02 11:40:00 on channel 2 advertise movie Jungle Cruise
+At 2024-10-02 12:10:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-02 12:40:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 13:10:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 14:10:00 on channel 2 advertise movie Demolition Man
+At 2024-10-02 14:40:00 on channel 2 advertise movie Demolition Man
+At 2024-10-02 15:45:00 on channel 2 advertise movie Demolition Man
+At 2024-10-02 16:15:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 16:45:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 17:15:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 17:45:00 on channel 2 advertise movie The Good Son
+At 2024-10-02 18:20:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 18:50:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-02 19:20:00 on channel 2 advertise movie The Good Son
+At 2024-10-02 19:50:00 on channel 2 advertise movie The Good Son
+At 2024-10-02 20:20:00 on channel 2 advertise movie The Good Son
+At 2024-10-02 20:55:00 on channel 2 advertise movie The Good Son
+At 2024-10-02 21:25:00 on channel 2 advertise movie The Good Son
