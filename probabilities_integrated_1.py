@@ -477,3 +477,4 @@ with open(f"./output/output_proba1_{str(now)}.txt", "w") as f:
                 f.write(movie_db_df['title'].loc[i])
                 f.write('\n')
 f.close()
+print("PROCESS SUCCESSFULLY COMPLETED")
