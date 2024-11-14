@@ -56,7 +56,7 @@ Ad_slots_2 = range(number_of_ad_slots_2)
 population = 1000000
 viewership_units = 1000
 ad_sell_price_per_unit = 100
-budget = 1000000
+budget = 6000000
 
 ##########################
 # Decision Variables
@@ -124,10 +124,11 @@ model.addVariable(u1)
 
 u2 = [xp.var(name=f"u2_{i}", vartype=xp.continuous) for i in Movies]
 model.addVariable(u2)
-# q = np.array(
-#     [xp.var(name=f"q_{i}_{j}", vartype=xp.continuous) for i in Movies for j in Time_slots]
-# ).reshape(number_of_movies,number_of_time_slots)
-# model.addVariable(q)
+
+q = np.array(
+    [xp.var(name=f"q_{i}_{j}", vartype=xp.continuous) for i in Movies for j in Time_slots]
+).reshape(number_of_movies,number_of_time_slots)
+model.addVariable(q)
 
 # start time movie i
 start = np.array([xp.var( name='s_{0}'.format(i), vartype=xp.continuous)
@@ -268,25 +269,37 @@ model.addConstraint(
 
 # 12. We only get contribution for viewership for movie i at time slot j if the time slot is sold
 model.addConstraint(
-    u[i][j] + uA[i] + u0[i] + u1[i] + u2[i] <= v[i][j]*(population)
+    q[i][j] <= v[i][j]*(population)
     for i in Movies for j in Time_slots
 )
 
+model.addConstraint(
+    q[i][j] == u[i][j] + uA[i] + u0[i] + u1[i] + u2[i]
+    for i in Movies for j in Time_slots
+)
 
 print('Viewership constaints added, ', time() - start_time)
 
 # 12. license fees and advertising slots bought must be within budget
-# model.addConstraint(
-#     xp.Sum(
-#         y[i] * movie_db_df['license_fee'].iloc[i]
-#         for i in Movies
-#     )
-#     + xp.Sum(
-#         z[i][j][c] * calculate_ad_slot_price(j, channel_dict[c])
-#         for i in Movies for j in Time_slots for c in Channels
-#     )
-#     <= budget
-# )
+model.addConstraint(
+    xp.Sum(
+        y[i] * movie_db_df['license_fee'].iloc[i]
+        for i in Movies
+    )
+    + xp.Sum(
+        z0[i][r] * channel_0_df['ad_slot_price'].loc[r]
+        for i in Movies for r in Ad_slots_0
+    )
+    + xp.Sum(
+        z1[i][s] * channel_1_df['ad_slot_price'].loc[s]
+        for i in Movies for s in Ad_slots_1
+    )
+    + xp.Sum(
+        z2[i][t] * channel_2_df['ad_slot_price'].loc[t]
+        for i in Movies for t in Ad_slots_2
+    )
+    <= budget
+)
 
 
 ##########################
@@ -294,7 +307,7 @@ print('Viewership constaints added, ', time() - start_time)
 ##########################
 
 model.setObjective(
-    xp.Sum(xp.Sum(u[i][j] + uA[i] + u0[i] + u1[i] + u2[i] for i in Movies) for j in Time_slots),
+    xp.Sum(q[i][j] for i in Movies for j in Time_slots),
     sense=xp.maximize
 )
 
@@ -317,14 +330,17 @@ now = now.replace(":", "-")
 # model.write(saved_sol_path)
 
 cost = sum(model.getSolution(y[i]) * movie_db_df['license_fee'].iloc[i] for i in Movies)
-+ sum(model.getSolution(z0[i][j]) * calculate_ad_slot_price(j, channel_0_df) for i in Movies for j in Ad_slots_0)
-+ sum(model.getSolution(z1[i][j]) * calculate_ad_slot_price(j, channel_1_df) for i in Movies for j in Ad_slots_1)
-+ sum(model.getSolution(z2[i][j]) * calculate_ad_slot_price(j, channel_2_df) for i in Movies for j in Ad_slots_2)
++ sum(model.getSolution(z0[i][r]) * channel_0_df['ad_slot_price'].loc[r] for i in Movies for r in Ad_slots_0)
++ sum(model.getSolution(z1[i][s]) * channel_1_df['ad_slot_price'].loc[s] for i in Movies for s in Ad_slots_1)
++ sum(model.getSolution(z2[i][t]) * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
 with open(f"./output/output_{str(now)}.txt", "w") as f:
-    f.write('Viewership: ')
-    f.write(str(model.getObjVal))
+    # f.write('Viewership: ')
+    # f.write(str(model.getObjVal()))
+    # f.write('\n')
+    f.write('Total cost: ')
+    f.write(str(cost))
     f.write('\n')
     for j in Time_slots:
         for i in Movies:
@@ -333,15 +349,15 @@ with open(f"./output/output_{str(now)}.txt", "w") as f:
                 f.write(str(my_channel_df['Date-Time'].loc[j]))
                 f.write(" show movie ")
                 f.write(movie_db_df['title'].loc[i])
-                f.write('\n')
-    # for j in Time_slots:
-    #     for i in Movies:
-    #         if model.getSolution(w[i][j]) == 1:
-    #             f.write("At ")
-    #             f.write(str(my_channel_df['Date-Time'].loc[j]))
-    #             f.write(" on own channel advertise movie ")
-    #             f.write(movie_db_df['title'].loc[i])
-    #             f.write('\n')
+        for i in Movies:
+            if model.getSolution(w[i][j]) == 1:
+                f.write(", on own channel advertise movie ")
+                f.write(movie_db_df['title'].loc[i])
+        for i in Movies:
+            if model.getSolution(v[i][j]) == 1:
+                f.write(", sell adslot with viewership ")
+                f.write(str(model.getSolution(q[i][j])))
+        f.write('\n')
     for j in Ad_slots_0:
         for i in Movies:
             if model.getSolution(z0[i][j]) == 1:
