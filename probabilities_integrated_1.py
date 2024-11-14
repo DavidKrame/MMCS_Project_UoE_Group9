@@ -296,9 +296,8 @@ def calculate_competitor_viewers(movie_idx, time_adv_idx, conversion_rates_i_df,
 
         # here we are trying to ensure that viewers are always less than the expected value, but not negative
         if viewers >= expected_viewers:
-            # here we substract a value chosen uniformly from the 4th quartile to ensure it's far enough from
-            #  the expected value
-            viewers = expected_viewers - np.random.uniform(0.75 * expected_viewers, expected_viewers)
+            # value chosen uniformly from the 4th quartile to ensure it's closer enough to the expected value
+            viewers = np.random.uniform(0.75 * expected_viewers, expected_viewers)
 
         total_viewers += max(0, viewers) # just in case
     
