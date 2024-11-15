@@ -27,12 +27,6 @@ conversion_rates_2_df = pd.read_csv('data/FIRST_WEEK_channel_2_conversion_rates.
 
 first_week_cutoff = datetime(2024, 10, 2, 23, 59, 0)
 my_channel_df = my_channel_df.drop(my_channel_df[my_channel_df['Date-Time'] > first_week_cutoff].index)
-channel_0_df = channel_0_df.drop(channel_0_df[channel_0_df['Date-Time'] > first_week_cutoff].index)
-channel_1_df = channel_1_df.drop(channel_1_df[channel_1_df['Date-Time'] > first_week_cutoff].index)
-channel_2_df = channel_2_df.drop(channel_2_df[channel_2_df['Date-Time'] > first_week_cutoff].index)
-conversion_rates_0_df = conversion_rates_0_df.drop(conversion_rates_0_df[conversion_rates_0_df['Date-Time'] > first_week_cutoff].index)
-conversion_rates_1_df = conversion_rates_1_df.drop(conversion_rates_1_df[conversion_rates_1_df['Date-Time'] > first_week_cutoff].index)
-conversion_rates_2_df = conversion_rates_2_df.drop(conversion_rates_2_df[conversion_rates_2_df['Date-Time'] > first_week_cutoff].index)
 
 model = xp.problem()
 
@@ -54,10 +48,22 @@ Ad_slots_0 = range(number_of_ad_slots_0)
 Ad_slots_1 = range(number_of_ad_slots_1)
 Ad_slots_2 = range(number_of_ad_slots_2)
 
+channel_dict = {
+    0: channel_0_df,
+    1: channel_1_df,
+    2: channel_2_df
+}
+
+conversion_dict = {
+    0: conversion_rates_0_df,
+    1: conversion_rates_1_df,
+    2: conversion_rates_2_df
+}
+
 population = 1000000
 viewership_units = 1000 # IF THIS IS EVOLVING LINEARLY, WE CAN EXPRESS IT PER UNIT INSTEAD OF 1000
 ad_sell_price_per_unit = 100
-budget = 6000000
+budget = 1000000
 
 ##########################
 # Decision Variables
@@ -103,35 +109,14 @@ w = np.array(
 model.addVariable(w)
 
 # whether advert slot at time slot j is sold
+# v = np.array(
+#     [xp.var(name=f"v_{i}_{j}", vartype=xp.binary) for i in Movies for j in Time_slots]
+# ).reshape(number_of_movies,number_of_time_slots)
+# model.addVariable(v)
 
-v = np.array(
-    [xp.var(name=f"v_{i}_{j}", vartype=xp.binary) for i in Movies for j in Time_slots]
-).reshape(number_of_movies, number_of_time_slots)
-model.addVariable(v)
-
-# sum of viewers for movie i across time slots shown
-u = np.array(
-    [xp.var(name=f"u_{i}_{j}", vartype=xp.continuous) for i in Movies for j in Time_slots]
-).reshape(number_of_movies, number_of_time_slots)
-
+# sum of viewers for movie i across time slots shown 
+u = [xp.var(name=f"u_{i}", vartype=xp.integer) for i in Movies] # THIS NEEDS TO BE CAREFULLY DEFINED
 model.addVariable(u)
-
-uA = [xp.var(name=f"uA_{i}", vartype=xp.continuous) for i in Movies]
-model.addVariable(uA)
-
-u0 = [xp.var(name=f"u0_{i}", vartype=xp.continuous) for i in Movies]
-model.addVariable(u0)
-
-u1= [xp.var(name=f"u1_{i}", vartype=xp.continuous) for i in Movies]
-model.addVariable(u1)
-
-u2 = [xp.var(name=f"u2_{i}", vartype=xp.continuous) for i in Movies]
-model.addVariable(u2)
-
-q = np.array(
-    [xp.var(name=f"q_{i}_{j}", vartype=xp.continuous) for i in Movies for j in Time_slots]
-).reshape(number_of_movies,number_of_time_slots)
-model.addVariable(q)
 
 # start time movie i
 start = np.array([xp.var( name='s_{0}'.format(i), vartype=xp.continuous)
@@ -184,9 +169,9 @@ model.addConstraint(
     xp.Sum(z2[i][t] for i in Movies) <= 1 for t in Ad_slots_2
 )
 
-model.addConstraint(
-    xp.Sum(w[i][j] for i in Movies) + xp.Sum(v[i][j] for i in Movies) == 1 for j in Time_slots
-)
+# model.addConstraint(
+#     xp.Sum(w[i][j] for i in Movies) + xp.Sum(v[i][j] for i in Movies) == 1 for j in Time_slots
+# )
 
 
 # 6. Only advertise movie if it is shown
@@ -199,15 +184,16 @@ model.addConstraint(
 model.addConstraint(
     z2[i][t] <= y[i] for i in Movies for t in Ad_slots_2
 )
+# LOGICALLY WE NEED ALSO TO ADD THIS (THE CONDITION HOLDS FOR OUR OWN CHANNEL TOO)
 
-model.addConstraint(
-    w[i][j] <= y[i] for i in Movies for j in Time_slots
-)
+# model.addConstraint(
+#     w[i][j] <= y[i] for i in Movies for j in Time_slots
+# )
 
-# 7. Only sell ad slot for movie i at time j if it is shown then
-model.addConstraint(
-    v[i][j] <= x[i][j] for i in Movies for j in Time_slots
-)
+# # 7. Only sell ad slot for movie i at time j if it is shown then
+# model.addConstraint(
+#     v[i][j] <= x[i][j] for i in Movies for j in Time_slots
+# )
 
 # 8. Only advertise before the movie is scheduled
 model.addConstraint(
@@ -222,100 +208,181 @@ model.addConstraint(
     z2[i][t]*(conversion_rates_2_df['Date-Time'].loc[t] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
     for i in Movies for t in Ad_slots_2
 )
+# ON OUR OWN CHANNEL TOO.....
 
-model.addConstraint(
-    w[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
-    for i in Movies for j in Time_slots
-)
+# model.addConstraint(
+#     w[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
+#     for i in Movies for j in Time_slots
+# )
 
 print('Advertising constraints added, ', time() - start_time)
-# 9. The number per thousand of viewership is less than the viewership for the time slot
-model.addConstraint(
-    u[i][j]<=
-    movie_views_for_time_slot(x, i, j, movie_db_df, my_channel_df, Demos, population)
-    for i in Movies for j in Time_slots
-)
 
-model.addConstraint(
-    uA[i] <=
-    xp.Sum(
-        own_advertised_views_for_time_slot(w, i , j, movie_db_df, my_channel_df, Demos, population)
-        for j in Time_slots
-    )
-    for i in Movies
-)
+# WE CAN JUST COUNT PER UNIT, IT DOESN'T MATTER DUE TO LINEARITY
+# # 9. The number per thousand of viewership is less than the viewership for the time slot
+# model.addConstraint(
+#     u[i]*viewership_units <=
+#     xp.Sum(
+#         movie_views_for_time_slot(x, i, j, movie_db_df, my_channel_df, Demos, population)
+#         for j in Time_slots
+#     )
+#     # + xp.Sum(
+#     #     own_advertised_views_for_time_slot(w, i , j, movie_db_df, my_channel_df, Demos, population)
+#     #     for j in Time_slots
+#     # )
+#     + xp.Sum(
+#         comp_advertised_views_for_time_slot(z0, i, r, movie_db_df, channel_0_df, conversion_rates_0_df, Demos, Genres, population)
+#         for r in Ad_slots_0
+#     )
+#     + xp.Sum(
+#         comp_advertised_views_for_time_slot(z1, i, s, movie_db_df, channel_0_df, conversion_rates_0_df, Demos, Genres, population)
+#         for s in Ad_slots_1
+#     )
+#     + 
+#     xp.Sum(
+#         comp_advertised_views_for_time_slot(z2, i, t, movie_db_df, channel_0_df, conversion_rates_0_df, Demos, Genres, population)
+#         for t in Ad_slots_2
+#     )
+#     for i in Movies
+# )
 
-model.addConstraint(
-    u0[i] <=
-    xp.Sum(
-        comp_advertised_views_for_time_slot(z0, i, r, movie_db_df, channel_0_df, conversion_rates_0_df, Demos, Genres, population)
-        for r in Ad_slots_0
-    )
-    for i in Movies
-)
+# Function to select a random true count column for each demographic
+def random_view_count(channel_i_df, demographic):
+    """ demographic will come from "Demos" list 
+        and the counts from 'channel_0_df' which are the competitor's advert slots databases
+    """
+    # retirees_true_view_count_1
+    true_counts = [f"{demographic}_true_view_count_{i}" for i in range(0, 10)]
+    selected_column = np.random.choice(true_counts)
+    return channel_i_df[selected_column]
 
-model.addConstraint(
-    u1[i] <=
-    xp.Sum(
-        comp_advertised_views_for_time_slot(z1, i, s, movie_db_df, channel_1_df, conversion_rates_1_df, Demos, Genres, population)
-        for s in Ad_slots_1
-    )
-    for i in Movies
-)
+# Our assumption about demographic population factors (distribution)
+population_factors = {
+    "children": 0.3,
+    "adults": 0.5,
+    "retirees": 0.2
+}
 
-model.addConstraint(
-    u2[i] <=
-    xp.Sum(
-        comp_advertised_views_for_time_slot(z2, i, t, movie_db_df, channel_2_df, conversion_rates_2_df, Demos, Genres, population)
-        for t in Ad_slots_2
-    )
-    for i in Movies
-)
+def calculate_competitor_viewers(movie_idx, time_adv_idx, conversion_rates_i_df, movie_db_df, channel_i_df,
+                                 Demos, population_factors, total_population=population):
+    total_viewers = 0
+    for demo in Demos:
+        # select randomly view count for the demographic
+        view_count = random_view_count(channel_i_df, demo)[time_adv_idx]
 
-# 12. We only get contribution for viewership for movie i at time slot j if the time slot is sold
-model.addConstraint(
-    q[i][j] <= v[i][j]*(population)
-    for i in Movies for j in Time_slots
-)
+        advertized_movie_pop = movie_db_df[f"{demo.lower()}_scaled_popularity"].iloc[movie_idx]
+        demographic_popularity = channel_i_df.get(f"{demo.lower()}_popularity_factor", pd.Series([1])).iloc[time_adv_idx]
+        movie_popularity_factor = channel_i_df.get("movie_popularity_factor", pd.Series([1])).iloc[time_adv_idx]
+        population_factor = population_factors[demo]
 
-model.addConstraint(
-    q[i][j] == u[i][j] + uA[i] + u0[i] + u1[i] + u2[i]
-    for i in Movies for j in Time_slots
-)
+        expected_viewers = (movie_popularity_factor * demographic_popularity * advertized_movie_pop *
+                       view_count * population_factor * total_population)
+
+        # Let's compute p as the sum of conversion rates for the given time slot
+        p = conversion_rates_i_df.loc[time_adv_idx].drop("Date-Time").sum()
+
+        # standard deviation based on p (total conversion), ensuring it’s zero if p >= 1 so that we choose the mean
+        standard_deviation = max(0, (1 - p) * expected_viewers)
+
+        # Sample viewers with precision based on p; if p >= 1, viewers = expected_viewers
+        viewers = np.random.normal(expected_viewers, standard_deviation) if standard_deviation > 0 else expected_viewers
+        # Let's add the value but ensuring non-negative viewers count
+        total_viewers += max(0, viewers) 
+    
+    return total_viewers
+
+# viewers arrays for each channel
+viewers_0 = np.zeros((number_of_movies, number_of_ad_slots_0))
+viewers_1 = np.zeros((number_of_movies, number_of_ad_slots_1))
+viewers_2 = np.zeros((number_of_movies, number_of_ad_slots_2))
+
+# channel 0
+for i in range(number_of_movies):
+    for r in range(number_of_ad_slots_0):
+        viewers_0[i, r] = calculate_competitor_viewers(
+            movie_idx=i,
+            time_adv_idx=r,
+            conversion_rates_i_df = conversion_rates_0_df,
+            movie_db_df=movie_db_df,
+            channel_i_df=channel_0_df,
+            Demos=Demos,
+            population_factors=population_factors,
+            total_population=population
+        )
+
+# channel 1
+for i in range(number_of_movies):
+    for s in range(number_of_ad_slots_1):
+        viewers_1[i, s] = calculate_competitor_viewers(
+            movie_idx=i,
+            time_adv_idx=s,
+            conversion_rates_i_df = conversion_rates_1_df,
+            movie_db_df=movie_db_df,
+            channel_i_df=channel_0_df,
+            Demos=Demos,
+            population_factors=population_factors,
+            total_population=population
+        )
+
+# channel 2
+for i in range(number_of_movies):
+    for t in range(number_of_ad_slots_2):
+        viewers_2[i, t] = calculate_competitor_viewers(
+            movie_idx=i,
+            time_adv_idx=t,
+            conversion_rates_i_df = conversion_rates_2_df,
+            movie_db_df=movie_db_df,
+            channel_i_df=channel_0_df,
+            Demos=Demos,
+            population_factors=population_factors,
+            total_population=population
+        )
+
+# Total viewers gained from advertising on channel 0
+total_viewers_gained_0 = xp.Sum(z0[i, r] * viewers_0[i, r] for i in range(number_of_movies) for r in range(number_of_ad_slots_0))
+
+# Total viewers gained from advertising on channel 1
+total_viewers_gained_1 = xp.Sum(z1[i, s] * viewers_1[i, s] for i in range(number_of_movies) for s in range(number_of_ad_slots_1))
+
+# Total viewers gained from advertising on channel 2
+total_viewers_gained_2 = xp.Sum(z2[i, t] * viewers_2[i, t] for i in range(number_of_movies) for t in range(number_of_ad_slots_2))
+
+
+
+# # 12. We only get contribution for viewership for movie i at time slot j if the time slot is sold
+# model.addConstraint(
+#     u[i] <= v[i][j]*(population/viewership_units)
+#     for i in Movies for j in Time_slots
+# )
+
 
 print('Viewership computed after , ', time() - start_time)
 
 # 12. license fees and advertising slots bought must be within budget
-model.addConstraint(
-    xp.Sum(
-        y[i] * movie_db_df['license_fee'].iloc[i]
-        for i in Movies
-    )
-    + xp.Sum(
-        z0[i][r] * channel_0_df['ad_slot_price'].loc[r]
-        for i in Movies for r in Ad_slots_0
-    )
-    + xp.Sum(
-        z1[i][s] * channel_1_df['ad_slot_price'].loc[s]
-        for i in Movies for s in Ad_slots_1
-    )
-    + xp.Sum(
-        z2[i][t] * channel_2_df['ad_slot_price'].loc[t]
-        for i in Movies for t in Ad_slots_2
-    )
-    <= budget
-)
+# model.addConstraint(
+#     xp.Sum(
+#         y[i] * movie_db_df['license_fee'].iloc[i]
+#         for i in Movies
+#     )
+#     + xp.Sum(
+#         z[i][j][c] * calculate_ad_slot_price(j, channel_dict[c])
+#         for i in Movies for j in Time_slots for c in Channels
+#     )
+#     <= budget
+# )
 
 
 ##########################
 # Objective Function
 ##########################
 
+# model.setObjective(
+#     xp.Sum(ad_sell_price_per_unit*u[i]  for i in Movies),
+#     sense=xp.maximize
+# )
 
-model.setObjective(
-    xp.Sum(q[i][j] for i in Movies for j in Time_slots),
-    sense=xp.maximize
-)
+total_viewers_gained = total_viewers_gained_0 + total_viewers_gained_1 + total_viewers_gained_2
+objective_function = total_viewers_gained # - total_ad_cost
+model.setObjective(objective_function, sense=xp.maximize)
 
 print('time to intialise problem: ', time() - start_time)
 
@@ -336,9 +403,9 @@ now = now.replace(":", "-")
 # model.write(saved_sol_path)
 
 cost = sum(model.getSolution(y[i]) * movie_db_df['license_fee'].iloc[i] for i in Movies)
-+ sum(model.getSolution(z0[i][r]) * channel_0_df['ad_slot_price'].loc[r] for i in Movies for r in Ad_slots_0)
-+ sum(model.getSolution(z1[i][s]) * channel_1_df['ad_slot_price'].loc[s] for i in Movies for s in Ad_slots_1)
-+ sum(model.getSolution(z2[i][t]) * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
++ sum(model.getSolution(z0[i][j]) * calculate_ad_slot_price(j, channel_0_df) for i in Movies for j in Ad_slots_0)
++ sum(model.getSolution(z1[i][j]) * calculate_ad_slot_price(j, channel_1_df) for i in Movies for j in Ad_slots_1)
++ sum(model.getSolution(z2[i][j]) * calculate_ad_slot_price(j, channel_2_df) for i in Movies for j in Ad_slots_2)
 print(cost)
 # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
 
@@ -347,11 +414,8 @@ output_dir = "./output"
 os.makedirs(output_dir, exist_ok=True)
 
 with open(f"./output/output_{str(now)}.txt", "w") as f:
-    # f.write('Viewership: ')
-    # f.write(str(model.getObjVal()))
-    # f.write('\n')
-    f.write('Total cost: ')
-    f.write(str(cost))
+    f.write('Viewership: ')
+    f.write(str(model.getObjVal))
     f.write('\n')
     for j in Time_slots:
         for i in Movies:
@@ -360,15 +424,15 @@ with open(f"./output/output_{str(now)}.txt", "w") as f:
                 f.write(str(my_channel_df['Date-Time'].loc[j]))
                 f.write(" show movie ")
                 f.write(movie_db_df['title'].loc[i])
-        for i in Movies:
-            if model.getSolution(w[i][j]) == 1:
-                f.write(", on own channel advertise movie ")
-                f.write(movie_db_df['title'].loc[i])
-        for i in Movies:
-            if model.getSolution(v[i][j]) == 1:
-                f.write(", sell adslot with viewership ")
-                f.write(str(model.getSolution(q[i][j])))
-        f.write('\n')
+                f.write('\n')
+    # for j in Time_slots:
+    #     for i in Movies:
+    #         if model.getSolution(w[i][j]) == 1:
+    #             f.write("At ")
+    #             f.write(str(my_channel_df['Date-Time'].loc[j]))
+    #             f.write(" on own channel advertise movie ")
+    #             f.write(movie_db_df['title'].loc[i])
+    #             f.write('\n')
     for j in Ad_slots_0:
         for i in Movies:
             if model.getSolution(z0[i][j]) == 1:

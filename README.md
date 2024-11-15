@@ -2,6 +2,10 @@
 
 ## Mathematical, Modelling and Consulting Skills – MSc Operational Research 2024/2025
 
+### Link to the Mathematical Model in Overleaf
+
+[Click here to view the model on Overleaf](https://www.overleaf.com/9631347139bgqygbhyzjjz#7ba809)
+
 ### 0. Project Files
 
 This project contains several Jupyter notebooks :
