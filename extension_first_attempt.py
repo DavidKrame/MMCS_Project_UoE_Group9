@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import xpress as xp
 from datetime import datetime, timedelta
+from time import time
 import os
-import time
 
 from time_slot_viewership import movie_views_for_time_slot,comp_advertised_views_for_time_slot, own_advertised_views_for_time_slot, calculate_ad_slot_price
 
@@ -567,5 +567,5 @@ def schedule_week(week_number):
     print("PROCESS SUCCESSFULLY COMPLETED")
 
 # EXAMPLE
-# week_to_run = 2
-# schedule_week(week_to_run)
+week_to_run = 1
+schedule_week(week_to_run)
