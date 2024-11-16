@@ -1,5 +1,5 @@
 import pandas as pd
-from datetime import timedelta
+from datetime import datetime
 
 def extract_first_week_data(file_path, output_file='first_week_data.csv'):
     """
@@ -56,7 +56,10 @@ def extract_first_week_data(file_path, output_file='first_week_data.csv'):
     #     first_week_data_day = first_week_data_day.set_index('Date-Time').resample('30Min',closed = 'right',label ='right').mean()
     #     first_week_data_list.append(first_week_data_day)
     for ii in range(7):
-        first_week_data = df[(df['Date-Time'] >= f'2024-10-0{ii+1}') & (df['Date-Time'] < f'2024-10-0{ii+2}')]
+        start_day = datetime(2024, 10, ii+1)
+        end_day = datetime(2024, 10, ii+1, 23, 30, 0)
+        # first_week_data = df[(df['Date-Time'] >= f'2024-10-0{ii+1}') & (df['Date-Time'] < f'2024-10-0{ii+1} 23:59:00')]
+        first_week_data = df[(df['Date-Time'] >= start_day) & (df['Date-Time'] < end_day)]
         first_week_data = first_week_data.set_index('Date-Time').resample('30Min', closed='right', label='right').mean()
         
         # Forward fill to fill missing values with the last valid observation
@@ -104,12 +107,11 @@ def extract_competitor_first_week_data(file_path, output_file):
 
     df.to_csv(output_file)
 
-
-
-extract_first_week_data('data/channel_A_schedule.csv', 'data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv')
-# extract_first_week_data('data/channel_0_conversion_rates.csv', 'data/AGGREGATE_FIRST_WEEK_channel_0_conversion_rates.csv')
-# extract_first_week_data('data/channel_1_conversion_rates.csv', 'data/AGGREGATE_FIRST_WEEK_channel_1_conversion_rates.csv')
-# extract_first_week_data('data/channel_2_conversion_rates.csv', 'data/AGGREGATE_FIRST_WEEK_channel_2_conversion_rates.csv')
-extract_competitor_first_week_data('data/channel_0_schedule.csv', 'data/ADVERTS_FIRST_WEEK_channel_0_schedule.csv')
-extract_competitor_first_week_data('data/channel_1_schedule.csv', 'data/ADVERTS_FIRST_WEEK_channel_1_schedule.csv')
-extract_competitor_first_week_data('data/channel_2_schedule.csv', 'data/ADVERTS_FIRST_WEEK_channel_2_schedule.csv')
+if __name__ == "__main__":
+    extract_first_week_data('data/channel_A_schedule.csv', 'data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv')
+    # extract_first_week_data('data/channel_0_conversion_rates.csv', 'data/AGGREGATE_FIRST_WEEK_channel_0_conversion_rates.csv')
+    # extract_first_week_data('data/channel_1_conversion_rates.csv', 'data/AGGREGATE_FIRST_WEEK_channel_1_conversion_rates.csv')
+    # extract_first_week_data('data/channel_2_conversion_rates.csv', 'data/AGGREGATE_FIRST_WEEK_channel_2_conversion_rates.csv')
+    # extract_competitor_first_week_data('data/channel_0_schedule.csv', 'data/ADVERTS_FIRST_WEEK_channel_0_schedule.csv')
+    # extract_competitor_first_week_data('data/channel_1_schedule.csv', 'data/ADVERTS_FIRST_WEEK_channel_1_schedule.csv')
+    # extract_competitor_first_week_data('data/channel_2_schedule.csv', 'data/ADVERTS_FIRST_WEEK_channel_2_schedule.csv')
