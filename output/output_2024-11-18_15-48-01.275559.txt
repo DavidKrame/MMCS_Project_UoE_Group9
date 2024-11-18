@@ -1,0 +1,72 @@
+Total cost: 1968440.1599999997
+At 2024-10-01 07:00:00 show movie Snowden, sell adslot with viewership 15803.779546803406
+At 2024-10-01 07:30:00 show movie Snowden, sell adslot with viewership 15894.48218209626
+At 2024-10-01 08:00:00 show movie Snowden, sell adslot with viewership 15833.537932055675
+At 2024-10-01 08:30:00 show movie Snowden, sell adslot with viewership 15928.945588193894
+At 2024-10-01 09:00:00 show movie Snowden, sell adslot with viewership 16681.437707817113
+At 2024-10-01 09:30:00 show movie The Fault in Our Stars, sell adslot with viewership 25932.261247615614
+At 2024-10-01 10:00:00 show movie The Fault in Our Stars, sell adslot with viewership 29298.88542094776
+At 2024-10-01 10:30:00 show movie The Fault in Our Stars, sell adslot with viewership 33433.090225691216
+At 2024-10-01 11:00:00 show movie The Fault in Our Stars, sell adslot with viewership 38173.39782539733
+At 2024-10-01 11:30:00 show movie The Fault in Our Stars, sell adslot with viewership 43423.49315400669
+At 2024-10-01 12:00:00 show movie Safe, sell adslot with viewership 64054.10544024724
+At 2024-10-01 12:30:00 show movie Safe, sell adslot with viewership 68916.25917202025
+At 2024-10-01 13:00:00 show movie Safe, sell adslot with viewership 74129.11287187363
+At 2024-10-01 13:30:00 show movie Safe, sell adslot with viewership 79659.23278829132
+At 2024-10-01 14:00:00 show movie Much Ado About Nothing, sell adslot with viewership 195594.6189464863
+At 2024-10-01 14:30:00 show movie Much Ado About Nothing, sell adslot with viewership 200422.79327246154
+At 2024-10-01 15:00:00 show movie Much Ado About Nothing, sell adslot with viewership 205144.76059284506
+At 2024-10-01 15:30:00 show movie Much Ado About Nothing, sell adslot with viewership 209559.19141544498
+At 2024-10-01 16:00:00 show movie Total Recall, sell adslot with viewership 96683.23703253953
+At 2024-10-01 16:30:00 show movie Total Recall, sell adslot with viewership 101167.19853140246
+At 2024-10-01 17:00:00 show movie Total Recall, sell adslot with viewership 104461.0815290274
+At 2024-10-01 17:30:00 show movie Total Recall, sell adslot with viewership 106387.37002789468
+At 2024-10-01 18:00:00 show movie Total Recall, sell adslot with viewership 106916.22631543694
+At 2024-10-01 18:30:00 show movie The Fifth Element, sell adslot with viewership 558508.5556880957
+At 2024-10-01 19:00:00 show movie The Fifth Element, sell adslot with viewership 555443.8965609118
+At 2024-10-01 19:30:00 show movie The Fifth Element, sell adslot with viewership 551313.6714307576
+At 2024-10-01 20:00:00 show movie The Fifth Element, sell adslot with viewership 546530.5922167461
+At 2024-10-01 20:30:00 show movie The Fifth Element, sell adslot with viewership 541403.3073172122
+At 2024-10-01 21:00:00 show movie Funny Girl, sell adslot with viewership 348814.624648314
+At 2024-10-01 21:30:00 show movie Funny Girl, sell adslot with viewership 345603.6501443717
+At 2024-10-01 22:00:00 show movie Funny Girl, sell adslot with viewership 342343.51443945646
+At 2024-10-01 22:30:00 show movie Funny Girl, sell adslot with viewership 339052.39933036
+At 2024-10-01 23:00:00 show movie Funny Girl, sell adslot with viewership 335747.39561876986
+At 2024-10-01 23:30:00 show movie Funny Girl, sell adslot with viewership 332723.73850194516
+At 2024-10-01 08:10:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 11:45:00 on channel 0 advertise movie Much Ado About Nothing
+At 2024-10-01 13:20:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 13:50:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 14:55:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 15:25:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 15:55:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 18:00:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 18:30:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 19:05:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 19:35:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 20:05:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 20:35:00 on channel 0 advertise movie Funny Girl
+At 2024-10-01 08:10:00 on channel 1 advertise movie Much Ado About Nothing
+At 2024-10-01 09:40:00 on channel 1 advertise movie Total Recall
+At 2024-10-01 12:20:00 on channel 1 advertise movie Much Ado About Nothing
+At 2024-10-01 12:50:00 on channel 1 advertise movie Much Ado About Nothing
+At 2024-10-01 13:20:00 on channel 1 advertise movie Much Ado About Nothing
+At 2024-10-01 13:50:00 on channel 1 advertise movie Funny Girl
+At 2024-10-01 14:55:00 on channel 1 advertise movie Funny Girl
+At 2024-10-01 15:55:00 on channel 1 advertise movie Funny Girl
+At 2024-10-01 18:00:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-01 07:35:00 on channel 2 advertise movie Funny Girl
+At 2024-10-01 09:10:00 on channel 2 advertise movie Safe
+At 2024-10-01 09:40:00 on channel 2 advertise movie Total Recall
+At 2024-10-01 10:10:00 on channel 2 advertise movie Funny Girl
+At 2024-10-01 10:40:00 on channel 2 advertise movie Safe
+At 2024-10-01 11:15:00 on channel 2 advertise movie Funny Girl
+At 2024-10-01 11:45:00 on channel 2 advertise movie Much Ado About Nothing
+At 2024-10-01 12:45:00 on channel 2 advertise movie Much Ado About Nothing
+At 2024-10-01 13:15:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 15:20:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 15:50:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 16:55:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 18:25:00 on channel 2 advertise movie Funny Girl
+At 2024-10-01 19:00:00 on channel 2 advertise movie Funny Girl
+At 2024-10-01 19:30:00 on channel 2 advertise movie Funny Girl

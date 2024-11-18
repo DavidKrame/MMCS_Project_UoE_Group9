@@ -1,0 +1,80 @@
+Total cost: 2329410.72
+At 2024-10-01 07:00:00 show movie Jungle Cruise, sell adslot with viewership 35122.7224866785
+At 2024-10-01 07:30:00 show movie Jungle Cruise, sell adslot with viewership 34605.61139953998
+At 2024-10-01 08:00:00 show movie Jungle Cruise, sell adslot with viewership 31996.602380698787
+At 2024-10-01 08:30:00 show movie Jungle Cruise, sell adslot with viewership 28894.04737187082
+At 2024-10-01 09:00:00 show movie Jungle Cruise, sell adslot with viewership 27382.599426434776
+At 2024-10-01 09:30:00 show movie The Good Son, sell adslot with viewership 22427.45542392999
+At 2024-10-01 10:00:00 show movie The Good Son, sell adslot with viewership 25230.611779439194
+At 2024-10-01 10:30:00 show movie The Good Son, sell adslot with viewership 28700.920134319196
+At 2024-10-01 11:00:00 show movie Dracula: Dead and Loving It, sell adslot with viewership 39916.10623747708
+At 2024-10-01 11:30:00 show movie Dracula: Dead and Loving It, sell adslot with viewership 44302.58047498297
+At 2024-10-01 12:00:00 show movie Dracula: Dead and Loving It, sell adslot with viewership 49125.70416597442
+At 2024-10-01 12:30:00 show movie The Fault in Our Stars, sell adslot with viewership 121731.0498253131
+At 2024-10-01 13:00:00 show movie The Fault in Our Stars, sell adslot with viewership 128094.24951483111
+At 2024-10-01 13:30:00 show movie The Fault in Our Stars, sell adslot with viewership 134670.74799599446
+At 2024-10-01 14:00:00 show movie The Fault in Our Stars, sell adslot with viewership 141349.8723052831
+At 2024-10-01 14:30:00 show movie The Fault in Our Stars, sell adslot with viewership 147983.88700276572
+At 2024-10-01 15:00:00 show movie Secretary, sell adslot with viewership 228179.13932620542
+At 2024-10-01 15:30:00 show movie Secretary, sell adslot with viewership 234468.43525531262
+At 2024-10-01 16:00:00 show movie Secretary, on own channel advertise movie The Fifth Element
+At 2024-10-01 16:30:00 show movie Secretary, sell adslot with viewership 244373.76473861013
+At 2024-10-01 17:00:00 show movie The Fifth Element, sell adslot with viewership 452256.70107587916
+At 2024-10-01 17:30:00 show movie The Fifth Element, sell adslot with viewership 454699.5249609061
+At 2024-10-01 18:00:00 show movie The Fifth Element, sell adslot with viewership 455041.58963053906
+At 2024-10-01 18:30:00 show movie The Fifth Element, sell adslot with viewership 453490.29533332353
+At 2024-10-01 19:00:00 show movie The Fifth Element, sell adslot with viewership 450425.6362061396
+At 2024-10-01 19:30:00 show movie Demolition Man, sell adslot with viewership 290521.92045186204
+At 2024-10-01 20:00:00 show movie Demolition Man, sell adslot with viewership 286324.25861359487
+At 2024-10-01 20:30:00 show movie Demolition Man, sell adslot with viewership 281697.7499974404
+At 2024-10-01 21:00:00 show movie Demolition Man, sell adslot with viewership 276799.8726634242
+At 2024-10-01 21:30:00 show movie Logan Lucky, sell adslot with viewership 415372.0735880279
+At 2024-10-01 22:00:00 show movie Logan Lucky, sell adslot with viewership 411461.84974988026
+At 2024-10-01 22:30:00 show movie Logan Lucky, sell adslot with viewership 407543.61242039717
+At 2024-10-01 23:00:00 show movie Logan Lucky, sell adslot with viewership 403618.36585876835
+At 2024-10-01 23:30:00 show movie Logan Lucky, sell adslot with viewership 400023.63498466345
+At 2024-10-01 09:10:00 on channel 0 advertise movie Secretary
+At 2024-10-01 09:40:00 on channel 0 advertise movie Dracula: Dead and Loving It
+At 2024-10-01 10:15:00 on channel 0 advertise movie Logan Lucky
+At 2024-10-01 10:45:00 on channel 0 advertise movie Logan Lucky
+At 2024-10-01 11:15:00 on channel 0 advertise movie Secretary
+At 2024-10-01 12:20:00 on channel 0 advertise movie The Fault in Our Stars
+At 2024-10-01 13:20:00 on channel 0 advertise movie Secretary
+At 2024-10-01 13:50:00 on channel 0 advertise movie Secretary
+At 2024-10-01 14:25:00 on channel 0 advertise movie Secretary
+At 2024-10-01 15:55:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 16:30:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 17:00:00 on channel 0 advertise movie The Fifth Element
+At 2024-10-01 17:30:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 18:00:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 18:30:00 on channel 0 advertise movie Demolition Man
+At 2024-10-01 20:05:00 on channel 0 advertise movie Logan Lucky
+At 2024-10-01 20:35:00 on channel 0 advertise movie Logan Lucky
+At 2024-10-01 21:05:00 on channel 0 advertise movie Logan Lucky
+At 2024-10-01 08:10:00 on channel 1 advertise movie Dracula: Dead and Loving It
+At 2024-10-01 08:40:00 on channel 1 advertise movie Logan Lucky
+At 2024-10-01 09:10:00 on channel 1 advertise movie Logan Lucky
+At 2024-10-01 09:40:00 on channel 1 advertise movie Logan Lucky
+At 2024-10-01 12:20:00 on channel 1 advertise movie The Fault in Our Stars
+At 2024-10-01 12:50:00 on channel 1 advertise movie Secretary
+At 2024-10-01 13:50:00 on channel 1 advertise movie Secretary
+At 2024-10-01 15:25:00 on channel 1 advertise movie Logan Lucky
+At 2024-10-01 15:55:00 on channel 1 advertise movie Demolition Man
+At 2024-10-01 17:00:00 on channel 1 advertise movie The Fifth Element
+At 2024-10-01 07:05:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 07:35:00 on channel 2 advertise movie The Fault in Our Stars
+At 2024-10-01 08:10:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 09:40:00 on channel 2 advertise movie Demolition Man
+At 2024-10-01 10:15:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 11:15:00 on channel 2 advertise movie The Fault in Our Stars
+At 2024-10-01 11:45:00 on channel 2 advertise movie The Fault in Our Stars
+At 2024-10-01 12:20:00 on channel 2 advertise movie The Fault in Our Stars
+At 2024-10-01 14:55:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 15:25:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 15:55:00 on channel 2 advertise movie The Fifth Element
+At 2024-10-01 16:30:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 18:00:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 18:30:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 19:05:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 20:05:00 on channel 2 advertise movie Logan Lucky
+At 2024-10-01 20:35:00 on channel 2 advertise movie Logan Lucky
