@@ -1,0 +1,111 @@
+Total cost: 5543799.94
+At 2024-10-01 07:00:00 show movie Seeking Justice, sell adslot with viewership 12771.99698728949
+At 2024-10-01 07:30:00 show movie Seeking Justice, sell adslot with viewership 12727.740226273947
+At 2024-10-01 08:00:00 show movie Seeking Justice, sell adslot with viewership 12290.895654025979
+At 2024-10-01 08:30:00 show movie Seeking Justice, sell adslot with viewership 11852.630661202036
+At 2024-10-01 09:00:00 show movie Star Trek Into Darkness, sell adslot with viewership 23514.41730703516
+At 2024-10-01 09:30:00 show movie Star Trek Into Darkness, sell adslot with viewership 24552.14856391324
+At 2024-10-01 10:00:00 show movie Star Trek Into Darkness, sell adslot with viewership 26995.599297670207
+At 2024-10-01 10:30:00 show movie Star Trek Into Darkness, sell adslot with viewership 30385.812677851158
+At 2024-10-01 11:00:00 show movie Star Trek Into Darkness, sell adslot with viewership 34433.325483826295
+At 2024-10-01 11:30:00 show movie Event Horizon, on own channel advertise movie American Ultra
+At 2024-10-01 12:00:00 show movie Event Horizon, on own channel advertise movie Under the Skin
+At 2024-10-01 12:30:00 show movie Event Horizon, on own channel advertise movie Jungle Cruise
+At 2024-10-01 13:00:00 show movie Event Horizon, on own channel advertise movie Under the Skin
+At 2024-10-01 13:30:00 show movie Much Ado About Nothing, on own channel advertise movie Life As We Know It
+At 2024-10-01 14:00:00 show movie Much Ado About Nothing, on own channel advertise movie Dark Skies
+At 2024-10-01 14:30:00 show movie Much Ado About Nothing, on own channel advertise movie Dark Skies
+At 2024-10-01 15:00:00 show movie Much Ado About Nothing, on own channel advertise movie Under the Skin
+At 2024-10-01 15:30:00 show movie American Ultra, sell adslot with viewership 90927.58051497575
+At 2024-10-01 16:00:00 show movie American Ultra, sell adslot with viewership 96223.08972687605
+At 2024-10-01 16:30:00 show movie American Ultra, sell adslot with viewership 100463.8255767371
+At 2024-10-01 17:00:00 show movie American Ultra, on own channel advertise movie Dark Skies
+At 2024-10-01 17:30:00 show movie The Lost Boys, on own channel advertise movie Under the Skin
+At 2024-10-01 18:00:00 show movie The Lost Boys, on own channel advertise movie Jungle Cruise
+At 2024-10-01 18:30:00 show movie The Lost Boys, on own channel advertise movie Under the Skin
+At 2024-10-01 19:00:00 show movie The Lost Boys, on own channel advertise movie Under the Skin
+At 2024-10-01 19:30:00 show movie The Fifth Element, on own channel advertise movie Snowden
+At 2024-10-01 20:00:00 show movie The Fifth Element, on own channel advertise movie Under the Skin
+At 2024-10-01 20:30:00 show movie The Fifth Element, on own channel advertise movie Under the Skin
+At 2024-10-01 21:00:00 show movie The Fifth Element, on own channel advertise movie Side Effects
+At 2024-10-01 21:30:00 show movie The Fifth Element, on own channel advertise movie Dark Skies
+At 2024-10-01 22:00:00 show movie Side Effects, sell adslot with viewership 94355.466794783
+At 2024-10-01 22:30:00 show movie Side Effects, sell adslot with viewership 90517.41246614046
+At 2024-10-01 23:00:00 show movie Side Effects, sell adslot with viewership 86596.16516965267
+At 2024-10-01 23:30:00 show movie Side Effects, sell adslot with viewership 82963.42017875677
+At 2024-10-02 07:00:00 show movie Snowden, sell adslot with viewership 51357.13894305951
+At 2024-10-02 07:30:00 show movie Snowden, sell adslot with viewership 51447.8415783539
+At 2024-10-02 08:00:00 show movie Snowden, sell adslot with viewership 51386.897328313484
+At 2024-10-02 08:30:00 show movie Snowden, sell adslot with viewership 51482.304984451504
+At 2024-10-02 09:00:00 show movie Snowden, sell adslot with viewership 52234.79710407472
+At 2024-10-02 09:30:00 show movie Jackass 3D, on own channel advertise movie Memento
+At 2024-10-02 10:00:00 show movie Jackass 3D, on own channel advertise movie Virus
+At 2024-10-02 10:30:00 show movie Jackass 3D, on own channel advertise movie Monster Hunter
+At 2024-10-02 11:00:00 show movie Jackass 3D, on own channel advertise movie 55 Days at Peking
+At 2024-10-02 11:30:00 show movie Under the Skin, sell adslot with viewership 299725.48525623686
+At 2024-10-02 12:00:00 show movie Under the Skin, sell adslot with viewership 303635.6257006929
+At 2024-10-02 12:30:00 show movie Under the Skin, on own channel advertise movie Four Weddings and a Funeral
+At 2024-10-02 13:00:00 show movie Under the Skin, sell adslot with viewership 312285.6405058103
+At 2024-10-02 13:30:00 show movie The Fault in Our Stars, on own channel advertise movie Jungle Cruise
+At 2024-10-02 14:00:00 show movie The Fault in Our Stars, on own channel advertise movie Jungle Cruise
+At 2024-10-02 14:30:00 show movie The Fault in Our Stars, on own channel advertise movie Dark Skies
+At 2024-10-02 15:00:00 show movie The Fault in Our Stars, on own channel advertise movie Jungle Cruise
+At 2024-10-02 15:30:00 show movie The Fault in Our Stars, on own channel advertise movie 55 Days at Peking
+At 2024-10-02 16:00:00 show movie Memento, on own channel advertise movie Shorts
+At 2024-10-02 16:30:00 show movie Memento, on own channel advertise movie Four Weddings and a Funeral
+At 2024-10-02 17:00:00 show movie Memento, sell adslot with viewership 183343.06157697018
+At 2024-10-02 17:30:00 show movie Memento, sell adslot with viewership 185053.3094916876
+At 2024-10-02 18:00:00 show movie Dark Skies, on own channel advertise movie Shorts
+At 2024-10-02 18:30:00 show movie Dark Skies, on own channel advertise movie Alien
+At 2024-10-02 19:00:00 show movie Dark Skies, sell adslot with viewership 216415.30058813206
+At 2024-10-02 19:30:00 show movie Dark Skies, sell adslot with viewership 214672.59127430728
+At 2024-10-02 20:00:00 show movie Jungle Cruise, sell adslot with viewership 412855.39925676084
+At 2024-10-02 20:30:00 show movie Jungle Cruise, sell adslot with viewership 407168.0996941186
+At 2024-10-02 21:00:00 show movie Jungle Cruise, on own channel advertise movie Life As We Know It
+At 2024-10-02 21:30:00 show movie Jungle Cruise, sell adslot with viewership 395803.538876883
+At 2024-10-02 22:00:00 show movie Jungle Cruise, sell adslot with viewership 390187.4129428057
+At 2024-10-02 22:30:00 show movie Dracula: Dead and Loving It, on own channel advertise movie Shorts
+At 2024-10-02 23:00:00 show movie Dracula: Dead and Loving It, on own channel advertise movie Four Weddings and a Funeral
+At 2024-10-02 23:30:00 show movie Dracula: Dead and Loving It, on own channel advertise movie 55 Days at Peking
+At 2024-10-03 07:00:00 show movie Four Weddings and a Funeral, sell adslot with viewership 135465.93419346574
+At 2024-10-03 07:30:00 show movie Four Weddings and a Funeral, sell adslot with viewership 135522.485281855
+At 2024-10-03 08:00:00 show movie Four Weddings and a Funeral, sell adslot with viewership 135068.0446046502
+At 2024-10-03 08:30:00 show movie Four Weddings and a Funeral, sell adslot with viewership 134668.4494842911
+At 2024-10-03 09:00:00 show movie Four Weddings and a Funeral, sell adslot with viewership 135223.80140028105
+At 2024-10-03 09:30:00 show movie Shorts, sell adslot with viewership 32169.87946286839
+At 2024-10-03 10:00:00 show movie Shorts, sell adslot with viewership 33099.70872207869
+At 2024-10-03 10:30:00 show movie Shorts, sell adslot with viewership 34429.02272582593
+At 2024-10-03 11:00:00 show movie Alien, sell adslot with viewership 144102.8005561933
+At 2024-10-03 11:30:00 show movie Alien, sell adslot with viewership 150008.93538593972
+At 2024-10-03 12:00:00 show movie Alien, sell adslot with viewership 156478.0532081247
+At 2024-10-03 12:30:00 show movie Alien, sell adslot with viewership 163460.34628068242
+At 2024-10-03 13:00:00 show movie Alien, sell adslot with viewership 170904.25510572584
+At 2024-10-03 13:30:00 show movie Lake Placid, on own channel advertise movie Virus
+At 2024-10-03 14:00:00 show movie Lake Placid, on own channel advertise movie Virus
+At 2024-10-03 14:30:00 show movie Lake Placid, on own channel advertise movie 55 Days at Peking
+At 2024-10-03 15:00:00 show movie Monster Hunter, sell adslot with viewership 112404.34181876927
+At 2024-10-03 15:30:00 show movie Monster Hunter, on own channel advertise movie 55 Days at Peking
+At 2024-10-03 16:00:00 show movie Monster Hunter, on own channel advertise movie Life As We Know It
+At 2024-10-03 16:30:00 show movie Monster Hunter, on own channel advertise movie Life As We Know It
+At 2024-10-03 17:00:00 show movie Virus, on own channel advertise movie Life As We Know It
+At 2024-10-03 17:30:00 show movie Virus, on own channel advertise movie 55 Days at Peking
+At 2024-10-03 18:00:00 show movie Virus, on own channel advertise movie Life As We Know It
+At 2024-10-03 18:30:00 show movie Virus, on own channel advertise movie 55 Days at Peking
+At 2024-10-03 19:00:00 show movie Life As We Know It, sell adslot with viewership 337207.8383898407
+At 2024-10-03 19:30:00 show movie Life As We Know It, sell adslot with viewership 334079.107296508
+At 2024-10-03 20:00:00 show movie Life As We Know It, sell adslot with viewership 330440.1179514569
+At 2024-10-03 20:30:00 show movie Life As We Know It, sell adslot with viewership 326486.1129252948
+At 2024-10-03 21:00:00 show movie 55 Days at Peking, sell adslot with viewership 131093.25951936867
+At 2024-10-03 21:30:00 show movie 55 Days at Peking, sell adslot with viewership 128543.53610236576
+At 2024-10-03 22:00:00 show movie 55 Days at Peking, sell adslot with viewership 125989.73570811306
+At 2024-10-03 22:30:00 show movie 55 Days at Peking, sell adslot with viewership 123437.46314281214
+At 2024-10-03 23:00:00 show movie 55 Days at Peking, sell adslot with viewership 120891.7349669924
+At 2024-10-03 23:30:00 show movie 55 Days at Peking, sell adslot with viewership 118572.09846717573
+At 2024-10-01 07:05:00 on channel 0 advertise movie Snowden
+At 2024-10-01 14:25:00 on channel 0 advertise movie Under the Skin
+At 2024-10-01 14:55:00 on channel 0 advertise movie Under the Skin
+At 2024-10-01 10:15:00 on channel 1 advertise movie Under the Skin
+At 2024-10-01 11:15:00 on channel 1 advertise movie Memento
+At 2024-10-01 23:15:00 on channel 1 advertise movie Under the Skin
+At 2024-10-02 10:40:00 on channel 1 advertise movie Memento
+At 2024-10-01 14:20:00 on channel 2 advertise movie Memento

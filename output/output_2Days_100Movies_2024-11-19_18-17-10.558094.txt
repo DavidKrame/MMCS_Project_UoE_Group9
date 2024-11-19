@@ -1,0 +1,141 @@
+Total cost: 4961073.799999999
+At 2024-10-01 07:00:00 show movie Moana, sell adslot with viewership 16065.99142347639
+At 2024-10-01 07:30:00 show movie Moana, sell adslot with viewership 15798.532590882694
+At 2024-10-01 08:00:00 show movie Moana, sell adslot with viewership 14292.41162886772
+At 2024-10-01 08:30:00 show movie Moana, sell adslot with viewership 12405.662543489372
+At 2024-10-01 09:00:00 show movie Movie 43, sell adslot with viewership 44820.074313420235
+At 2024-10-01 09:30:00 show movie Movie 43, sell adslot with viewership 46181.659822130976
+At 2024-10-01 10:00:00 show movie Movie 43, sell adslot with viewership 49139.76470537682
+At 2024-10-01 10:30:00 show movie Movie 43, sell adslot with viewership 53169.118362622554
+At 2024-10-01 11:00:00 show movie While You Were Sleeping, sell adslot with viewership 32235.131220742536
+At 2024-10-01 11:30:00 show movie While You Were Sleeping, sell adslot with viewership 35850.49893440091
+At 2024-10-01 12:00:00 show movie While You Were Sleeping, sell adslot with viewership 39810.984005496844
+At 2024-10-01 12:30:00 show movie While You Were Sleeping, sell adslot with viewership 44094.95926891708
+At 2024-10-01 13:00:00 show movie Colonia, sell adslot with viewership 143599.04405052497
+At 2024-10-01 13:30:00 show movie Colonia, sell adslot with viewership 147819.19077719282
+At 2024-10-01 14:00:00 show movie Colonia, sell adslot with viewership 152105.1926007094
+At 2024-10-01 14:30:00 show movie Colonia, sell adslot with viewership 156362.24751665056
+At 2024-10-01 15:00:00 show movie Life of Pi, sell adslot with viewership 147590.22840550038
+At 2024-10-01 15:30:00 show movie Life of Pi, sell adslot with viewership 155426.84051417004
+At 2024-10-01 16:00:00 show movie Life of Pi, sell adslot with viewership 162391.34696861685
+At 2024-10-01 16:30:00 show movie Life of Pi, sell adslot with viewership 167992.88665654833
+At 2024-10-01 17:00:00 show movie Life of Pi, sell adslot with viewership 171819.955171967
+At 2024-10-01 17:30:00 show movie The Lost Boys, sell adslot with viewership 353072.52892511257
+At 2024-10-01 18:00:00 show movie The Lost Boys, sell adslot with viewership 353412.9300725202
+At 2024-10-01 18:30:00 show movie The Lost Boys, sell adslot with viewership 352242.93266649643
+At 2024-10-01 19:00:00 show movie The Lost Boys, sell adslot with viewership 349825.35830858664
+At 2024-10-01 19:30:00 show movie Transporter 3, sell adslot with viewership 166732.5885250002
+At 2024-10-01 20:00:00 show movie Transporter 3, sell adslot with viewership 162968.9682289917
+At 2024-10-01 20:30:00 show movie Transporter 3, sell adslot with viewership 158954.68230988778
+At 2024-10-01 21:00:00 show movie Transporter 3, sell adslot with viewership 154831.1502817823
+At 2024-10-01 21:30:00 show movie The Long Kiss Goodnight, sell adslot with viewership 66514.40424045263
+At 2024-10-01 22:00:00 show movie The Long Kiss Goodnight, sell adslot with viewership 62556.816872243966
+At 2024-10-01 22:30:00 show movie The Long Kiss Goodnight, sell adslot with viewership 58533.64088542398
+At 2024-10-01 23:00:00 show movie The Long Kiss Goodnight, sell adslot with viewership 54464.166344255056
+At 2024-10-01 23:30:00 show movie The Long Kiss Goodnight, sell adslot with viewership 50716.001358030226
+At 2024-10-02 07:00:00 show movie Alien, sell adslot with viewership 120833.57749601512
+At 2024-10-02 07:30:00 show movie Alien, sell adslot with viewership 120800.94188832185
+At 2024-10-02 08:00:00 show movie Alien, sell adslot with viewership 120265.17164017749
+At 2024-10-02 08:30:00 show movie Alien, sell adslot with viewership 119939.23292477112
+At 2024-10-02 09:00:00 show movie Alien, sell adslot with viewership 120783.52271633822
+At 2024-10-02 09:30:00 show movie Mr. Magoo, sell adslot with viewership 91183.8296731872
+At 2024-10-02 10:00:00 show movie Mr. Magoo, sell adslot with viewership 92206.59177777132
+At 2024-10-02 10:30:00 show movie Mr. Magoo, sell adslot with viewership 93632.85407196455
+At 2024-10-02 11:00:00 show movie Demolition Man, sell adslot with viewership 286462.77493609
+At 2024-10-02 11:30:00 show movie Demolition Man, sell adslot with viewership 291730.0990171085
+At 2024-10-02 12:00:00 show movie Demolition Man, sell adslot with viewership 297511.6383225264
+At 2024-10-02 12:30:00 show movie Demolition Man, sell adslot with viewership 303774.89472107706
+At 2024-10-02 13:00:00 show movie Total Recall, sell adslot with viewership 122239.1883806292
+At 2024-10-02 13:30:00 show movie Total Recall, sell adslot with viewership 127885.12984137116
+At 2024-10-02 14:00:00 show movie Total Recall, sell adslot with viewership 133843.35631801139
+At 2024-10-02 14:30:00 show movie Total Recall, sell adslot with viewership 140007.06063618843
+At 2024-10-02 15:00:00 show movie Total Recall, sell adslot with viewership 146194.40002939932
+At 2024-10-02 15:30:00 show movie RED 2, sell adslot with viewership 299830.38621045335
+At 2024-10-02 16:00:00 show movie RED 2, sell adslot with viewership 305770.9284655696
+At 2024-10-02 16:30:00 show movie RED 2, sell adslot with viewership 310548.89569091576
+At 2024-10-02 17:00:00 show movie RED 2, sell adslot with viewership 313813.28538769705
+At 2024-10-02 17:30:00 show movie RED 2, sell adslot with viewership 315359.81760371535
+At 2024-10-02 18:00:00 show movie Under the Skin, sell adslot with viewership 252900.69341296173
+At 2024-10-02 18:30:00 show movie Under the Skin, sell adslot with viewership 252428.1781176561
+At 2024-10-02 19:00:00 show movie Under the Skin, sell adslot with viewership 251152.45496340777
+At 2024-10-02 19:30:00 show movie Under the Skin, sell adslot with viewership 249231.43578358652
+At 2024-10-02 20:00:00 show movie Friend Request, sell adslot with viewership 120325.02664153071
+At 2024-10-02 20:30:00 show movie Friend Request, sell adslot with viewership 118839.38889179888
+At 2024-10-02 21:00:00 show movie Friend Request, sell adslot with viewership 117184.66926741434
+At 2024-10-02 21:30:00 show movie Friend Request, sell adslot with viewership 91481.84521671003
+At 2024-10-02 22:00:00 show movie Anchorman: The Legend of Ron Burgundy, sell adslot with viewership 51393.00118187213
+At 2024-10-02 22:30:00 show movie Anchorman: The Legend of Ron Burgundy, sell adslot with viewership 47835.30589572305
+At 2024-10-02 23:00:00 show movie Anchorman: The Legend of Ron Burgundy, sell adslot with viewership 44325.322358936195
+At 2024-10-02 23:30:00 show movie Anchorman: The Legend of Ron Burgundy, sell adslot with viewership 41148.115746149524
+At 2024-10-01 07:05:00 on channel 0 advertise movie Under the Skin
+At 2024-10-01 08:10:00 on channel 0 advertise movie While You Were Sleeping
+At 2024-10-01 08:40:00 on channel 0 advertise movie Movie 43
+At 2024-10-01 09:40:00 on channel 0 advertise movie The Lost Boys
+At 2024-10-01 11:15:00 on channel 0 advertise movie Total Recall
+At 2024-10-01 12:20:00 on channel 0 advertise movie Colonia
+At 2024-10-01 12:50:00 on channel 0 advertise movie Colonia
+At 2024-10-01 15:55:00 on channel 0 advertise movie Under the Skin
+At 2024-10-01 16:30:00 on channel 0 advertise movie Total Recall
+At 2024-10-01 17:00:00 on channel 0 advertise movie Alien
+At 2024-10-01 17:30:00 on channel 0 advertise movie RED 2
+At 2024-10-01 19:35:00 on channel 0 advertise movie RED 2
+At 2024-10-01 20:05:00 on channel 0 advertise movie RED 2
+At 2024-10-01 23:10:00 on channel 0 advertise movie Friend Request
+At 2024-10-02 07:25:00 on channel 0 advertise movie RED 2
+At 2024-10-02 13:40:00 on channel 0 advertise movie Under the Skin
+At 2024-10-02 14:10:00 on channel 0 advertise movie Under the Skin
+At 2024-10-02 14:40:00 on channel 0 advertise movie Under the Skin
+At 2024-10-02 16:45:00 on channel 0 advertise movie Under the Skin
+At 2024-10-02 17:45:00 on channel 0 advertise movie Under the Skin
+At 2024-10-01 07:05:00 on channel 1 advertise movie Transporter 3
+At 2024-10-01 07:35:00 on channel 1 advertise movie Movie 43
+At 2024-10-01 08:10:00 on channel 1 advertise movie Movie 43
+At 2024-10-01 08:40:00 on channel 1 advertise movie Colonia
+At 2024-10-01 09:40:00 on channel 1 advertise movie Under the Skin
+At 2024-10-01 10:15:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 10:45:00 on channel 1 advertise movie Friend Request
+At 2024-10-01 11:15:00 on channel 1 advertise movie Alien
+At 2024-10-01 11:45:00 on channel 1 advertise movie Friend Request
+At 2024-10-01 12:20:00 on channel 1 advertise movie Alien
+At 2024-10-01 13:50:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 14:25:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 14:55:00 on channel 1 advertise movie Alien
+At 2024-10-01 15:25:00 on channel 1 advertise movie The Lost Boys
+At 2024-10-01 16:30:00 on channel 1 advertise movie Mr. Magoo
+At 2024-10-01 18:35:00 on channel 1 advertise movie Mr. Magoo
+At 2024-10-01 19:35:00 on channel 1 advertise movie Mr. Magoo
+At 2024-10-01 20:40:00 on channel 1 advertise movie Total Recall
+At 2024-10-01 21:45:00 on channel 1 advertise movie RED 2
+At 2024-10-01 22:15:00 on channel 1 advertise movie Mr. Magoo
+At 2024-10-01 22:45:00 on channel 1 advertise movie RED 2
+At 2024-10-02 07:35:00 on channel 1 advertise movie Mr. Magoo
+At 2024-10-02 08:05:00 on channel 1 advertise movie Mr. Magoo
+At 2024-10-02 10:40:00 on channel 1 advertise movie Friend Request
+At 2024-10-02 11:10:00 on channel 1 advertise movie RED 2
+At 2024-10-02 12:10:00 on channel 1 advertise movie RED 2
+At 2024-10-02 14:15:00 on channel 1 advertise movie Under the Skin
+At 2024-10-02 15:20:00 on channel 1 advertise movie Under the Skin
+At 2024-10-02 17:25:00 on channel 1 advertise movie Friend Request
+At 2024-10-02 17:55:00 on channel 1 advertise movie Under the Skin
+At 2024-10-02 18:25:00 on channel 1 advertise movie Friend Request
+At 2024-10-01 07:05:00 on channel 2 advertise movie Mr. Magoo
+At 2024-10-01 07:35:00 on channel 2 advertise movie Mr. Magoo
+At 2024-10-01 08:05:00 on channel 2 advertise movie Life of Pi
+At 2024-10-01 09:10:00 on channel 2 advertise movie Colonia
+At 2024-10-01 10:10:00 on channel 2 advertise movie Total Recall
+At 2024-10-01 11:15:00 on channel 2 advertise movie Colonia
+At 2024-10-01 11:45:00 on channel 2 advertise movie Colonia
+At 2024-10-01 12:15:00 on channel 2 advertise movie Colonia
+At 2024-10-01 12:45:00 on channel 2 advertise movie Colonia
+At 2024-10-01 13:15:00 on channel 2 advertise movie Life of Pi
+At 2024-10-01 13:50:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 14:20:00 on channel 2 advertise movie Transporter 3
+At 2024-10-01 14:50:00 on channel 2 advertise movie Friend Request
+At 2024-10-01 15:20:00 on channel 2 advertise movie RED 2
+At 2024-10-01 15:50:00 on channel 2 advertise movie The Lost Boys
+At 2024-10-01 17:55:00 on channel 2 advertise movie Demolition Man
+At 2024-10-01 19:30:00 on channel 2 advertise movie Demolition Man
+At 2024-10-01 20:30:00 on channel 2 advertise movie Demolition Man
+At 2024-10-01 21:35:00 on channel 2 advertise movie Demolition Man
+At 2024-10-02 16:15:00 on channel 2 advertise movie Friend Request
+At 2024-10-02 17:50:00 on channel 2 advertise movie Under the Skin

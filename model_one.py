@@ -24,7 +24,7 @@ genre_conversion_1_df = pd.read_csv('data/movies_adslots_conversion_1_100.csv')
 genre_conversion_2_df = pd.read_csv('data/movies_adslots_conversion_2_100.csv')
 
 
-cutoff = datetime(2024, 10, 2, 0, 0, 0)
+cutoff = datetime(2024, 10, 8, 0, 0, 0)
 
 
 my_channel_df = my_channel_df.drop(my_channel_df[my_channel_df['Date-Time'] > cutoff].index)
@@ -286,9 +286,9 @@ model.setObjective(
 
 print('time to intialise problem: ', time() - start_time)
 
-# model.controls.maxtime = 300
+model.controls.maxtime = 120
 # model.controls.maxnode = 1000
-model.controls.miprelstop = 0.1
+# model.controls.miprelstop = 0.01
 # model.controls.tunermaxtime = 1000
 # model.controls.timelimit = 60
 # model.tune('g')
@@ -342,7 +342,7 @@ cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_{str(now)}.txt", "w") as f:
+with open(f"./output/output_3Days_100Movies_{str(now)}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')

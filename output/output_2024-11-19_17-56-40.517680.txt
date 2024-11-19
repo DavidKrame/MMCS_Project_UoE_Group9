@@ -1,0 +1,38 @@
+Total cost: 2261220.19
+At 2024-10-01 07:00:00 show movie Funny Girl, on own channel advertise movie Much Ado About Nothing
+At 2024-10-01 07:30:00 show movie Funny Girl, sell adslot with viewership 15317.19144085838
+At 2024-10-01 08:00:00 show movie Funny Girl, sell adslot with viewership 14995.847834265232
+At 2024-10-01 08:30:00 show movie Funny Girl, sell adslot with viewership 14713.28656396683
+At 2024-10-01 09:00:00 show movie Funny Girl, sell adslot with viewership 15105.986442383957
+At 2024-10-01 09:30:00 show movie Funny Girl, sell adslot with viewership 16381.60208363008
+At 2024-10-01 10:00:00 show movie Much Ado About Nothing, sell adslot with viewership 25797.846742739086
+At 2024-10-01 10:30:00 show movie Much Ado About Nothing, sell adslot with viewership 28566.784744833763
+At 2024-10-01 11:00:00 show movie Much Ado About Nothing, sell adslot with viewership 31774.453888283206
+At 2024-10-01 11:30:00 show movie Much Ado About Nothing, sell adslot with viewership 35344.943387149564
+At 2024-10-01 12:00:00 show movie The Fifth Element, sell adslot with viewership 50669.624580047544
+At 2024-10-01 12:30:00 show movie The Fifth Element, sell adslot with viewership 57094.724864307886
+At 2024-10-01 13:00:00 show movie The Fifth Element, sell adslot with viewership 64110.32785779388
+At 2024-10-01 13:30:00 show movie The Fifth Element, sell adslot with viewership 71715.13269385214
+At 2024-10-01 14:00:00 show movie The Fifth Element, sell adslot with viewership 79860.38777664462
+At 2024-10-01 14:30:00 show movie Alien, sell adslot with viewership 96077.09975879978
+At 2024-10-01 15:00:00 show movie Alien, sell adslot with viewership 104272.40749548297
+At 2024-10-01 15:30:00 show movie Alien, sell adslot with viewership 112078.08700992075
+At 2024-10-01 16:00:00 show movie Alien, sell adslot with viewership 119131.96260206915
+At 2024-10-01 16:30:00 show movie Alien, sell adslot with viewership 125062.34861278557
+At 2024-10-01 17:00:00 show movie RED 2, sell adslot with viewership 103998.12892046582
+At 2024-10-01 17:30:00 show movie RED 2, sell adslot with viewership 105544.6611364841
+At 2024-10-01 18:00:00 show movie RED 2, sell adslot with viewership 105362.06967728652
+At 2024-10-01 18:30:00 show movie RED 2, sell adslot with viewership 103627.6594980456
+At 2024-10-01 19:00:00 show movie RED 2, sell adslot with viewership 100653.99194672071
+At 2024-10-01 19:30:00 show movie Jungle Cruise, sell adslot with viewership 352683.06207065284
+At 2024-10-01 20:00:00 show movie Jungle Cruise, sell adslot with viewership 347225.1236355437
+At 2024-10-01 20:30:00 show movie Jungle Cruise, sell adslot with viewership 341537.82407290133
+At 2024-10-01 21:00:00 show movie Jungle Cruise, sell adslot with viewership 335829.5828803744
+At 2024-10-01 21:30:00 show movie Jungle Cruise, sell adslot with viewership 330173.2632556657
+At 2024-10-01 22:00:00 show movie Life As We Know It, sell adslot with viewership 65076.6744250044
+At 2024-10-01 22:30:00 show movie Life As We Know It, sell adslot with viewership 60728.80397334475
+At 2024-10-01 23:00:00 show movie Life As We Know It, sell adslot with viewership 56362.58535359982
+At 2024-10-01 23:30:00 show movie Life As We Know It, sell adslot with viewership 52368.05185119448
+At 2024-10-01 16:30:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-01 17:00:00 on channel 1 advertise movie Jungle Cruise
+At 2024-10-01 17:30:00 on channel 1 advertise movie Jungle Cruise
