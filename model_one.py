@@ -24,16 +24,16 @@ genre_conversion_1_df = pd.read_csv('data/movies_adslots_conversion_1_100.csv')
 genre_conversion_2_df = pd.read_csv('data/movies_adslots_conversion_2_100.csv')
 
 
-# cutoff = datetime(2024, 10, 5, 0, 0, 0)
+cutoff = datetime(2024, 10, 2, 0, 0, 0)
 
 
-# my_channel_df = my_channel_df.drop(my_channel_df[my_channel_df['Date-Time'] > cutoff].index)
-# channel_0_df = channel_0_df.drop(channel_0_df[channel_0_df['Date-Time'] > cutoff].index)
-# channel_1_df = channel_1_df.drop(channel_1_df[channel_1_df['Date-Time'] > cutoff].index)
-# channel_2_df = channel_2_df.drop(channel_2_df[channel_2_df['Date-Time'] > cutoff].index)
-# conversion_rates_0_df = conversion_rates_0_df.drop(conversion_rates_0_df[conversion_rates_0_df['Date-Time'] > cutoff].index)
-# conversion_rates_1_df = conversion_rates_1_df.drop(conversion_rates_1_df[conversion_rates_1_df['Date-Time'] > cutoff].index)
-# conversion_rates_2_df = conversion_rates_2_df.drop(conversion_rates_2_df[conversion_rates_2_df['Date-Time'] > cutoff].index)
+my_channel_df = my_channel_df.drop(my_channel_df[my_channel_df['Date-Time'] > cutoff].index)
+channel_0_df = channel_0_df.drop(channel_0_df[channel_0_df['Date-Time'] > cutoff].index)
+channel_1_df = channel_1_df.drop(channel_1_df[channel_1_df['Date-Time'] > cutoff].index)
+channel_2_df = channel_2_df.drop(channel_2_df[channel_2_df['Date-Time'] > cutoff].index)
+conversion_rates_0_df = conversion_rates_0_df.drop(conversion_rates_0_df[conversion_rates_0_df['Date-Time'] > cutoff].index)
+conversion_rates_1_df = conversion_rates_1_df.drop(conversion_rates_1_df[conversion_rates_1_df['Date-Time'] > cutoff].index)
+conversion_rates_2_df = conversion_rates_2_df.drop(conversion_rates_2_df[conversion_rates_2_df['Date-Time'] > cutoff].index)
 
 model = xp.problem()
 
