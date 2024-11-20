@@ -1,0 +1,171 @@
+Total cost: 10849214.460000005
+At 2024-10-01 07:00:00 show movie Friend Request, on own channel advertise movie The Lost Boys
+At 2024-10-01 07:30:00 show movie Friend Request, on own channel advertise movie The Fifth Element
+At 2024-10-01 08:00:00 show movie Friend Request, on own channel advertise movie The Fifth Element
+At 2024-10-01 08:30:00 show movie Friend Request, on own channel advertise movie The Fifth Element
+At 2024-10-01 09:00:00 show movie Mr. Magoo, on own channel advertise movie Virus
+At 2024-10-01 09:30:00 show movie Mr. Magoo, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-01 10:00:00 show movie Mr. Magoo, on own channel advertise movie Death Proof
+At 2024-10-01 10:30:00 show movie Secretary, on own channel advertise movie The Lost Boys
+At 2024-10-01 11:00:00 show movie Secretary, on own channel advertise movie The Lost Boys
+At 2024-10-01 11:30:00 show movie Secretary, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-01 12:00:00 show movie Secretary, on own channel advertise movie Star Trek Into Darkness
+At 2024-10-01 12:30:00 show movie Mirror Mirror, sell adslot with viewership 33359.89460233811
+At 2024-10-01 13:00:00 show movie Mirror Mirror, sell adslot with viewership 37660.36987684076
+At 2024-10-01 13:30:00 show movie Mirror Mirror, sell adslot with viewership 42377.697147821105
+At 2024-10-01 14:00:00 show movie Mirror Mirror, sell adslot with viewership 47493.071860881275
+At 2024-10-01 14:30:00 show movie The Ring Two, on own channel advertise movie Speed Racer
+At 2024-10-01 15:00:00 show movie The Ring Two, on own channel advertise movie The Florida Project
+At 2024-10-01 15:30:00 show movie The Ring Two, on own channel advertise movie Movie 43
+At 2024-10-01 16:00:00 show movie The Ring Two, on own channel advertise movie Funny Girl
+At 2024-10-01 16:30:00 show movie Movie 43, sell adslot with viewership 181401.76384217222
+At 2024-10-01 17:00:00 show movie Movie 43, sell adslot with viewership 184966.77785707152
+At 2024-10-01 17:30:00 show movie Movie 43, sell adslot with viewership 186403.78145350714
+At 2024-10-01 18:00:00 show movie Movie 43, sell adslot with viewership 185712.24093282374
+At 2024-10-01 18:30:00 show movie Funny Girl, sell adslot with viewership 93304.39340699922
+At 2024-10-01 19:00:00 show movie Funny Girl, sell adslot with viewership 91507.79633223073
+At 2024-10-01 19:30:00 show movie Funny Girl, sell adslot with viewership 89139.5070072307
+At 2024-10-01 20:00:00 show movie Funny Girl, sell adslot with viewership 86384.97835783189
+At 2024-10-01 20:30:00 show movie Funny Girl, sell adslot with viewership 83391.99902332829
+At 2024-10-01 21:00:00 show movie Funny Girl, on own channel advertise movie Speed Racer
+At 2024-10-01 21:30:00 show movie Jungle Cruise, sell adslot with viewership 96856.65376648553
+At 2024-10-01 22:00:00 show movie Jungle Cruise, sell adslot with viewership 91240.52783240832
+At 2024-10-01 22:30:00 show movie Jungle Cruise, sell adslot with viewership 85621.57391927848
+At 2024-10-01 23:00:00 show movie Jungle Cruise, sell adslot with viewership 79964.73168015157
+At 2024-10-01 23:30:00 show movie Jungle Cruise, on own channel advertise movie Bio-Dome
+At 2024-10-02 07:00:00 show movie The One, on own channel advertise movie Marmaduke
+At 2024-10-02 07:30:00 show movie The One, on own channel advertise movie Bio-Dome
+At 2024-10-02 08:00:00 show movie The One, on own channel advertise movie The Good Son
+At 2024-10-02 08:30:00 show movie Marley & Me, on own channel advertise movie 300: Rise of an Empire
+At 2024-10-02 09:00:00 show movie Marley & Me, on own channel advertise movie The Fifth Element
+At 2024-10-02 09:30:00 show movie Marley & Me, on own channel advertise movie The Florida Project
+At 2024-10-02 10:00:00 show movie Marley & Me, on own channel advertise movie Virus
+At 2024-10-02 10:30:00 show movie Jackass 3D, sell adslot with viewership 15261.755658267486
+At 2024-10-02 11:00:00 show movie Jackass 3D, on own channel advertise movie Alive
+At 2024-10-02 11:30:00 show movie Jackass 3D, on own channel advertise movie Marmaduke
+At 2024-10-02 12:00:00 show movie Jackass 3D, on own channel advertise movie Bio-Dome
+At 2024-10-02 12:30:00 show movie Monster Hunter, on own channel advertise movie Bio-Dome
+At 2024-10-02 13:00:00 show movie Monster Hunter, sell adslot with viewership 59688.495735717355
+At 2024-10-02 13:30:00 show movie Monster Hunter, sell adslot with viewership 67043.80023357943
+At 2024-10-02 14:00:00 show movie Monster Hunter, sell adslot with viewership 75027.05775284895
+At 2024-10-02 14:30:00 show movie Bad Company, on own channel advertise movie Death Proof
+At 2024-10-02 15:00:00 show movie Bad Company, on own channel advertise movie American Ultra
+At 2024-10-02 15:30:00 show movie Bad Company, on own channel advertise movie American Ultra
+At 2024-10-02 16:00:00 show movie Bad Company, on own channel advertise movie The Fifth Element
+At 2024-10-02 16:30:00 show movie Bad Company, on own channel advertise movie The Fifth Element
+At 2024-10-02 17:00:00 show movie My Sister's Keeper, on own channel advertise movie American Ultra
+At 2024-10-02 17:30:00 show movie My Sister's Keeper, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-02 18:00:00 show movie My Sister's Keeper, on own channel advertise movie Capone
+At 2024-10-02 18:30:00 show movie My Sister's Keeper, on own channel advertise movie Monty Python's The Meaning of Life
+At 2024-10-02 19:00:00 show movie Lake Placid, on own channel advertise movie The Good Son
+At 2024-10-02 19:30:00 show movie Lake Placid, on own channel advertise movie Speed Racer
+At 2024-10-02 20:00:00 show movie Lake Placid, on own channel advertise movie American Ultra
+At 2024-10-02 20:30:00 show movie Virus, on own channel advertise movie Monty Python's The Meaning of Life
+At 2024-10-02 21:00:00 show movie Virus, on own channel advertise movie American Ultra
+At 2024-10-02 21:30:00 show movie Virus, on own channel advertise movie Death Proof
+At 2024-10-02 22:00:00 show movie Virus, on own channel advertise movie Memento
+At 2024-10-02 22:30:00 show movie The Animal, on own channel advertise movie Marmaduke
+At 2024-10-02 23:00:00 show movie The Animal, on own channel advertise movie The Lost Boys
+At 2024-10-02 23:30:00 show movie The Animal, on own channel advertise movie The Good Son
+At 2024-10-03 07:00:00 show movie It's Alive, on own channel advertise movie Speed Racer
+At 2024-10-03 07:30:00 show movie It's Alive, on own channel advertise movie American Ultra
+At 2024-10-03 08:00:00 show movie It's Alive, on own channel advertise movie Marmaduke
+At 2024-10-03 08:30:00 show movie The Lost Boys, on own channel advertise movie American Ultra
+At 2024-10-03 09:00:00 show movie The Lost Boys, sell adslot with viewership 133510.25674010173
+At 2024-10-03 09:30:00 show movie The Lost Boys, sell adslot with viewership 135204.98687886895
+At 2024-10-03 10:00:00 show movie The Lost Boys, on own channel advertise movie Marmaduke
+At 2024-10-03 10:30:00 show movie The Florida Project, sell adslot with viewership 26182.46517346511
+At 2024-10-03 11:00:00 show movie The Florida Project, sell adslot with viewership 28166.496551810615
+At 2024-10-03 11:30:00 show movie The Florida Project, sell adslot with viewership 30363.896959466634
+At 2024-10-03 12:00:00 show movie The Florida Project, sell adslot with viewership 32745.434061347125
+At 2024-10-03 12:30:00 show movie Four Weddings and a Funeral, on own channel advertise movie Death Proof
+At 2024-10-03 13:00:00 show movie Four Weddings and a Funeral, on own channel advertise movie The Good Son
+At 2024-10-03 13:30:00 show movie Four Weddings and a Funeral, on own channel advertise movie Death Proof
+At 2024-10-03 14:00:00 show movie Four Weddings and a Funeral, on own channel advertise movie Marmaduke
+At 2024-10-03 14:30:00 show movie Four Weddings and a Funeral, on own channel advertise movie The Good Son
+At 2024-10-03 15:00:00 show movie The Fifth Element, on own channel advertise movie Honey
+At 2024-10-03 15:30:00 show movie The Fifth Element, on own channel advertise movie Bio-Dome
+At 2024-10-03 16:00:00 show movie The Fifth Element, on own channel advertise movie Alive
+At 2024-10-03 16:30:00 show movie The Fifth Element, on own channel advertise movie Death Proof
+At 2024-10-03 17:00:00 show movie The Fifth Element, on own channel advertise movie Memento
+At 2024-10-03 17:30:00 show movie Transporter 3, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-03 18:00:00 show movie Transporter 3, on own channel advertise movie 300: Rise of an Empire
+At 2024-10-03 18:30:00 show movie Transporter 3, on own channel advertise movie American Ultra
+At 2024-10-03 19:00:00 show movie Transporter 3, on own channel advertise movie Star Trek Into Darkness
+At 2024-10-03 19:30:00 show movie Life of Pi, on own channel advertise movie The Good Son
+At 2024-10-03 20:00:00 show movie Life of Pi, on own channel advertise movie Star Trek Into Darkness
+At 2024-10-03 20:30:00 show movie Life of Pi, on own channel advertise movie Speed Racer
+At 2024-10-03 21:00:00 show movie Life of Pi, on own channel advertise movie Honey
+At 2024-10-03 21:30:00 show movie Life of Pi, on own channel advertise movie Alien
+At 2024-10-03 22:00:00 show movie Monty Python's The Meaning of Life, sell adslot with viewership 113263.54368117932
+At 2024-10-03 22:30:00 show movie Monty Python's The Meaning of Life, on own channel advertise movie Speed Racer
+At 2024-10-03 23:00:00 show movie Monty Python's The Meaning of Life, on own channel advertise movie 300: Rise of an Empire
+At 2024-10-03 23:30:00 show movie Monty Python's The Meaning of Life, on own channel advertise movie Bio-Dome
+At 2024-10-04 07:00:00 show movie Mars Needs Moms, on own channel advertise movie American Ultra
+At 2024-10-04 07:30:00 show movie Mars Needs Moms, on own channel advertise movie Star Trek Into Darkness
+At 2024-10-04 08:00:00 show movie Mars Needs Moms, on own channel advertise movie 300: Rise of an Empire
+At 2024-10-04 08:30:00 show movie Star Trek Into Darkness, on own channel advertise movie Bio-Dome
+At 2024-10-04 09:00:00 show movie Star Trek Into Darkness, on own channel advertise movie Alive
+At 2024-10-04 09:30:00 show movie Star Trek Into Darkness, sell adslot with viewership 194711.9040215857
+At 2024-10-04 10:00:00 show movie Star Trek Into Darkness, sell adslot with viewership 197155.35475534268
+At 2024-10-04 10:30:00 show movie Star Trek Into Darkness, on own channel advertise movie Bio-Dome
+At 2024-10-04 11:00:00 show movie Enchanted, on own channel advertise movie Marmaduke
+At 2024-10-04 11:30:00 show movie Enchanted, on own channel advertise movie Honey
+At 2024-10-04 12:00:00 show movie Enchanted, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-04 12:30:00 show movie Enchanted, on own channel advertise movie American Ultra
+At 2024-10-04 13:00:00 show movie Alien, on own channel advertise movie Death Proof
+At 2024-10-04 13:30:00 show movie Alien, sell adslot with viewership 172610.16809174928
+At 2024-10-04 14:00:00 show movie Alien, sell adslot with viewership 180746.59485846755
+At 2024-10-04 14:30:00 show movie Alien, sell adslot with viewership 189026.2449982646
+At 2024-10-04 15:00:00 show movie Alien, sell adslot with viewership 197221.55273494776
+At 2024-10-04 15:30:00 show movie Honey, on own channel advertise movie Marmaduke
+At 2024-10-04 16:00:00 show movie Honey, sell adslot with viewership 87946.5958176269
+At 2024-10-04 16:30:00 show movie Honey, sell adslot with viewership 90244.24114213117
+At 2024-10-04 17:00:00 show movie Honey, sell adslot with viewership 91735.12849863883
+At 2024-10-04 17:30:00 show movie Death Proof, on own channel advertise movie Speed Racer
+At 2024-10-04 18:00:00 show movie Death Proof, on own channel advertise movie Alive
+At 2024-10-04 18:30:00 show movie Death Proof, on own channel advertise movie American Ultra
+At 2024-10-04 19:00:00 show movie Death Proof, on own channel advertise movie 300: Rise of an Empire
+At 2024-10-04 19:30:00 show movie Speed Racer, sell adslot with viewership 232472.89904693235
+At 2024-10-04 20:00:00 show movie Speed Racer, sell adslot with viewership 228659.18044751917
+At 2024-10-04 20:30:00 show movie Speed Racer, sell adslot with viewership 224791.3673967834
+At 2024-10-04 21:00:00 show movie Speed Racer, on own channel advertise movie American Ultra
+At 2024-10-04 21:30:00 show movie Speed Racer, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-04 22:00:00 show movie Capone, on own channel advertise movie Alive
+At 2024-10-04 22:30:00 show movie Capone, sell adslot with viewership 34027.8125961508
+At 2024-10-04 23:00:00 show movie Capone, on own channel advertise movie Bio-Dome
+At 2024-10-04 23:30:00 show movie Capone, on own channel advertise movie American Ultra
+At 2024-10-05 07:00:00 show movie The Water Diviner, on own channel advertise movie Bio-Dome
+At 2024-10-05 07:30:00 show movie The Water Diviner, on own channel advertise movie Bio-Dome
+At 2024-10-05 08:00:00 show movie The Water Diviner, on own channel advertise movie Bio-Dome
+At 2024-10-05 08:30:00 show movie The Water Diviner, on own channel advertise movie Bio-Dome
+At 2024-10-05 09:00:00 show movie 300: Rise of an Empire, sell adslot with viewership 197340.951839099
+At 2024-10-05 09:30:00 show movie 300: Rise of an Empire, sell adslot with viewership 198951.9528694076
+At 2024-10-05 10:00:00 show movie 300: Rise of an Empire, sell adslot with viewership 201779.5390427558
+At 2024-10-05 10:30:00 show movie 300: Rise of an Empire, on own channel advertise movie Bio-Dome
+At 2024-10-05 11:00:00 show movie American Ultra, sell adslot with viewership 406289.9528908104
+At 2024-10-05 11:30:00 show movie American Ultra, sell adslot with viewership 410168.8298976663
+At 2024-10-05 12:00:00 show movie American Ultra, sell adslot with viewership 414457.5364052422
+At 2024-10-05 12:30:00 show movie American Ultra, sell adslot with viewership 419153.1845268972
+At 2024-10-05 13:00:00 show movie Memento, on own channel advertise movie The Good Son
+At 2024-10-05 13:30:00 show movie Memento, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-05 14:00:00 show movie Memento, sell adslot with viewership 182195.2015873266
+At 2024-10-05 14:30:00 show movie Memento, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-05 15:00:00 show movie Marmaduke, sell adslot with viewership 168783.2244254375
+At 2024-10-05 15:30:00 show movie Marmaduke, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-05 16:00:00 show movie Marmaduke, sell adslot with viewership 178331.84159357747
+At 2024-10-05 16:30:00 show movie Bio-Dome, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-05 17:00:00 show movie Bio-Dome, sell adslot with viewership 78676.51979368966
+At 2024-10-05 17:30:00 show movie Bio-Dome, on own channel advertise movie Dracula: Dead and Loving It
+At 2024-10-05 18:00:00 show movie Bio-Dome, sell adslot with viewership 78911.81961916627
+At 2024-10-05 18:30:00 show movie Alive, sell adslot with viewership 160584.02084892907
+At 2024-10-05 19:00:00 show movie Alive, sell adslot with viewership 159054.9237074192
+At 2024-10-05 19:30:00 show movie Alive, sell adslot with viewership 156935.24302579748
+At 2024-10-05 20:00:00 show movie Alive, sell adslot with viewership 154411.97067101925
+At 2024-10-05 20:30:00 show movie Alive, sell adslot with viewership 151630.9125711124
+At 2024-10-05 21:00:00 show movie Dracula: Dead and Loving It, sell adslot with viewership 492282.12327774195
+At 2024-10-05 21:30:00 show movie Dracula: Dead and Loving It, sell adslot with viewership 487826.1375360588
+At 2024-10-05 22:00:00 show movie Dracula: Dead and Loving It, sell adslot with viewership 483360.9239069872
+At 2024-10-05 22:30:00 show movie The Good Son, sell adslot with viewership 296134.2232527844
+At 2024-10-05 23:00:00 show movie The Good Son, sell adslot with viewership 291650.18955643504
+At 2024-10-05 23:30:00 show movie The Good Son, sell adslot with viewership 287496.0646940912

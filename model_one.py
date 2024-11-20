@@ -11,7 +11,8 @@ start_time = time()
 xp.init('C:/xpressmp/bin/xpauth.xpr')
 
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
-movie_db_df = pd.read_csv('data/movie_database_with_license_fee_100.csv', parse_dates=['release_date'])
+# movie_db_df = pd.read_csv('data/movie_database_with_license_fee_100.csv', parse_dates=['release_date'])
+movie_db_df = pd.read_csv('data/filtered_movie_database_135.csv', parse_dates=['release_date'])
 
 channel_0_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
 channel_1_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_1_schedule.csv', parse_dates=['Date-Time'])
@@ -19,9 +20,9 @@ channel_2_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_2_schedule.csv', par
 conversion_rates_0_df = pd.read_csv('data/FIRST_WEEK_channel_0_conversion_rates.csv', parse_dates=['Date-Time'])
 conversion_rates_1_df = pd.read_csv('data/FIRST_WEEK_channel_1_conversion_rates.csv', parse_dates=['Date-Time'])
 conversion_rates_2_df = pd.read_csv('data/FIRST_WEEK_channel_2_conversion_rates.csv', parse_dates=['Date-Time'])
-genre_conversion_0_df = pd.read_csv('data/movies_adslots_conversion_0_100.csv')
-genre_conversion_1_df = pd.read_csv('data/movies_adslots_conversion_1_100.csv')
-genre_conversion_2_df = pd.read_csv('data/movies_adslots_conversion_2_100.csv')
+genre_conversion_0_df = pd.read_csv('data/movies_adslots_conversion_0_135.csv')
+genre_conversion_1_df = pd.read_csv('data/movies_adslots_conversion_1_135.csv')
+genre_conversion_2_df = pd.read_csv('data/movies_adslots_conversion_2_135.csv')
 
 
 cutoff = datetime(2024, 10, 8, 0, 0, 0)
@@ -342,7 +343,7 @@ cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_3Days_100Movies_{str(now)}.txt", "w") as f:
+with open(f"./output/output_7Days_135Movies_{str(now)}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')

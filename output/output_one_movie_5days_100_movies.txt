@@ -1,0 +1,764 @@
+Ad slot variables added,  0.8552842140197754
+Viewership variables added,  0.9495995044708252
+Variables added,  0.9495995044708252
+Constaint 1 added,  0.9652235507965088
+Constaint 2 added,  1.0021693706512451
+Constaint 3 added,  1.0042102336883545
+Constaint 4 added,  2.589752435684204
+Constaint 5 added,  2.7258799076080322
+Constaint 6 added,  3.1049394607543945
+Constaint 7 added,  3.1997220516204834
+Constaint 8 added,  5.873128175735474
+Constaint u added,  1590.7206766605377
+Constaint 10 added,  1591.3389179706573
+Constaint 11 added,  1591.3389179706573
+time to intialise problem:  1591.3707032203674
+FICO Xpress v9.4.2, Hyper, solve started 0:40:38, Nov 20, 2024
+Heap usage: 320MB (peak 320MB, 18MB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+    215216 rows       115900 cols      8203070 elements     98700 entities
+Presolved problem has:
+    176116 rows        96350 cols      8069812 elements     79150 entities
+LP relaxation tightened
+Presolve finished in 32 seconds
+Heap usage: 454MB (peak 737MB, 18MB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 8.89e-09,  1.00e+06] / [ 8.89e-09,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  9.99e+03] / [ 1.96e-02,  1.65e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 1.00e+00,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 6.3GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,  42s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.637E+10   .0000000 |           factorize     
+ p  1.637E+10   .0000000 |           factorize     
+ p  1.637E+10   .0000000 |           factorize     
+ p  1.637E+10   .0000000 |           factorize     
+ p  1.637E+10   .0000000 |           factorize     
+ p  1.637E+10   .0000000 |           factorize     
+ p  1.590E+10   .0000000 |           factorize     
+ p  1.524E+10   .0000000 |           factorize     
+ p  1.449E+10   .0000000 |           factorize     
+ p  1.393E+10   .0000000 |           factorize     
+ p  1.327E+10   .0000000 |           factorize     
+ p  1.223E+10   .0000000 |           factorize     
+ p  1.120E+10   .0000000 |           factorize     
+ p  1.006E+10   .0000000 |           factorize     
+ p  9.022E+09   .0000000 |           factorize     
+ p  7.798E+09   .0000000 |           factorize     
+ p  6.668E+09   .0000000 |           factorize     
+ p  5.655E+09   .0000000 |           factorize     
+ p  5.651E+09   .0000000 |           factorize     
+ p  5.650E+09   .0000000 |           factorize     
+
+              Concurrent-Solve,  70s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  5.647E+09   .0000000 |           factorize     
+ p  5.645E+09   .0000000 |           factorize     
+ p  4.503E+09   .0000000 |           factorize     
+ p  3.181E+09   .0000000 |           factorize     
+ p  1.869E+09   .0000000 |           factorize     
+ p  4.587E+08   .0000000 |           factorize     
+ p  1.709E+08   .0000000 |           factorize     
+ p  1.708E+08   .0000000 |           factorize     
+ p  1.708E+08   .0000000 |           factorize     
+ p  1.708E+08   .0000000 |           factorize     
+ p  1.708E+08   .0000000 |           factorize     
+ p  1.708E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  97s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 135s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 171s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 207s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 222s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 254s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 268s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |           factorize     
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  4.036E+10   .0000000
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+ p  1.701E+08   .0000000 |  B  8.425E+10  4.720E+09
+
+              Concurrent-Solve, 289s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  6.514E+10  6.807E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  3.160E+10  8.125E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+
+              Concurrent-Solve, 301s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  1.450E+10  3.738E+09
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  4.731E+09  5.559E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+
+              Concurrent-Solve, 313s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  1.850E+09  3.125E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  6.606E+08  1.826E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+ p  1.701E+08   .0000000 |  B  2.369E+08  1.519E+08
+
+              Concurrent-Solve, 326s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.759E+08  1.669E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.699E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+
+              Concurrent-Solve, 335s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |  B  1.700E+08  1.700E+08
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+
+              Concurrent-Solve, 346s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+
+              Concurrent-Solve, 374s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+
+              Concurrent-Solve, 374s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+
+              Concurrent-Solve, 374s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+
+              Concurrent-Solve, 394s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+
+              Concurrent-Solve, 394s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |           crossover     
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 400s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 409s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 417s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 426s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 435s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 442s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 451s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+
+              Concurrent-Solve, 459s
+            Dual                      Barrier      
+    objective   sum inf        objective   sum inf 
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+ p  1.701E+08   .0000000 |  P  1.700E+08   .0000000
+----- interrupted ------ | ------- optimal --------
+Concurrent statistics:
+           Dual: 104355 simplex iterations, 425.85s
+        Barrier: 12 barrier and 21107 simplex iterations, 425.52s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support, crossover used 7 threads
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+  2245       170000000.0      P      0     0        .000000   462
+Barrier solved problem
+  12 barrier and 21107 simplex iterations in 426.05 seconds at time 462
+
+Final objective                       : 1.699999999999996e+08
+  Max primal violation      (abs/rel) :       0.0 /       0.0
+  Max dual violation        (abs/rel) : 8.999e-07 / 6.399e-07
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+High attention level predicted from matrix features
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+Heuristic s running ( 22550 LP iterations in    0.7 seconds)
+   1  K                170000000.0      0  10000      0             7966   1039
+   2  K                170000000.0      0  10000   9244             6991   1226
+   3  K                170000000.0      0  10000   9982             6082   1399
+   4  K                170000000.0      0  10000  10161             5293   1573
+   5  K                170000000.0      0  10000  10105             5144   1736
+   6  K                170000000.0      0  10000   9980             5184   1916
+   7  K                170000000.0      0  10000  10048             5210   2099
+   8  K                170000000.0      0  10000  10053             5124   2275
+   9  K                170000000.0      0  10000   9978             5336   2414
+  10  K                170000000.0      0  10000   9899             5227   2620
+  11  K                170000000.0      0  10000   9992             5134   2863
+  12  K                169970630.5      0  10000   9970             4299   3069
+  13  K                169261257.3      0  10000   9490             4622   3274
+  14  K                169187702.9      0  10000   7956             5866   3439
+  15  K                168694193.0      0  10000   1444             6603   3631
+  16  K                167906207.0      0  10000   5604             6353   3783
+  17  K                167485356.8      0  10000  10076             6496   3906
+  18  K                166602289.2      0  10000  14703             5759   4184
+  19  K                166552772.1      0  10000  10297             7382   4447
+  20  K                166353176.4      0  10000   8556             7634   4684
+  21  K                166290712.9      0  10000  12600             7599   4942
+  22  K                166072412.4      0  10000  10557             7205   5109
+  23  K                165951289.2      0  10000  12250             6372   5313
+  24  K                165875000.7      0  10000  10696             6013   5496
+  25  K                165638068.2      0  10000  24298             5940   5648
+  26  G                164905614.4      0  10000      0             5648   5772
+  27  G                164705522.7      0  10000  20012             6463   5843
+Heuristic s running ( 21269 LP iterations in    0.5 seconds)
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+M         10591002.28  164705522.7      1                 93.57%       0   6455
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=6455.00).
+ 
+Cuts in the matrix         : 2049
+Cut elements in the matrix : 146196
+ *** Search unfinished ***    Time:  6456.73 Nodes:          0
+Final MIP objective                   : 1.059100228027165e+07
+Final MIP bound                       : 1.647055226944836e+08
+  Solution time / primaldual integral :   6456.73s/ 99.998896%
+  Number of solutions found / nodes   :         1 /         0
+  Max primal violation      (abs/rel) :       0.0 /       0.0
+  Max integer violation     (abs    ) :       0.0
+solve time,  8048.284262180328
+10849214.460000005
+solution output,  8049.324301958084

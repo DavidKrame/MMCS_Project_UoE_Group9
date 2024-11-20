@@ -27,8 +27,8 @@ if __name__ == "__main__":
     conversion_rates_1_df = conversion_rates_1_df.drop(conversion_rates_1_df[(conversion_rates_1_df['Date-Time'] > late_cutoff) & (conversion_rates_1_df['Date-Time'] < early_cutoff)].index)
     conversion_rates_2_df = conversion_rates_2_df.drop(conversion_rates_2_df[(conversion_rates_2_df['Date-Time'] > late_cutoff) & (conversion_rates_2_df['Date-Time'] < early_cutoff)].index)
 
-    movie_db_df = pd.read_csv('data/movie_database_with_license_fee_100.csv', parse_dates=['release_date'])
-    movie_genre_df = pd.read_csv('data/movie_genre_hot_one_100.csv')
+    movie_db_df = pd.read_csv('data/filtered_movie_database_135.csv', parse_dates=['release_date'])
+    movie_genre_df = pd.read_csv('data/filtered_movie_database_genre_hot_one_135.csv')
 
     # movie_db_df = pd.read_csv('data/movie_database_with_license_fee_300.csv', parse_dates=['release_date'])
     # movie_genre_df = pd.read_csv('data/movie_genre_hot_one_300.csv')
@@ -51,9 +51,9 @@ if __name__ == "__main__":
     # output_1 = 'data/movies_adslots_conversion_1.csv'
     # output_2 = 'data/movies_adslots_conversion_2.csv'
 
-    output_0 = 'data/movies_adslots_conversion_0_100.csv'
-    output_1 = 'data/movies_adslots_conversion_1_100.csv'
-    output_2 = 'data/movies_adslots_conversion_2_100.csv'
+    output_0 = 'data/movies_adslots_conversion_0_135.csv'
+    output_1 = 'data/movies_adslots_conversion_1_135.csv'
+    output_2 = 'data/movies_adslots_conversion_2_135.csv'
 
     create_conversion_rate_csv(output_0, conversion_rates_0_df, movie_genre_df, number_of_movies, Movies, Ad_slots_0, number_of_ad_slots_0)
     create_conversion_rate_csv(output_1, conversion_rates_1_df, movie_genre_df, number_of_movies, Movies, Ad_slots_1, number_of_ad_slots_1)
