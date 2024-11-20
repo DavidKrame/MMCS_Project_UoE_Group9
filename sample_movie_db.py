@@ -7,10 +7,10 @@ def get_sample_of_movie_db(file_path, reduced_df_output_file, genre_hot_one_outp
     write this to a new csv
     """
 
-    df = pd.read_csv(file_path, parse_dates=['release_date'])
-    reduced_df = df.sample(n=sample_size, random_state=1)
+    reduced_df = pd.read_csv(file_path, parse_dates=['release_date'])
+    # reduced_df = df.sample(n=sample_size, random_state=1)
 
-    reduced_df.to_csv(reduced_df_output_file, index=False)
+    # reduced_df.to_csv(reduced_df_output_file, index=False)
 
     reduced_df['genres'] = reduced_df['genres'].apply(eval)
     
@@ -32,8 +32,16 @@ sample_size = 135
 #     )
 
 get_sample_of_movie_db(
-    'data/filtered_movie_database.csv',
+    'data/filtered_movie_database_working_days.csv',
     f'data/filtered_movie_database_{sample_size}.csv',
-    f'data/filtered_movie_database_genre_hot_one_{sample_size}.csv',
+    'data/filtered_movie_database_genre_hot_one_working_days.csv',
     sample_size
     )
+
+get_sample_of_movie_db(
+    'data/filtered_movie_database_weekend.csv',
+    f'data/filtered_movie_database_{sample_size}.csv',
+    'data/filtered_movie_database_genre_hot_one_weekend.csv',
+    sample_size
+    )
+
