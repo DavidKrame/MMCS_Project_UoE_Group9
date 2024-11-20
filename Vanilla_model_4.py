@@ -199,19 +199,19 @@ model.addConstraint(
 print('Constaint 7 added, ', time() - start_time)
 # 8. Only advertise before the movie is scheduled
 model.addConstraint(
-    z0[i][r]*(channel_0_df['Date-Time'].loc[r] - start_of_week).total_seconds()/60 <= start[i]
+    z0[i][r]*(channel_0_df['Date-Time'].iloc[r] - start_of_week).total_seconds()/60 <= start[i]
     for i in Movies for r in Ad_slots_0
 )
 model.addConstraint(
-    z1[i][s]*(channel_1_df['Date-Time'].loc[s] - start_of_week).total_seconds()/60 <= start[i]
+    z1[i][s]*(channel_1_df['Date-Time'].iloc[s] - start_of_week).total_seconds()/60 <= start[i]
     for i in Movies for s in Ad_slots_1
 )
 model.addConstraint(
-    z2[i][t]*(channel_2_df['Date-Time'].loc[t] - start_of_week).total_seconds()/60 <= start[i]
+    z2[i][t]*(channel_2_df['Date-Time'].iloc[t] - start_of_week).total_seconds()/60 <= start[i]
     for i in Movies for t in Ad_slots_2
 )
 model.addConstraint(
-    w[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
+    w[i][j]*(my_channel_df['Date-Time'].iloc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
     for i in Movies for j in Time_slots
 )
 
@@ -251,25 +251,25 @@ model.addConstraint(
 print('Constaint 10 added, ', time() - start_time)
 
 # 11. license fees and advertising slots bought must be within budget
-# model.addConstraint(
-#     xp.Sum(
-#         y[i] * movie_db_df['license_fee'].iloc[i]
-#         for i in Movies
-#     )
-#     + xp.Sum(
-#         z0[i][r] * channel_0_df['ad_slot_price'].loc[r]
-#         for i in Movies for r in Ad_slots_0
-#     )
-#     + xp.Sum(
-#         z1[i][s] * channel_1_df['ad_slot_price'].loc[s]
-#         for i in Movies for s in Ad_slots_1
-#     )
-#     + xp.Sum(
-#         z2[i][t] * channel_2_df['ad_slot_price'].loc[t]
-#         for i in Movies for t in Ad_slots_2
-#     )
-#     <= budget
-# )
+model.addConstraint(
+    xp.Sum(
+        y[i] * movie_db_df['license_fee'].iloc[i]
+        for i in Movies
+    )
+    + xp.Sum(
+        z0[i][r] * channel_0_df['ad_slot_price'].iloc[r]
+        for i in Movies for r in Ad_slots_0
+    )
+    + xp.Sum(
+        z1[i][s] * channel_1_df['ad_slot_price'].iloc[s]
+        for i in Movies for s in Ad_slots_1
+    )
+    + xp.Sum(
+        z2[i][t] * channel_2_df['ad_slot_price'].iloc[t]
+        for i in Movies for t in Ad_slots_2
+    )
+    <= budget
+)
 
 print('Constaint 11 added, ', time() - start_time)
 

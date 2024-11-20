@@ -146,12 +146,12 @@ print('Constaint 3 added, ', time() - start_time)
 start_of_week = datetime(2024, 10, 1, 0, 0, 0)
 
 model.addConstraint(
-    end[i] >= x[i][j]*(my_channel_df['Date-Time'].loc[j] + timedelta(minutes=30)- start_of_week).total_seconds()/60
+    end[i] >= x[i][j]*(my_channel_df['Date-Time'].iloc[j] + timedelta(minutes=30)- start_of_week).total_seconds()/60
     for i in Movies for j in Time_slots
     )
 
 model.addConstraint(
-    start[i] <= x[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week).total_seconds()/60 + (1 - x[i][j])*(10080 - movie_db_df['runtime_with_ads'].loc[i])
+    start[i] <= x[i][j]*(my_channel_df['Date-Time'].iloc[j] - start_of_week).total_seconds()/60 + (1 - x[i][j])*(10080 - movie_db_df['runtime_with_ads'].loc[i])
     for i in Movies for j in Time_slots
     )
 
@@ -200,19 +200,19 @@ model.addConstraint(
 print('Constaint 7 added, ', time() - start_time)
 # 8. Only advertise before the movie is scheduled
 model.addConstraint(
-    z0[i][r]*(channel_0_df['Date-Time'].loc[r] - start_of_week).total_seconds()/60 <= start[i]
+    z0[i][r]*(channel_0_df['Date-Time'].iloc[r] - start_of_week).total_seconds()/60 <= start[i]
     for i in Movies for r in Ad_slots_0
 )
 model.addConstraint(
-    z1[i][s]*(channel_1_df['Date-Time'].loc[s] - start_of_week).total_seconds()/60 <= start[i]
+    z1[i][s]*(channel_1_df['Date-Time'].iloc[s] - start_of_week).total_seconds()/60 <= start[i]
     for i in Movies for s in Ad_slots_1
 )
 model.addConstraint(
-    z2[i][t]*(channel_2_df['Date-Time'].loc[t] - start_of_week).total_seconds()/60 <= start[i]
+    z2[i][t]*(channel_2_df['Date-Time'].iloc[t] - start_of_week).total_seconds()/60 <= start[i]
     for i in Movies for t in Ad_slots_2
 )
 model.addConstraint(
-    w[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
+    w[i][j]*(my_channel_df['Date-Time'].iloc[j] - start_of_week + timedelta(minutes=30)).total_seconds()/60 <= start[i]
     for i in Movies for j in Time_slots
 )
 
