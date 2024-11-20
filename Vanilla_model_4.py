@@ -336,6 +336,10 @@ u_sol = model.getSolution(u)
 # pd.DataFrame(v_sol).to_csv(f'solutions/v_sol_{now}.csv')
 # pd.DataFrame(q_sol).to_csv(f'solutions/q_sol_{now}.csv')
 
+best_bound = model.getAttrib('bestbound')
+
+mip_gap = 100*((model.getObjVal()-best_bound)/model.getObjVal())
+
 cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z0_sol[i][r] * channel_0_df['ad_slot_price'].loc[r] for i in Movies for r in Ad_slots_0)
 + sum(z1_sol[i][s] * channel_1_df['ad_slot_price'].loc[s] for i in Movies for s in Ad_slots_1)
@@ -349,6 +353,11 @@ with open(f"./output/output_NO_HEURISTICS_222_7Days_100Movies_{str(now)}.txt", "
     f.write('Total cost: ')
     f.write(str(cost))
     f.write('\n')
+
+    f.write('MIP gap: ')
+    f.write(str(mip_gap))
+    f.write('\n')
+
     for j in Time_slots:
         for i in Movies:
             if x_sol[i][j] == 1:
