@@ -343,7 +343,7 @@ cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_NO_HEURISTICS_222_7Days_100Movies_{str(now)}.txt", "w") as f:
+with open(f"./output/output_3Days_{str(now)}_budget_{budget}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')
