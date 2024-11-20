@@ -4,6 +4,9 @@ import xpress as xp
 from datetime import datetime, timedelta
 from time import time
 
+import csv
+import math
+
 from time_slot_viewership import movie_views_for_time_slot,comp_advertised_views_for_time_slot, own_advertised_views_for_time_slot, calculate_ad_slot_price
 
 start_time = time()
@@ -11,18 +14,17 @@ start_time = time()
 xp.init('C:/xpressmp/bin/xpauth.xpr')
 
 my_channel_df = pd.read_csv('data/AGGREGATE_FIRST_WEEK_channel_A_schedule.csv', parse_dates=['Date-Time'])
-# movie_db_df = pd.read_csv('data/movie_database_with_license_fee_100.csv', parse_dates=['release_date'])
-movie_db_df = pd.read_csv('data/filtered_movie_database_135.csv', parse_dates=['release_date'])
-
+movie_db_df = pd.read_csv('data/movie_database_with_license_fee_100.csv', parse_dates=['release_date'])
+# filtered_movie_database_135
 channel_0_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
 channel_1_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_1_schedule.csv', parse_dates=['Date-Time'])
 channel_2_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_2_schedule.csv', parse_dates=['Date-Time'])
 conversion_rates_0_df = pd.read_csv('data/FIRST_WEEK_channel_0_conversion_rates.csv', parse_dates=['Date-Time'])
 conversion_rates_1_df = pd.read_csv('data/FIRST_WEEK_channel_1_conversion_rates.csv', parse_dates=['Date-Time'])
 conversion_rates_2_df = pd.read_csv('data/FIRST_WEEK_channel_2_conversion_rates.csv', parse_dates=['Date-Time'])
-genre_conversion_0_df = pd.read_csv('data/movies_adslots_conversion_0_135.csv')
-genre_conversion_1_df = pd.read_csv('data/movies_adslots_conversion_1_135.csv')
-genre_conversion_2_df = pd.read_csv('data/movies_adslots_conversion_2_135.csv')
+genre_conversion_0_df = pd.read_csv('data/movies_adslots_conversion_0_100.csv')
+genre_conversion_1_df = pd.read_csv('data/movies_adslots_conversion_1_100.csv')
+genre_conversion_2_df = pd.read_csv('data/movies_adslots_conversion_2_100.csv')
 
 
 cutoff = datetime(2024, 10, 8, 0, 0, 0)
@@ -158,6 +160,7 @@ model.addConstraint(
     for i in Movies for j in Time_slots
     )
 
+
 print('Constaint 4 added, ', time() - start_time)
 # 5. Only one ad can be bought per avialable slot
 model.addConstraint(
@@ -288,6 +291,8 @@ model.setObjective(
 print('time to intialise problem: ', time() - start_time)
 
 model.controls.maxtime = 120
+model.controls.heurfreq = -1  # Disable heuristic frequency
+model.controls.heuremphasis = 0  # No heuristics
 # model.controls.maxnode = 1000
 # model.controls.miprelstop = 0.01
 # model.controls.tunermaxtime = 1000
@@ -343,7 +348,7 @@ cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_7Days_135Movies_{str(now)}.txt", "w") as f:
+with open(f"./output/output_NO_HEURISTICS_222_7Days_100Movies_{str(now)}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')
@@ -393,3 +398,60 @@ with open(f"./output/output_7Days_135Movies_{str(now)}.txt", "w") as f:
 f.close()
 
 print('solution output, ', time() - start_time)
+
+# STORE IN A CSV FILE, FIRST TRIAL
+
+output_filename = f"./output/output_NO_HEURISTICS_222_7Days_100Movies_{str(now)}.csv"
+
+csv_data = []
+csv_data.append(['ID', 'Date-Time', 'Channel', 'Action', 'Movie Title', 'Viewerships'])
+
+# Total cost just recorded this way
+csv_data.append(['Cost', 'N/A', 'N/A', 'Total Cost', 'N/A', str(cost)])
+
+# Process own channel stuffs
+for j in Time_slots:
+    for i in Movies:
+        date_time = my_channel_df['Date-Time'].loc[j]
+        if x_sol[i][j] == 1:
+            action = 'Show Movie'
+            channel = 'Own Channel'
+            movie_title = movie_db_df['title'].loc[i]
+            viewership = ''
+            csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
+        if w_sol[i][j] == 1:
+            action = 'Advertise Movie'
+            channel = 'Own Channel'
+            movie_title = movie_db_df['title'].loc[i]
+            viewership = ''
+            csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
+        if v_sol[i][j] == 1:
+            action = 'Sell Adslot'
+            channel = 'Own Channel'
+            movie_title = ''
+            viewership = math.ceil(u_sol[i][j])
+            csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
+
+# competitor channel events
+def process_competitor_channel(channel, ad_slots, z_sol, channel_df):
+    for j in ad_slots:
+        for i in Movies:
+            if z_sol[i][j] == 1:
+                date_time = channel_df['Date-Time'].loc[j]
+                action = 'Advertise Movie'
+                movie_title = movie_db_df['title'].loc[i]
+                viewership = ''
+                csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
+
+process_competitor_channel('Channel 0', Ad_slots_0, z0_sol, channel_0_df)
+process_competitor_channel('Channel 1', Ad_slots_1, z1_sol, channel_1_df)
+process_competitor_channel('Channel 2', Ad_slots_2, z2_sol, channel_2_df)
+
+# sort data by Date-Time
+csv_data = csv_data[:1] + sorted(csv_data[1:], key=lambda row: (row[1] if row[1] != 'N/A' else ''))
+
+with open(output_filename, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(csv_data)
+
+print(f'Solution output written to {output_filename}, Time: {time() - start_time}')

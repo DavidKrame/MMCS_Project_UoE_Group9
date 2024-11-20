@@ -1,0 +1,280 @@
+Ad slot variables added,  0.8937053680419922
+Viewership variables added,  1.0516741275787354
+Variables added,  1.0672974586486816
+Constaint 1 added,  1.0995848178863525
+Constaint 2 added,  1.1401019096374512
+Constaint 3 added,  1.1461091041564941
+Constaint 4 added,  3.618607759475708
+Constaint 5 added,  3.7723538875579834
+Constaint 6 added,  4.280894994735718
+Constaint 7 added,  4.4357874393463135
+Constaint 8 added,  8.68438196182251
+Constaint u added,  3509.299728155136
+Constaint 10 added,  3510.4953508377075
+Constaint 11 added,  3510.4953508377075
+time to intialise problem:  3510.5641474723816
+FICO Xpress v9.4.2, Hyper, solve started 13:20:57, Nov 20, 2024
+Heap usage: 570MB (peak 570MB, 35MB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+HEUREMPHASIS = 0
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+    301343 rows       162200 cols     15766196 elements    138200 entities
+Presolved problem has:
+    243794 rows       133617 cols     15059633 elements    109617 entities
+LP relaxation tightened
+Presolve finished in 87 seconds
+Heap usage: 792MB (peak 1279MB, 35MB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 8.89e-09,  1.00e+06] / [ 8.89e-09,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  9.99e+03] / [ 1.96e-02,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 1.00e+00,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 4.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve, 167s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.303E+10   .0000000 |           factorize     
+ p  2.265E+10   .0000000 |           factorize     
+ p  2.265E+10   .0000000 |           factorize     
+ p  2.226E+10   .0000000 |           factorize     
+
+              Concurrent-Solve, 186s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.188E+10   .0000000 |           factorize     
+ p  2.111E+10   .0000000 |           factorize     
+ p  2.035E+10   .0000000 |           factorize     
+ p  1.958E+10   .0000000 |           factorize     
+ p  1.872E+10   .0000000 |           factorize     
+ p  1.786E+10   .0000000 |           factorize     
+ p  1.690E+10   .0000000 |           factorize     
+ p  1.594E+10   .0000000 |           factorize     
+ p  1.518E+10   .0000000 |           factorize     
+ p  1.441E+10   .0000000 |           factorize     
+ p  1.374E+10   .0000000 |           factorize     
+ p  1.288E+10   .0000000 |           factorize     
+ p  1.190E+10   .0000000 |           factorize     
+ p  1.094E+10   .0000000 |           factorize     
+ p  1.007E+10   .0000000 |           factorize     
+ p  9.594E+09   .0000000 |           factorize     
+ p  8.946E+09   .0000000 |           factorize     
+ p  7.674E+09   .0000000 |           factorize     
+ p  5.948E+09   .0000000 |           factorize     
+ p  3.938E+09   .0000000 |           factorize     
+
+              Concurrent-Solve, 303s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.230E+09   .0000000 |           factorize     
+ p  6.176E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 303s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 402s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 402s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 434s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 477s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 503s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+
+              Concurrent-Solve, 528s
+            Dual                      Barrier      
+    objective   sum inf         p.obj.     d.obj.  
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
+ p  2.380E+08   .0000000 |           factorize     
