@@ -285,7 +285,7 @@ model.setObjective(
 print('time to intialise problem: ', time() - start_time)
 
 model.controls.maxtime = 120
-# model.controls.heurfreq = -1  # Disable heuristic frequency
+model.controls.heurfreq = -1  # Disable heuristic frequency
 # model.controls.heuremphasis = 0  # No heuristics
 # model.controls.maxnode = 1000
 # model.controls.miprelstop = 0.01
@@ -346,7 +346,7 @@ cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_With_HEURISTICS_2Days_OurMovies_{str(now)}.txt", "w") as f:
+with open(f"./output/output_4FirstDays_OurMovies_{str(now)}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')
@@ -404,7 +404,7 @@ print('solution output, ', time() - start_time)
 
 # STORE IN A CSV FILE, FIRST TRIAL
 
-output_filename = f"./output/output_With_HEURISTICS_2Days_{str(now)}_budget_{budget}.csv"
+output_filename = f"./output/output_4FirstDays_OurMovies_{str(now)}_budget_{budget}.csv"
 
 csv_data = []
 csv_data.append(['ID', 'Date-Time', 'Channel', 'Action', 'Movie Title', 'Viewerships'])
