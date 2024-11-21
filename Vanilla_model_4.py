@@ -24,7 +24,7 @@ genre_conversion_1_df = pd.read_csv('data/movie_adslots_conversion_1_4block.csv'
 genre_conversion_2_df = pd.read_csv('data/movie_adslots_conversion_2_4block.csv')
 
 
-cutoff = datetime(2024, 10, 3, 0, 0, 0)
+cutoff = datetime(2024, 10, 5, 0, 0, 0)
 
 
 my_channel_df = my_channel_df.drop(my_channel_df[my_channel_df['Date-Time'] > cutoff].index)
