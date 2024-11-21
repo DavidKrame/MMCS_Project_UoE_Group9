@@ -18,8 +18,8 @@ def comp_advertised_views_for_time_slot(z, i, j, movie_db_df, channel_df, Demos,
     """
     views = z[i][j]*xp.Sum(
         (population * movie_db_df[f'{k}_scaled_popularity'].iloc[i])
-        *channel_df[f'{k}_baseline_view_count'].loc[j]
-        *genres_conversion_df[str(j)].loc[i]
+        *channel_df[f'{k}_baseline_view_count'].iloc[j]
+        *genres_conversion_df[str(j)].iloc[i]
         for k in Demos
         )
     return views
