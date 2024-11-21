@@ -251,25 +251,25 @@ model.addConstraint(
 print('Constaint 10 added, ', time() - start_time)
 
 # 11. license fees and advertising slots bought must be within budget
-model.addConstraint(
-    xp.Sum(
-        y[i] * movie_db_df['license_fee'].iloc[i]
-        for i in Movies
-    )
-    + xp.Sum(
-        z0[i][r] * channel_0_df['ad_slot_price'].iloc[r]
-        for i in Movies for r in Ad_slots_0
-    )
-    + xp.Sum(
-        z1[i][s] * channel_1_df['ad_slot_price'].iloc[s]
-        for i in Movies for s in Ad_slots_1
-    )
-    + xp.Sum(
-        z2[i][t] * channel_2_df['ad_slot_price'].iloc[t]
-        for i in Movies for t in Ad_slots_2
-    )
-    <= budget
-)
+# model.addConstraint(
+#     xp.Sum(
+#         y[i] * movie_db_df['license_fee'].iloc[i]
+#         for i in Movies
+#     )
+#     + xp.Sum(
+#         z0[i][r] * channel_0_df['ad_slot_price'].iloc[r]
+#         for i in Movies for r in Ad_slots_0
+#     )
+#     + xp.Sum(
+#         z1[i][s] * channel_1_df['ad_slot_price'].iloc[s]
+#         for i in Movies for s in Ad_slots_1
+#     )
+#     + xp.Sum(
+#         z2[i][t] * channel_2_df['ad_slot_price'].iloc[t]
+#         for i in Movies for t in Ad_slots_2
+#     )
+#     <= budget
+# )
 
 print('Constaint 11 added, ', time() - start_time)
 
@@ -285,7 +285,7 @@ model.setObjective(
 print('time to intialise problem: ', time() - start_time)
 
 model.controls.maxtime = 120
-model.controls.heurfreq = -1  # Disable heuristic frequency
+# model.controls.heurfreq = -1  # Disable heuristic frequency
 # model.controls.heuremphasis = 0  # No heuristics
 # model.controls.maxnode = 1000
 # model.controls.miprelstop = 0.01
