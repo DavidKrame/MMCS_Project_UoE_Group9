@@ -339,7 +339,7 @@ u_sol = model.getSolution(u)
 
 best_bound = model.getAttrib('bestbound')
 
-mip_gap = 100*((model.getObjVal()-best_bound)/model.getObjVal())
+mip_gap = 100*((best_bound - model.getObjVal())/best_bound)
 
 cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z0_sol[i][r] * channel_0_df['ad_slot_price'].loc[r] for i in Movies for r in Ad_slots_0)
