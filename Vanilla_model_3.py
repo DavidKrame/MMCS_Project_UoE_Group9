@@ -287,7 +287,7 @@ print('time to intialise problem: ', time() - start_time)
 
 model.controls.maxtime = 120
 model.controls.heurfreq = -1  # Disable heuristic frequency
-model.controls.heuremphasis = 0  # No heuristics
+# model.controls.heuremphasis = 0  # No heuristics
 # model.controls.maxnode = 1000
 # model.controls.miprelstop = 0.01
 # model.controls.tunermaxtime = 1000

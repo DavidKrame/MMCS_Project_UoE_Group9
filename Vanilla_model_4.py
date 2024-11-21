@@ -24,7 +24,7 @@ genre_conversion_1_df = pd.read_csv('data/movie_adslots_conversion_1_4block.csv'
 genre_conversion_2_df = pd.read_csv('data/movie_adslots_conversion_2_4block.csv')
 
 
-cutoff = datetime(2024, 10, 5, 0, 0, 0)
+cutoff = datetime(2024, 10, 3, 0, 0, 0)
 
 
 my_channel_df = my_channel_df.drop(my_channel_df[my_channel_df['Date-Time'] > cutoff].index)
@@ -285,8 +285,8 @@ model.setObjective(
 print('time to intialise problem: ', time() - start_time)
 
 model.controls.maxtime = 120
-model.controls.heurfreq = -1  # Disable heuristic frequency
-model.controls.heuremphasis = 0  # No heuristics
+# model.controls.heurfreq = -1  # Disable heuristic frequency
+# model.controls.heuremphasis = 0  # No heuristics
 # model.controls.maxnode = 1000
 # model.controls.miprelstop = 0.01
 # model.controls.tunermaxtime = 1000
@@ -342,7 +342,7 @@ cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
 + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_NO_HEURISTICS_222_7Days_100Movies_{str(now)}.txt", "w") as f:
+with open(f"./output/output_With_HEURISTICS_2Days_OurMovies_{str(now)}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')
@@ -395,7 +395,7 @@ print('solution output, ', time() - start_time)
 
 # STORE IN A CSV FILE, FIRST TRIAL
 
-output_filename = f"./output/output_4Days_{str(now)}_budget_{budget}.csv"
+output_filename = f"./output/output_With_HEURISTICS_2Days_{str(now)}_budget_{budget}.csv"
 
 csv_data = []
 csv_data.append(['ID', 'Date-Time', 'Channel', 'Action', 'Movie Title', 'Viewerships'])
@@ -442,7 +442,7 @@ process_competitor_channel('Channel 1', Ad_slots_1, z1_sol, channel_1_df)
 process_competitor_channel('Channel 2', Ad_slots_2, z2_sol, channel_2_df)
 
 # sort data by Date-Time
-csv_data = csv_data[:1] + sorted(csv_data[1:], key=lambda row: (row[1] if row[1] != 'N/A' else ''))
+# csv_data = csv_data[:1] + sorted(csv_data[1:], key=lambda row: (row[1] if row[1] != 'N/A' else ''))
 
 with open(output_filename, mode='w', newline='') as file:
     writer = csv.writer(file)

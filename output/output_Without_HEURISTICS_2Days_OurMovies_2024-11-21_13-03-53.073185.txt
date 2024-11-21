@@ -1,0 +1,69 @@
+Total cost: 19562303.28
+At 2024-10-01 07:00:00 show movie F9, sell adslot with viewership 32595.004199579
+At 2024-10-01 07:30:00 show movie F9, sell adslot with viewership 32329.456999987866
+At 2024-10-01 08:00:00 show movie F9, sell adslot with viewership 30606.845073919347
+At 2024-10-01 08:30:00 show movie F9, sell adslot with viewership 28654.541793738823
+At 2024-10-01 09:00:00 show movie F9, sell adslot with viewership 28152.31976885571
+At 2024-10-01 09:30:00 show movie F9, sell adslot with viewership 29648.79243222767
+At 2024-10-01 10:00:00 show movie Venom, on own channel advertise movie World War Z
+At 2024-10-01 10:30:00 show movie Venom, on own channel advertise movie Kung Fu Panda
+At 2024-10-01 11:00:00 show movie Venom, on own channel advertise movie Men in Black 3
+At 2024-10-01 11:30:00 show movie Venom, on own channel advertise movie The Da Vinci Code
+At 2024-10-01 12:00:00 show movie Mission: Impossible - Fallout, on own channel advertise movie World War Z
+At 2024-10-01 12:30:00 show movie Mission: Impossible - Fallout, on own channel advertise movie Kung Fu Panda
+At 2024-10-01 13:00:00 show movie Mission: Impossible - Fallout, on own channel advertise movie The Da Vinci Code
+At 2024-10-01 13:30:00 show movie Mission: Impossible - Fallout, on own channel advertise movie Quantum of Solace
+At 2024-10-01 14:00:00 show movie Mission: Impossible - Fallout, on own channel advertise movie Men in Black 3
+At 2024-10-01 14:30:00 show movie Mission: Impossible - Fallout, on own channel advertise movie Kung Fu Panda
+At 2024-10-01 15:00:00 show movie The Da Vinci Code, sell adslot with viewership 143649.6733315972
+At 2024-10-01 15:30:00 show movie The Da Vinci Code, sell adslot with viewership 149449.20910380277
+At 2024-10-01 16:00:00 show movie The Da Vinci Code, sell adslot with viewership 154564.02023195906
+At 2024-10-01 16:30:00 show movie The Da Vinci Code, on own channel advertise movie Men in Black 3
+At 2024-10-01 17:00:00 show movie The Da Vinci Code, on own channel advertise movie The Matrix Reloaded
+At 2024-10-01 17:30:00 show movie The Da Vinci Code, on own channel advertise movie Kung Fu Panda
+At 2024-10-01 18:00:00 show movie Kung Fu Panda, on own channel advertise movie The Matrix Reloaded
+At 2024-10-01 18:30:00 show movie Kung Fu Panda, on own channel advertise movie Quantum of Solace
+At 2024-10-01 19:00:00 show movie Kung Fu Panda, sell adslot with viewership 301957.5861750174
+At 2024-10-01 19:30:00 show movie Kung Fu Panda, sell adslot with viewership 296465.6161831416
+At 2024-10-01 20:00:00 show movie Thor: The Dark World, on own channel advertise movie Quantum of Solace
+At 2024-10-01 20:30:00 show movie Thor: The Dark World, on own channel advertise movie Quantum of Solace
+At 2024-10-01 21:00:00 show movie Thor: The Dark World, on own channel advertise movie World War Z
+At 2024-10-01 21:30:00 show movie Thor: The Dark World, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-01 22:00:00 show movie Men in Black 3, sell adslot with viewership 217503.24271966808
+At 2024-10-01 22:30:00 show movie Men in Black 3, sell adslot with viewership 212364.65075888194
+At 2024-10-01 23:00:00 show movie Men in Black 3, sell adslot with viewership 207178.64303959487
+At 2024-10-01 23:30:00 show movie Men in Black 3, sell adslot with viewership 202395.5800211841
+At 2024-10-02 07:00:00 show movie Madagascar: Escape 2 Africa, on own channel advertise movie The Matrix Reloaded
+At 2024-10-02 07:30:00 show movie Madagascar: Escape 2 Africa, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 08:00:00 show movie Madagascar: Escape 2 Africa, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 08:30:00 show movie Dawn of the Planet of the Apes, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 09:00:00 show movie Dawn of the Planet of the Apes, on own channel advertise movie The Matrix Reloaded
+At 2024-10-02 09:30:00 show movie Dawn of the Planet of the Apes, on own channel advertise movie Quantum of Solace
+At 2024-10-02 10:00:00 show movie Dawn of the Planet of the Apes, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 10:30:00 show movie Dawn of the Planet of the Apes, on own channel advertise movie World War Z
+At 2024-10-02 11:00:00 show movie Alice in Wonderland, on own channel advertise movie The Matrix Reloaded
+At 2024-10-02 11:30:00 show movie Alice in Wonderland, on own channel advertise movie The Matrix Reloaded
+At 2024-10-02 12:00:00 show movie Alice in Wonderland, on own channel advertise movie Quantum of Solace
+At 2024-10-02 12:30:00 show movie Alice in Wonderland, on own channel advertise movie The Matrix Reloaded
+At 2024-10-02 13:00:00 show movie World War Z, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 13:30:00 show movie World War Z, on own channel advertise movie Quantum of Solace
+At 2024-10-02 14:00:00 show movie World War Z, on own channel advertise movie The Matrix Reloaded
+At 2024-10-02 14:30:00 show movie World War Z, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 15:00:00 show movie World War Z, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 15:30:00 show movie The Matrix Reloaded, on own channel advertise movie Quantum of Solace
+At 2024-10-02 16:00:00 show movie The Matrix Reloaded, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 16:30:00 show movie The Matrix Reloaded, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 17:00:00 show movie The Matrix Reloaded, on own channel advertise movie Quantum of Solace
+At 2024-10-02 17:30:00 show movie The Matrix Reloaded, sell adslot with viewership 453174.82655999856
+At 2024-10-02 18:00:00 show movie The Secret Life of Pets, on own channel advertise movie Rogue One: A Star Wars Story
+At 2024-10-02 18:30:00 show movie The Secret Life of Pets, on own channel advertise movie Quantum of Solace
+At 2024-10-02 19:00:00 show movie The Secret Life of Pets, on own channel advertise movie Quantum of Solace
+At 2024-10-02 19:30:00 show movie Rogue One: A Star Wars Story, sell adslot with viewership 496686.8763488504
+At 2024-10-02 20:00:00 show movie Rogue One: A Star Wars Story, sell adslot with viewership 492685.50643409154
+At 2024-10-02 20:30:00 show movie Rogue One: A Star Wars Story, sell adslot with viewership 488396.18511586526
+At 2024-10-02 21:00:00 show movie Rogue One: A Star Wars Story, sell adslot with viewership 483971.85981783294
+At 2024-10-02 21:30:00 show movie Rogue One: A Star Wars Story, sell adslot with viewership 479475.9393329932
+At 2024-10-02 22:00:00 show movie Quantum of Solace, sell adslot with viewership 655310.0968810271
+At 2024-10-02 22:30:00 show movie Quantum of Solace, sell adslot with viewership 650279.2992329362
+At 2024-10-02 23:00:00 show movie Quantum of Solace, sell adslot with viewership 645202.0804581454
+At 2024-10-02 23:30:00 show movie Quantum of Solace, sell adslot with viewership 640519.3536361908

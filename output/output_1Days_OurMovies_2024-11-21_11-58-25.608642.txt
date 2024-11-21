@@ -1,0 +1,71 @@
+Total cost: 10321070.44
+At 2024-10-01 07:00:00 show movie Ice Age: Continental Drift, sell adslot with viewership 29506.7866892227
+At 2024-10-01 07:30:00 show movie Ice Age: Continental Drift, sell adslot with viewership 29015.57199749734
+At 2024-10-01 08:00:00 show movie Ice Age: Continental Drift, sell adslot with viewership 26249.43140112984
+At 2024-10-01 08:30:00 show movie X-Men: Days of Future Past, sell adslot with viewership 29793.82122500775
+At 2024-10-01 09:00:00 show movie X-Men: Days of Future Past, sell adslot with viewership 28965.954242376913
+At 2024-10-01 09:30:00 show movie X-Men: Days of Future Past, sell adslot with viewership 30244.27126799733
+At 2024-10-01 10:00:00 show movie X-Men: Days of Future Past, sell adslot with viewership 33254.20703331248
+At 2024-10-01 10:30:00 show movie X-Men: Days of Future Past, sell adslot with viewership 37430.40105858695
+At 2024-10-01 11:00:00 show movie The Twilight Saga: Breaking Dawn - Part 2, sell adslot with viewership 85527.2222657433
+At 2024-10-01 11:30:00 show movie The Twilight Saga: Breaking Dawn - Part 2, sell adslot with viewership 92202.71900095358
+At 2024-10-01 12:00:00 show movie The Twilight Saga: Breaking Dawn - Part 2, sell adslot with viewership 99542.72482828553
+At 2024-10-01 12:30:00 show movie The Twilight Saga: Breaking Dawn - Part 2, sell adslot with viewership 107518.66243419799
+At 2024-10-01 13:00:00 show movie Spider-Man, sell adslot with viewership 83693.63406573347
+At 2024-10-01 13:30:00 show movie Spider-Man, sell adslot with viewership 92396.23380978494
+At 2024-10-01 14:00:00 show movie Spider-Man, sell adslot with viewership 101841.81077748888
+At 2024-10-01 14:30:00 show movie Spider-Man, sell adslot with viewership 111876.07125958164
+At 2024-10-01 15:00:00 show movie Spider-Man, sell adslot with viewership 122171.01396986394
+At 2024-10-01 15:30:00 show movie The Twilight Saga: Eclipse, sell adslot with viewership 206397.00990704002
+At 2024-10-01 16:00:00 show movie The Twilight Saga: Eclipse, sell adslot with viewership 214541.96889034455
+At 2024-10-01 16:30:00 show movie The Twilight Saga: Eclipse, sell adslot with viewership 221092.94439857546
+At 2024-10-01 17:00:00 show movie The Twilight Saga: Eclipse, sell adslot with viewership 225568.68389081603
+At 2024-10-01 17:30:00 show movie The Twilight Saga: Eclipse, sell adslot with viewership 227689.10319272286
+At 2024-10-01 18:00:00 show movie Kung Fu Panda, sell adslot with viewership 459751.1469870253
+At 2024-10-01 18:30:00 show movie Kung Fu Panda, sell adslot with viewership 456878.56478893047
+At 2024-10-01 19:00:00 show movie Kung Fu Panda, sell adslot with viewership 452401.1615875673
+At 2024-10-01 19:30:00 show movie Kung Fu Panda, sell adslot with viewership 446909.1915956916
+At 2024-10-01 20:00:00 show movie Maleficent, sell adslot with viewership 304556.4927691127
+At 2024-10-01 20:30:00 show movie Maleficent, sell adslot with viewership 299209.32429673773
+At 2024-10-01 21:00:00 show movie Maleficent, sell adslot with viewership 293856.92725465057
+At 2024-10-01 21:30:00 show movie Maleficent, sell adslot with viewership 288577.16556794586
+At 2024-10-01 22:00:00 show movie Despicable Me 3, sell adslot with viewership 877979.5848635586
+At 2024-10-01 22:30:00 show movie Despicable Me 3, sell adslot with viewership 873888.5260278799
+At 2024-10-01 23:00:00 show movie Despicable Me 3, sell adslot with viewership 869867.8526564576
+At 2024-10-01 23:30:00 show movie Despicable Me 3, sell adslot with viewership 866225.8373717908
+At 2024-10-01 12:20:00 on channel 0 advertise movie The Twilight Saga: Eclipse
+At 2024-10-01 12:50:00 on channel 0 advertise movie Despicable Me 3
+At 2024-10-01 13:50:00 on channel 0 advertise movie Despicable Me 3
+At 2024-10-01 17:00:00 on channel 0 advertise movie Despicable Me 3
+At 2024-10-01 17:30:00 on channel 0 advertise movie Despicable Me 3
+At 2024-10-01 18:00:00 on channel 0 advertise movie Kung Fu Panda
+At 2024-10-01 09:40:00 on channel 1 advertise movie The Twilight Saga: Eclipse
+At 2024-10-01 13:50:00 on channel 1 advertise movie The Twilight Saga: Eclipse
+At 2024-10-01 14:55:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 15:25:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 16:30:00 on channel 1 advertise movie Maleficent
+At 2024-10-01 17:00:00 on channel 1 advertise movie Maleficent
+At 2024-10-01 17:30:00 on channel 1 advertise movie Kung Fu Panda
+At 2024-10-01 18:00:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 19:05:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 19:35:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 21:10:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 21:45:00 on channel 1 advertise movie Despicable Me 3
+At 2024-10-01 07:05:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 07:35:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 08:05:00 on channel 2 advertise movie Kung Fu Panda
+At 2024-10-01 08:35:00 on channel 2 advertise movie The Twilight Saga: Breaking Dawn - Part 2
+At 2024-10-01 09:10:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 10:10:00 on channel 2 advertise movie Spider-Man
+At 2024-10-01 10:40:00 on channel 2 advertise movie The Twilight Saga: Breaking Dawn - Part 2
+At 2024-10-01 13:15:00 on channel 2 advertise movie The Twilight Saga: Eclipse
+At 2024-10-01 14:20:00 on channel 2 advertise movie Kung Fu Panda
+At 2024-10-01 15:20:00 on channel 2 advertise movie Kung Fu Panda
+At 2024-10-01 15:50:00 on channel 2 advertise movie Kung Fu Panda
+At 2024-10-01 16:55:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 17:25:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 17:55:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 18:25:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 20:00:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 20:30:00 on channel 2 advertise movie Despicable Me 3
+At 2024-10-01 21:35:00 on channel 2 advertise movie Despicable Me 3
