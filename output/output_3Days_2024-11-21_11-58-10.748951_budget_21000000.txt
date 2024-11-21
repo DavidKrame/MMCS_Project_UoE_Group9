@@ -1,0 +1,124 @@
+Total cost: 29143421.699999996
+MIP gap: -480.1624087103338
+At 2024-10-05 07:00:00 show movie Iron Man 2, on own channel advertise movie The Little Mermaid
+At 2024-10-05 07:30:00 show movie Iron Man 2, on own channel advertise movie Indiana Jones and the Dial of Destiny
+At 2024-10-05 08:00:00 show movie Iron Man 2, on own channel advertise movie Shrek Forever After
+At 2024-10-05 08:30:00 show movie Iron Man 2, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-05 09:00:00 show movie Iron Man 2, on own channel advertise movie Shrek Forever After
+At 2024-10-05 09:30:00 show movie Fast X, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 10:00:00 show movie Fast X, sell adslot with viewership 40290.46779999996
+At 2024-10-05 10:30:00 show movie Fast X, sell adslot with viewership 45605.013266666545
+At 2024-10-05 11:00:00 show movie Fast X, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-05 11:30:00 show movie Fast X, on own channel advertise movie Frozen
+At 2024-10-05 12:00:00 show movie Fast X, on own channel advertise movie The Little Mermaid
+At 2024-10-05 12:30:00 show movie Doctor Strange, on own channel advertise movie Frozen II
+At 2024-10-05 13:00:00 show movie Doctor Strange, on own channel advertise movie Shrek Forever After
+At 2024-10-05 13:30:00 show movie Doctor Strange, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 14:00:00 show movie Doctor Strange, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-05 14:30:00 show movie Cars 2, on own channel advertise movie Frozen
+At 2024-10-05 15:00:00 show movie Cars 2, sell adslot with viewership 116340.40474257174
+At 2024-10-05 15:30:00 show movie Cars 2, on own channel advertise movie Shrek Forever After
+At 2024-10-05 16:00:00 show movie Cars 2, on own channel advertise movie The Little Mermaid
+At 2024-10-05 16:30:00 show movie The Flash, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-05 17:00:00 show movie The Flash, on own channel advertise movie Shrek Forever After
+At 2024-10-05 17:30:00 show movie The Flash, on own channel advertise movie Frozen II
+At 2024-10-05 18:00:00 show movie The Flash, sell adslot with viewership 155213.25459999987
+At 2024-10-05 18:30:00 show movie The Flash, sell adslot with viewership 153313.10453333321
+At 2024-10-05 19:00:00 show movie The Flash, sell adslot with viewership 149559.26363333323
+At 2024-10-05 19:30:00 show movie Frozen, sell adslot with viewership 159918.90574346774
+At 2024-10-05 20:00:00 show movie Frozen, on own channel advertise movie Frozen II
+At 2024-10-05 20:30:00 show movie Frozen, sell adslot with viewership 147625.36353133706
+At 2024-10-05 21:00:00 show movie Frozen, sell adslot with viewership 141855.33101989466
+At 2024-10-05 21:30:00 show movie Aladdin, sell adslot with viewership 92425.8532298879
+At 2024-10-05 22:00:00 show movie Aladdin, sell adslot with viewership 86634.17067244103
+At 2024-10-05 22:30:00 show movie Aladdin, sell adslot with viewership 80901.23745344892
+At 2024-10-05 23:00:00 show movie Aladdin, sell adslot with viewership 75202.25165319249
+At 2024-10-05 23:30:00 show movie Aladdin, sell adslot with viewership 70003.92902146082
+At 2024-10-06 07:00:00 show movie Batman v Superman: Dawn of Justice, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 07:30:00 show movie Batman v Superman: Dawn of Justice, on own channel advertise movie Frozen II
+At 2024-10-06 08:00:00 show movie Batman v Superman: Dawn of Justice, on own channel advertise movie The Little Mermaid
+At 2024-10-06 08:30:00 show movie Batman v Superman: Dawn of Justice, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 09:00:00 show movie Batman v Superman: Dawn of Justice, on own channel advertise movie Frozen II
+At 2024-10-06 09:30:00 show movie Batman v Superman: Dawn of Justice, on own channel advertise movie Jurassic World Dominion
+At 2024-10-06 10:00:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 10:30:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie Deadpool 2
+At 2024-10-06 11:00:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie Jurassic World Dominion
+At 2024-10-06 11:30:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 12:00:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie Shrek Forever After
+At 2024-10-06 12:30:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 13:00:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie Jurassic World Dominion
+At 2024-10-06 13:30:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie Shrek Forever After
+At 2024-10-06 14:00:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie Frozen II
+At 2024-10-06 14:30:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 15:00:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie Deadpool 2
+At 2024-10-06 15:30:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie Shrek Forever After
+At 2024-10-06 16:00:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie Shrek Forever After
+At 2024-10-06 16:30:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie The Little Mermaid
+At 2024-10-06 17:00:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 17:30:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 18:00:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-06 18:30:00 show movie Deadpool 2, sell adslot with viewership 277340.80773447047
+At 2024-10-06 19:00:00 show movie Deadpool 2, sell adslot with viewership 272664.9873011534
+At 2024-10-06 19:30:00 show movie Deadpool 2, sell adslot with viewership 266714.9842162384
+At 2024-10-06 20:00:00 show movie Deadpool 2, sell adslot with viewership 260070.75589825556
+At 2024-10-06 20:30:00 show movie Deadpool 2, sell adslot with viewership 253162.43975863047
+At 2024-10-06 21:00:00 show movie Jurassic World Dominion, sell adslot with viewership 258923.5721776993
+At 2024-10-06 21:30:00 show movie Jurassic World Dominion, sell adslot with viewership 252340.76474436588
+At 2024-10-06 22:00:00 show movie Jurassic World Dominion, sell adslot with viewership 245664.5970443659
+At 2024-10-06 22:30:00 show movie Jurassic World Dominion, sell adslot with viewership 238877.19774436584
+At 2024-10-06 23:00:00 show movie Jurassic World Dominion, sell adslot with viewership 231969.50821103255
+At 2024-10-06 23:30:00 show movie Jurassic World Dominion, sell adslot with viewership 225548.02813103265
+At 2024-10-07 07:00:00 show movie The Little Mermaid, sell adslot with viewership 326447.1189332132
+At 2024-10-07 07:30:00 show movie The Little Mermaid, sell adslot with viewership 326091.04416654643
+At 2024-10-07 08:00:00 show movie The Little Mermaid, sell adslot with viewership 323820.45879987977
+At 2024-10-07 08:30:00 show movie The Little Mermaid, sell adslot with viewership 321130.2311332131
+At 2024-10-07 09:00:00 show movie The Little Mermaid, sell adslot with viewership 320090.9030665464
+At 2024-10-07 09:30:00 show movie Spider-Man: Homecoming, on own channel advertise movie Shrek Forever After
+At 2024-10-07 10:00:00 show movie Spider-Man: Homecoming, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-07 10:30:00 show movie Spider-Man: Homecoming, on own channel advertise movie Shrek Forever After
+At 2024-10-07 11:00:00 show movie Spider-Man: Homecoming, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 11:30:00 show movie Spider-Man: Homecoming, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 12:00:00 show movie Frozen II, on own channel advertise movie Shrek Forever After
+At 2024-10-07 12:30:00 show movie Frozen II, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-07 13:00:00 show movie Frozen II, sell adslot with viewership 393573.9911742044
+At 2024-10-07 13:30:00 show movie Frozen II, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 14:00:00 show movie Black Panther: Wakanda Forever, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-07 14:30:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 271927.7543250607
+At 2024-10-07 15:00:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 282561.0789250607
+At 2024-10-07 15:30:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 292862.0585917274
+At 2024-10-07 16:00:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 302202.1209250607
+At 2024-10-07 16:30:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 309917.47952506074
+At 2024-10-07 17:00:00 show movie The Hunger Games: Mockingjay - Part 1, on own channel advertise movie Shrek Forever After
+At 2024-10-07 17:30:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 739108.2260617707
+At 2024-10-07 18:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 739920.7940532872
+At 2024-10-07 18:30:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 738763.7099721887
+At 2024-10-07 19:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 735976.4819373536
+At 2024-10-07 19:30:00 show movie Shrek Forever After, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 20:00:00 show movie Shrek Forever After, sell adslot with viewership 779454.8146869465
+At 2024-10-07 20:30:00 show movie Shrek Forever After, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 21:00:00 show movie Shrek Forever After, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 21:30:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 22:00:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 22:30:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 23:00:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 23:30:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-05 07:00:00 on channel 0 advertise movie Cars 2
+At 2024-10-05 12:45:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 13:15:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 13:45:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 14:15:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 16:45:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 17:15:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 17:45:00 on channel 0 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 16:15:00 on channel 1 advertise movie Indiana Jones and the Dial of Destiny
+At 2024-10-05 16:50:00 on channel 1 advertise movie Indiana Jones and the Dial of Destiny
+At 2024-10-05 17:50:00 on channel 1 advertise movie Indiana Jones and the Dial of Destiny
+At 2024-10-05 20:25:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 23:00:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 23:35:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 11:00:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 11:30:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 12:00:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 07:10:00 on channel 2 advertise movie Cars 2
+At 2024-10-05 10:50:00 on channel 2 advertise movie Cars 2
+At 2024-10-05 23:15:00 on channel 2 advertise movie Indiana Jones and the Dial of Destiny
