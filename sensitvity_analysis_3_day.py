@@ -10,7 +10,7 @@ import math
 from time_slot_viewership import movie_views_for_time_slot,comp_advertised_views_for_time_slot, own_advertised_views_for_time_slot, calculate_ad_slot_price
 
 
-def model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, channel_2_df):
+def model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, channel_2_df, genre_conversion_0_df, genre_conversion_1_df, genre_conversion_2_df, population):
     start_time = time()
     xp.init('C:/xpressmp/bin/xpauth.xpr')
     model = xp.problem()
@@ -229,26 +229,26 @@ def model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, c
 
     print('Constaint 10 added, ', time() - start_time)
 
-    # 11. license fees and advertising slots bought must be within budget
-    # model.addConstraint(
-    #     xp.Sum(
-    #         y[i] * movie_db_df['license_fee'].iloc[i]
-    #         for i in Movies
-    #     )
-    #     + xp.Sum(
-    #         z0[i][r] * channel_0_df['ad_slot_price'].iloc[r]
-    #         for i in Movies for r in Ad_slots_0
-    #     )
-    #     + xp.Sum(
-    #         z1[i][s] * channel_1_df['ad_slot_price'].iloc[s]
-    #         for i in Movies for s in Ad_slots_1
-    #     )
-    #     + xp.Sum(
-    #         z2[i][t] * channel_2_df['ad_slot_price'].iloc[t]
-    #         for i in Movies for t in Ad_slots_2
-    #     )
-    #     <= budget
-    # )
+    #11. license fees and advertising slots bought must be within budget
+    model.addConstraint(
+        xp.Sum(
+            y[i] * movie_db_df['license_fee'].iloc[i]
+            for i in Movies
+        )
+        + xp.Sum(
+            z0[i][r] * channel_0_df['ad_slot_price'].iloc[r]
+            for i in Movies for r in Ad_slots_0
+        )
+        + xp.Sum(
+            z1[i][s] * channel_1_df['ad_slot_price'].iloc[s]
+            for i in Movies for s in Ad_slots_1
+        )
+        + xp.Sum(
+            z2[i][t] * channel_2_df['ad_slot_price'].iloc[t]
+            for i in Movies for t in Ad_slots_2
+        )
+        <= budget
+    )
 
     print('Constaint 11 added, ', time() - start_time)
 
@@ -459,7 +459,8 @@ if __name__ == "__main__":
     channel_1_df = channel_1_df.drop(channel_1_df[channel_1_df['Date-Time'] < cutoff].index)
     channel_2_df = channel_2_df.drop(channel_2_df[channel_2_df['Date-Time'] < cutoff].index)
 
-    budgets = [29143421.7, 29100000, 29050000, 29000000, 28050000]
+    budgets = [30100000, 30050000, 30000000, 29100000, 29050000, 29000000, 28050000]
+    population = 1000000
 
     for budget in budgets:
-        model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, channel_2_df, genre_conversion_0_df, genre_conversion_1_df, genre_conversion_2_df)
+        model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, channel_2_df, genre_conversion_0_df, genre_conversion_1_df, genre_conversion_2_df, population)
