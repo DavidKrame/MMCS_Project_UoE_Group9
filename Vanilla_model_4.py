@@ -150,7 +150,7 @@ model.addConstraint(
     )
 
 model.addConstraint(
-    start[i] <= x[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week).total_seconds()/60 + (1 - x[i][j])*(10080 - movie_db_df['runtime_with_ads'].loc[i])
+    start[i] <= x[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week).total_seconds()/60 + (1 - x[i][j])*(5760 - movie_db_df['runtime_with_ads'].loc[i])
     for i in Movies for j in Time_slots
     )
 
