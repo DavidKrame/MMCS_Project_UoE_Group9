@@ -134,23 +134,23 @@ model.addConstraint(xp.Sum(x[i][j] for i in Movies) == 1 for j in Time_slots)
 
 print('Constaint 1 added, ', time() - start_time)
 # 2. Movie must be scheduled for whole length
-model.addConstraint(30*xp.Sum(x[i][j] for j in Time_slots) == y[i]*movie_db_df['runtime_with_ads'].loc[i] for i in Movies)
+model.addConstraint(30*xp.Sum(x[i][j] for j in Time_slots) == y[i]*movie_db_df['runtime_with_ads'].iloc[i] for i in Movies)
 
 print('Constaint 2 added, ', time() - start_time)
 # 3. Start and end time must be length of movie
-model.addConstraint(end[i] - start[i] == y[i]*movie_db_df['runtime_with_ads'].loc[i] for i in Movies)
+model.addConstraint(end[i] - start[i] == y[i]*movie_db_df['runtime_with_ads'].iloc[i] for i in Movies)
 
 print('Constaint 3 added, ', time() - start_time)
 # 4. Movie must be scheduled for consecutive time slots
 start_of_week = datetime(2024, 10, 1, 0, 0, 0)
 
 model.addConstraint(
-    end[i] >= x[i][j]*(my_channel_df['Date-Time'].loc[j] + timedelta(minutes=30)- start_of_week).total_seconds()/60
+    end[i] >= x[i][j]*(my_channel_df['Date-Time'].iloc[j] + timedelta(minutes=30)- start_of_week).total_seconds()/60
     for i in Movies for j in Time_slots
     )
 
 model.addConstraint(
-    start[i] <= x[i][j]*(my_channel_df['Date-Time'].loc[j] - start_of_week).total_seconds()/60 + (1 - x[i][j])*(5760 - movie_db_df['runtime_with_ads'].loc[i])
+    start[i] <= x[i][j]*(my_channel_df['Date-Time'].iloc[j] - start_of_week).total_seconds()/60 + (1 - x[i][j])*(5760 - movie_db_df['runtime_with_ads'].iloc[i])
     for i in Movies for j in Time_slots
     )
 
@@ -341,12 +341,12 @@ best_bound = model.getAttrib('bestbound')
 mip_gap = 100*((best_bound - model.getObjVal())/best_bound)
 
 cost = sum(y_sol[i] * movie_db_df['license_fee'].iloc[i] for i in Movies)
-+ sum(z0_sol[i][r] * channel_0_df['ad_slot_price'].loc[r] for i in Movies for r in Ad_slots_0)
-+ sum(z1_sol[i][s] * channel_1_df['ad_slot_price'].loc[s] for i in Movies for s in Ad_slots_1)
-+ sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].loc[t] for i in Movies for t in Ad_slots_2)
++ sum(z0_sol[i][r] * channel_0_df['ad_slot_price'].iloc[r] for i in Movies for r in Ad_slots_0)
++ sum(z1_sol[i][s] * channel_1_df['ad_slot_price'].iloc[s] for i in Movies for s in Ad_slots_1)
++ sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].iloc[t] for i in Movies for t in Ad_slots_2)
 print(cost)
 # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-with open(f"./output/output_4FirstDays_OurMovies_{str(now)}.txt", "w") as f:
+with open(f"./output/output_4FirstDays_OurMovies_{str(now)}_budget_{budget}.txt", "w") as f:
     # f.write('Viewership: ')
     # f.write(str(model.getObjVal()))
     # f.write('\n')
@@ -362,13 +362,13 @@ with open(f"./output/output_4FirstDays_OurMovies_{str(now)}.txt", "w") as f:
         for i in Movies:
             if x_sol[i][j] == 1:
                 f.write("At ")
-                f.write(str(my_channel_df['Date-Time'].loc[j]))
+                f.write(str(my_channel_df['Date-Time'].iloc[j]))
                 f.write(" show movie ")
-                f.write(movie_db_df['title'].loc[i])
+                f.write(movie_db_df['title'].iloc[i])
         for i in Movies:
             if w_sol[i][j] == 1:
                 f.write(", on own channel advertise movie ")
-                f.write(movie_db_df['title'].loc[i])
+                f.write(movie_db_df['title'].iloc[i])
         for i in Movies:
             if v_sol[i][j] == 1:
                 f.write(", sell adslot with viewership ")
@@ -378,25 +378,25 @@ with open(f"./output/output_4FirstDays_OurMovies_{str(now)}.txt", "w") as f:
         for i in Movies:
             if z0_sol[i][j] == 1:
                 f.write("At ")
-                f.write(str(channel_0_df['Date-Time'].loc[j]))
+                f.write(str(channel_0_df['Date-Time'].iloc[j]))
                 f.write(" on channel 0 advertise movie ")
-                f.write(movie_db_df['title'].loc[i])
+                f.write(movie_db_df['title'].iloc[i])
                 f.write('\n')
     for j in Ad_slots_1:
         for i in Movies:
             if z1_sol[i][j] == 1:
                 f.write("At ")
-                f.write(str(channel_1_df['Date-Time'].loc[j]))
+                f.write(str(channel_1_df['Date-Time'].iloc[j]))
                 f.write(" on channel 1 advertise movie ")
-                f.write(movie_db_df['title'].loc[i])
+                f.write(movie_db_df['title'].iloc[i])
                 f.write('\n')
     for j in Ad_slots_2:
         for i in Movies:
             if z2_sol[i][j] == 1:
                 f.write("At ")
-                f.write(str(channel_2_df['Date-Time'].loc[j]))
+                f.write(str(channel_2_df['Date-Time'].iloc[j]))
                 f.write(" on channel 2 advertise movie ")
-                f.write(movie_db_df['title'].loc[i])
+                f.write(movie_db_df['title'].iloc[i])
                 f.write('\n')
 f.close()
 
@@ -415,17 +415,17 @@ csv_data.append(['Cost', 'N/A', 'N/A', 'Total Cost', 'N/A', str(cost)])
 # Process own channel stuffs
 for j in Time_slots:
     for i in Movies:
-        date_time = my_channel_df['Date-Time'].loc[j]
+        date_time = my_channel_df['Date-Time'].iloc[j]
         if x_sol[i][j] == 1:
             action = 'Show Movie'
             channel = 'Own Channel'
-            movie_title = movie_db_df['title'].loc[i]
+            movie_title = movie_db_df['title'].iloc[i]
             viewership = ''
             csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
         if w_sol[i][j] == 1:
             action = 'Advertise Movie'
             channel = 'Own Channel'
-            movie_title = movie_db_df['title'].loc[i]
+            movie_title = movie_db_df['title'].iloc[i]
             viewership = ''
             csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
         if v_sol[i][j] == 1:
@@ -440,9 +440,9 @@ def process_competitor_channel(channel, ad_slots, z_sol, channel_df):
     for j in ad_slots:
         for i in Movies:
             if z_sol[i][j] == 1:
-                date_time = channel_df['Date-Time'].loc[j]
+                date_time = channel_df['Date-Time'].iloc[j]
                 action = 'Advertise Movie'
-                movie_title = movie_db_df['title'].loc[i]
+                movie_title = movie_db_df['title'].iloc[i]
                 viewership = ''
                 csv_data.append([f'{date_time}_{channel}_{action}', date_time, channel, action, movie_title, viewership])
 
