@@ -325,7 +325,7 @@ def model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, c
     + sum(z2_sol[i][t] * channel_2_df['ad_slot_price'].iloc[t] for i in Movies for t in Ad_slots_2)
     print(cost)
     # # if solstatus != xp.SolStatus.INFEASIBLE or solstatus != xp.SolStatus.UNBOUNDED or solstatus != xp.SolStatus.UNBOUNDED:
-    with open(f"./output/output_3LatDays_OurMovies_{str(now)}_budget_{budget}.txt", "w") as f:
+    with open(f"./output/Sentivity_output_3LastDays_{str(now)}_budget_{budget}.txt", "w") as f:
         # f.write('Viewership: ')
         # f.write(str(model.getObjVal()))
         # f.write('\n')
@@ -383,7 +383,7 @@ def model_3day(budget, movie_db_df, my_channel_df, channel_0_df, channel_1_df, c
 
     # STORE IN A CSV FILE, FIRST TRIAL
 
-    output_filename = f"./output/output_3LatDays_OurMovies_{str(now)}_budget_{budget}.csv"
+    output_filename = f"./output/Sentivity_output_3LastDays_{str(now)}_budget_{budget}.csv"
 
     csv_data = []
     csv_data.append(['ID', 'Date-Time', 'Channel', 'Action', 'Movie Title', 'Viewerships'])
