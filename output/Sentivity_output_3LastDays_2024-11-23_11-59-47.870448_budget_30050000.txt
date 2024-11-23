@@ -1,0 +1,130 @@
+Total cost: 29415486.019999996
+MIP gap: 63.289184690005214
+At 2024-10-05 07:00:00 show movie Minions: The Rise of Gru, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-05 07:30:00 show movie Minions: The Rise of Gru, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-05 08:00:00 show movie Minions: The Rise of Gru, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-05 08:30:00 show movie Deadpool 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 09:00:00 show movie Deadpool 2, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-05 09:30:00 show movie Deadpool 2, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-05 10:00:00 show movie Deadpool 2, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-05 10:30:00 show movie Deadpool 2, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-05 11:00:00 show movie Thor: Love and Thunder, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-05 11:30:00 show movie Thor: Love and Thunder, sell adslot with viewership 59017.449266666605
+At 2024-10-05 12:00:00 show movie Thor: Love and Thunder, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 12:30:00 show movie Thor: Love and Thunder, sell adslot with viewership 75544.4063333332
+At 2024-10-05 13:00:00 show movie Thor: Love and Thunder, on own channel advertise movie The Flash
+At 2024-10-05 13:30:00 show movie Justice League, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-05 14:00:00 show movie Justice League, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 14:30:00 show movie Justice League, sell adslot with viewership 107716.37525459414
+At 2024-10-05 15:00:00 show movie Justice League, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 15:30:00 show movie Justice League, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 16:00:00 show movie Fast X, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 16:30:00 show movie Fast X, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-05 17:00:00 show movie Fast X, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 17:30:00 show movie Fast X, on own channel advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 18:00:00 show movie Fast X, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-05 18:30:00 show movie Fast X, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 19:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 506806.5888873065
+At 2024-10-05 19:30:00 show movie Spider-Man: Homecoming, sell adslot with viewership 501729.46956565685
+At 2024-10-05 20:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 495904.75571193604
+At 2024-10-05 20:30:00 show movie Spider-Man: Homecoming, sell adslot with viewership 489692.1027231226
+At 2024-10-05 21:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 483310.3765148037
+At 2024-10-05 21:30:00 show movie Pirates of the Caribbean: On Stranger Tides, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 22:00:00 show movie Pirates of the Caribbean: On Stranger Tides, on own channel advertise movie The Flash
+At 2024-10-05 22:30:00 show movie Pirates of the Caribbean: On Stranger Tides, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 23:00:00 show movie Pirates of the Caribbean: On Stranger Tides, on own channel advertise movie The Flash
+At 2024-10-05 23:30:00 show movie Pirates of the Caribbean: On Stranger Tides, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 07:00:00 show movie Frozen, sell adslot with viewership 33854.2664771535
+At 2024-10-06 07:30:00 show movie Frozen, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 08:00:00 show movie Frozen, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 08:30:00 show movie Frozen, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-06 09:00:00 show movie Batman v Superman: Dawn of Justice, sell adslot with viewership 1000000.0
+At 2024-10-06 09:30:00 show movie Batman v Superman: Dawn of Justice, sell adslot with viewership 1000000.0
+At 2024-10-06 10:00:00 show movie Batman v Superman: Dawn of Justice, sell adslot with viewership 1000000.0
+At 2024-10-06 10:30:00 show movie Batman v Superman: Dawn of Justice, sell adslot with viewership 1000000.0
+At 2024-10-06 11:00:00 show movie Batman v Superman: Dawn of Justice, sell adslot with viewership 1000000.0
+At 2024-10-06 11:30:00 show movie Batman v Superman: Dawn of Justice, sell adslot with viewership 1000000.0
+At 2024-10-06 12:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 521981.3943752636
+At 2024-10-06 12:30:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 529499.0101743127
+At 2024-10-06 13:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 537612.9378855885
+At 2024-10-06 13:30:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 546287.7165205518
+At 2024-10-06 14:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 555442.3093619681
+At 2024-10-06 14:30:00 show movie The Twilight Saga: Breaking Dawn - Part 1, sell adslot with viewership 110729.02806829839
+At 2024-10-06 15:00:00 show movie The Twilight Saga: Breaking Dawn - Part 1, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-06 15:30:00 show movie The Twilight Saga: Breaking Dawn - Part 1, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-06 16:00:00 show movie The Twilight Saga: Breaking Dawn - Part 1, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 16:30:00 show movie The Twilight Saga: Breaking Dawn - Part 1, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 17:00:00 show movie Shrek Forever After, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 17:30:00 show movie Shrek Forever After, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-06 18:00:00 show movie Shrek Forever After, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-06 18:30:00 show movie Shrek Forever After, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-06 19:00:00 show movie The Flash, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-06 19:30:00 show movie The Flash, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-06 20:00:00 show movie The Flash, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-06 20:30:00 show movie The Flash, sell adslot with viewership 394115.4066479658
+At 2024-10-06 21:00:00 show movie The Flash, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 21:30:00 show movie The Flash, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 22:00:00 show movie Doctor Strange, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 22:30:00 show movie Doctor Strange, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 23:00:00 show movie Doctor Strange, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 23:30:00 show movie Doctor Strange, on own channel advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-07 07:00:00 show movie Ant-Man and the Wasp: Quantumania, sell adslot with viewership 1000000.0
+At 2024-10-07 07:30:00 show movie Ant-Man and the Wasp: Quantumania, sell adslot with viewership 1000000.0
+At 2024-10-07 08:00:00 show movie Ant-Man and the Wasp: Quantumania, sell adslot with viewership 1000000.0
+At 2024-10-07 08:30:00 show movie Ant-Man and the Wasp: Quantumania, sell adslot with viewership 1000000.0
+At 2024-10-07 09:00:00 show movie Ant-Man and the Wasp: Quantumania, sell adslot with viewership 1000000.0
+At 2024-10-07 09:30:00 show movie Aladdin, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 10:00:00 show movie Aladdin, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-07 10:30:00 show movie Aladdin, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-07 11:00:00 show movie Aladdin, sell adslot with viewership 40052.30063459437
+At 2024-10-07 11:30:00 show movie Aladdin, on own channel advertise movie Doctor Strange in the Multiverse of Madness
+At 2024-10-07 12:00:00 show movie Doctor Strange in the Multiverse of Madness, sell adslot with viewership 987110.1245016605
+At 2024-10-07 12:30:00 show movie Doctor Strange in the Multiverse of Madness, sell adslot with viewership 995166.5672683343
+At 2024-10-07 13:00:00 show movie Doctor Strange in the Multiverse of Madness, sell adslot with viewership 1000000.0
+At 2024-10-07 13:30:00 show movie Doctor Strange in the Multiverse of Madness, sell adslot with viewership 1000000.0
+At 2024-10-07 14:00:00 show movie Doctor Strange in the Multiverse of Madness, sell adslot with viewership 1000000.0
+At 2024-10-07 14:30:00 show movie The Amazing Spider-Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 15:00:00 show movie The Amazing Spider-Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 15:30:00 show movie The Amazing Spider-Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 16:00:00 show movie The Amazing Spider-Man 2, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-07 16:30:00 show movie The Amazing Spider-Man 2, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-07 17:00:00 show movie The Amazing Spider-Man 2, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-07 17:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 18:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 18:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 19:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 19:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 20:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 20:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-07 21:00:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 999999.9999999987
+At 2024-10-07 21:30:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 997063.263558383
+At 2024-10-07 22:00:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 991008.5857250496
+At 2024-10-07 22:30:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 985077.9112917163
+At 2024-10-07 23:00:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 979204.3547917163
+At 2024-10-07 23:30:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 973840.5172317164
+At 2024-10-06 18:15:00 on channel 0 advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-05 10:00:00 on channel 1 advertise movie Spider-Man: Homecoming
+At 2024-10-05 12:40:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 13:10:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 13:40:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 14:10:00 on channel 1 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-06 16:40:00 on channel 1 advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-05 10:50:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 11:20:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 11:50:00 on channel 2 advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-05 12:20:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 12:55:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 13:25:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 13:55:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 14:25:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 14:55:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 16:00:00 on channel 2 advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 16:30:00 on channel 2 advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 17:00:00 on channel 2 advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-05 22:10:00 on channel 2 advertise movie Batman v Superman: Dawn of Justice
+At 2024-10-06 17:55:00 on channel 2 advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 18:25:00 on channel 2 advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 18:55:00 on channel 2 advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 19:25:00 on channel 2 advertise movie Ant-Man and the Wasp: Quantumania
+At 2024-10-06 21:30:00 on channel 2 advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-07 12:35:00 on channel 2 advertise movie The Hobbit: An Unexpected Journey
