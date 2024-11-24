@@ -1,0 +1,118 @@
+Total cost: 28352577.53
+MIP gap: 75.06386456144101
+At 2024-10-05 07:00:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 07:30:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 08:00:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie The Hobbit: An Unexpected Journey
+, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 09:00:00 show movie Ant-Man and the Wasp: Quantumania, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 09:30:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 10:00:00 show movie Star Wars: The Rise of Skywalker, sell adslot with viewership 37623.904191305075
+At 2024-10-05 10:30:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 11:00:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-05 11:30:00 show movie Star Wars: The Rise of Skywalker, sell adslot with viewership 54380.1439274936
+At 2024-10-05 12:00:00 show movie Star Wars: The Rise of Skywalker, on own channel advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-05 12:30:00 show movie Thor: Love and Thunder, sell adslot with viewership 75544.4063333332
+At 2024-10-05 13:00:00 show movie Thor: Love and Thunder, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 13:30:00 show movie Thor: Love and Thunder, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 14:00:00 show movie Thor: Love and Thunder, on own channel advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-05 14:30:00 show movie Thor: Love and Thunder, sell adslot with viewership 118150.71606666653
+At 2024-10-05 15:00:00 show movie Pirates of the Caribbean: Dead Man's Chest, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 15:30:00 show movie Pirates of the Caribbean: Dead Man's Chest, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 16:00:00 show movie Pirates of the Caribbean: Dead Man's Chest, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 16:30:00 show movie Pirates of the Caribbean: Dead Man's Chest, sell adslot with viewership 139727.73532613495
+At 2024-10-05 17:00:00 show movie Pirates of the Caribbean: Dead Man's Chest
+At 2024-10-05 17:30:00 show movie Pirates of the Caribbean: Dead Man's Chest, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 18:00:00 show movie Doctor Strange, sell adslot with viewership 148601.27827978207
+At 2024-10-05 18:30:00 show movie Doctor Strange, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 19:00:00 show movie Doctor Strange, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 19:30:00 show movie Doctor Strange, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 20:00:00 show movie Shrek 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 20:30:00 show movie Shrek 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 21:00:00 show movie Shrek 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 21:30:00 show movie Shrek 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 22:00:00 show movie Cars 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 22:30:00 show movie Cars 2, sell adslot with viewership 63314.814876379445
+At 2024-10-05 23:00:00 show movie Cars 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-05 23:30:00 show movie Cars 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-06 07:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 07:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 08:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 08:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 09:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 09:30:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 10:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 1000000.0
+At 2024-10-06 10:30:00 show movie Fast & Furious Presents: Hobbs & Shaw
+At 2024-10-06 11:00:00 show movie Fast & Furious Presents: Hobbs & Shaw
+At 2024-10-06 11:30:00 show movie Fast & Furious Presents: Hobbs & Shaw, sell adslot with viewership 54470.34325624903
+At 2024-10-06 12:00:00 show movie Fast & Furious Presents: Hobbs & Shaw, sell adslot with viewership 61729.959881592426
+At 2024-10-06 12:30:00 show movie Fast & Furious Presents: Hobbs & Shaw, sell adslot with viewership 69723.95104695274
+At 2024-10-06 13:00:00 show movie Shrek Forever After, on own channel advertise movie Captain America: Civil War
+At 2024-10-06 13:30:00 show movie Shrek Forever After, on own channel advertise movie Captain America: Civil War
+At 2024-10-06 14:00:00 show movie Shrek Forever After, sell adslot with viewership 163399.918415664
+At 2024-10-06 14:30:00 show movie Shrek Forever After, sell adslot with viewership 172760.39981259627
+At 2024-10-06 15:00:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 15:30:00 show movie Pirates of the Caribbean: At World's End, sell adslot with viewership 745857.4983265733
+At 2024-10-06 16:00:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 16:30:00 show movie Pirates of the Caribbean: At World's End, sell adslot with viewership 763818.6802560863
+At 2024-10-06 17:00:00 show movie Pirates of the Caribbean: At World's End
+At 2024-10-06 17:30:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 18:00:00 show movie Pirates of the Caribbean: At World's End, sell adslot with viewership 772352.3457105214
+At 2024-10-06 18:30:00 show movie Deadpool 2, sell adslot with viewership 149300.8920559041
+At 2024-10-06 19:00:00 show movie Deadpool 2, sell adslot with viewership 144625.07162258707
+At 2024-10-06 19:30:00 show movie Deadpool 2, sell adslot with viewership 138675.06853767202
+At 2024-10-06 20:00:00 show movie Deadpool 2, sell adslot with viewership 132030.84021968924
+At 2024-10-06 20:30:00 show movie Deadpool 2, sell adslot with viewership 125122.52408006415
+At 2024-10-06 21:00:00 show movie Captain America: Civil War, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 21:30:00 show movie Captain America: Civil War, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 22:00:00 show movie Captain America: Civil War, on own channel advertise movie The Flash
+At 2024-10-06 22:30:00 show movie Captain America: Civil War, sell adslot with viewership 247268.96896389563
+At 2024-10-06 23:00:00 show movie Captain America: Civil War, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-06 23:30:00 show movie Captain America: Civil War, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-07 07:00:00 show movie Spider-Man: Homecoming, on own channel advertise movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+At 2024-10-07 07:30:00 show movie Spider-Man: Homecoming, sell adslot with viewership 74946.08014239761
+At 2024-10-07 08:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 73031.97993128715
+At 2024-10-07 08:30:00 show movie Spider-Man: Homecoming, sell adslot with viewership 70862.65548874249
+At 2024-10-07 09:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 70304.60552003438
+At 2024-10-07 09:30:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 603387.6553628455
+At 2024-10-07 10:00:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, on own channel advertise movie The Hunger Games: Mockingjay - Part 1
+At 2024-10-07 10:30:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 609853.1579961787
+At 2024-10-07 11:00:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 614647.7478295121
+At 2024-10-07 11:30:00 show movie The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, sell adslot with viewership 620137.8192961788
+
+At 2024-10-07 12:30:00 show movie Fast X, sell adslot with viewership 185059.66130171594
+At 2024-10-07 13:00:00 show movie Fast X, sell adslot with viewership 193945.88106838265
+At 2024-10-07 13:30:00 show movie Fast X, sell adslot with viewership 203372.93653504935
+At 2024-10-07 14:00:00 show movie Fast X, sell adslot with viewership 213236.65840171592
+, sell adslot with viewership 223348.70296838257
+At 2024-10-07 15:00:00 show movie Fast X, sell adslot with viewership 233404.99910171592
+, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-07 16:00:00 show movie The Flash, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-07 16:30:00 show movie The Flash, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-07 17:00:00 show movie The Flash, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-07 18:00:00 show movie The Flash, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-07 18:30:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 175273.02148347377
+At 2024-10-07 19:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 172485.79344863878
+At 2024-10-07 19:30:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 168475.59300751166
+, sell adslot with viewership 163624.31635641353
+At 2024-10-07 20:30:00 show movie The Hunger Games: Mockingjay - Part 1, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-07 21:00:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 1000000.0
+At 2024-10-07 21:30:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 1000000.0
+At 2024-10-07 22:00:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 1000000.0
+At 2024-10-07 22:30:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 1000000.0
+At 2024-10-07 23:00:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 1000000.0
+At 2024-10-07 23:30:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 1000000.0
+At 2024-10-05 10:00:00 on channel 1 advertise movie Fast X
+At 2024-10-05 11:05:00 on channel 1 advertise movie Fast X
+At 2024-10-05 11:35:00 on channel 1 advertise movie Fast X
+At 2024-10-05 16:15:00 on channel 1 advertise movie Shrek Forever After
+At 2024-10-05 17:50:00 on channel 1 advertise movie Shrek 2
+At 2024-10-06 13:35:00 on channel 1 advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-06 14:35:00 on channel 1 advertise movie Captain America: Civil War
+At 2024-10-05 11:20:00 on channel 2 advertise movie Shrek Forever After
+At 2024-10-05 11:50:00 on channel 2 advertise movie Captain America: Civil War
+At 2024-10-05 12:20:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 14:55:00 on channel 2 advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-05 15:30:00 on channel 2 advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-05 16:30:00 on channel 2 advertise movie Pirates of the Caribbean: At World's End
+At 2024-10-05 17:00:00 on channel 2 advertise movie Pirates of the Caribbean: At World's End
