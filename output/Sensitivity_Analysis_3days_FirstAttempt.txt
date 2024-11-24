@@ -2334,3 +2334,70 @@ Heuristic R running (200000 LP iterations in  480.3 seconds)
     1800               94923020.04      0   2058     44             2346  14808
     1900               94923020.04      0   2110     60             2447  15352
     2000               94923020.04      0   2305     53             2651  16246
+Heuristic R running (50000 LP iterations in  244.1 seconds)
+Heuristic R running (100000 LP iterations in  395.7 seconds)
+Heuristic R running (150000 LP iterations in  523.1 seconds)
+    2100               94923020.04      0   2426     78             2612  17208
+Heuristic R running (50000 LP iterations in   37.9 seconds)
+Elapsed time (sec): 17957, estimated tree completion: 0.00000
+Heap usage: 3110MB (peak 3110MB, 27MB system)
+B&B tree size: 403MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2200               94923020.04      0   2620     29             2719  17957
+    2300               94900744.19      0   2738    155             2469  18556
+    2400               94900744.19      0   2945    161             2341  19256
+    2500               94900744.19      0   2971    136             2217  20097
+    2602               94900744.19      0   3117     92             2288  20842
+    2702               94900744.19      0   3117     78             2930  21661
+    2802               94900696.71      0   3171    139             2278  22613
+    2902               94900696.71      0   3313     60             2791  23630
+    3002               94900696.71      0   3506    160             2508  24587
+    3102               94900696.71      0   3604     86             2710  25445
+    3202               94900696.71      0   3726    107             2687  26281
+    3302               94900696.71      0   3748    125             2251  27067
+    3402               94900696.71      0   3748    121             2866  27798
+    3502               94900696.71      0   3748    197             2056  28805
+    3602               94887598.16      0   4032     31             2526  29668
+Heuristic R running (50000 LP iterations in  301.3 seconds)
+Heuristic R running (100000 LP iterations in  612.1 seconds)
+Heuristic R running (150000 LP iterations in  785.3 seconds)
+Heuristic R running (200000 LP iterations in  956.8 seconds)
+Heuristic R running (50000 LP iterations in  256.9 seconds)
+    3702               94887598.16      0   4226     27             2653  30601
+Heuristic R running (100000 LP iterations in  810.4 seconds)
+Heuristic R running (150000 LP iterations in  974.8 seconds)
+    3802               94887598.16      0   4345     33             2563  31350
+    3902               94887598.16      0   4345    215             2358  32022
+    4002               94885592.33      0   4589     78             2702  32653
+    4102               94885592.33      0   4640    248             1421  33368
+Elapsed time (sec): 34121, estimated tree completion: 0.00000
+Heap usage: 4520MB (peak 4520MB, 32MB system)
+B&B tree size: 0.7GB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    4202               94885592.33      0   4772    175             2513  34121
+    4302               94885592.33      0   4894     91             2863  34953
+    4402               94885592.33      0   4937    102             2758  35743
+Heuristic R running (50000 LP iterations in  356.9 seconds)
+    4502               94885592.33      0   4937    307             1018  36589
+Heuristic R running (100000 LP iterations in  789.3 seconds)
+Heuristic R running (150000 LP iterations in  984.5 seconds)
+    4602               94885592.33      0   5149    110             2812  37411
+b   4658  28328084.25  94885592.33      1   5254    337   70.15%       0  37833
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=37833.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=37844.00).
+ *** Search unfinished ***    Time: 37844.48 Nodes:       4658
+Numerical issues encountered:
+   Dual failures    :     42 out of     63216 (ratio: 0.0007)
+   Singular bases   :      7 out of    168742 (ratio: 0.0000)
+Final MIP objective                   : 2.832808424940999e+07
+Final MIP bound                       : 9.488559233469895e+07
+  Solution time / primaldual integral :  37844.48s/ 99.991627%
+  Number of solutions found / nodes   :         1 /      4658
+  Max primal violation      (abs/rel) : 5.284e-07 / 5.284e-07
+  Max integer violation     (abs    ) : 1.390e-12
+solve time,  38011.86435508728
+27561679.409999996
+solution output,  38012.12381649017
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-24_17-25-04.411657_budget_28050000.csv, Time: 38012.213851451874

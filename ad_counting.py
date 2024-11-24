@@ -12,7 +12,7 @@ files = [
     'output/Sentivity_output_3LastDays_2024-11-23_23-41-48.705903_budget_29100000.csv',
     'output/Sentivity_output_3LastDays_2024-11-24_03-41-41.287624_budget_29050000.csv',
     'output/Sentivity_output_3LastDays_2024-11-24_06-51-31.148359_budget_29000000.csv',
-    # 'output/Sentivity_output_3LastDays_2024-11-23_23-41-48.705903_budget_28050000.csv'
+    'output/Sentivity_output_3LastDays_2024-11-24_17-25-04.411657_budget_28050000.csv'
 ]
 
 # three_day_no_budget_df = pd.read_csv('output/output_3LatDays_OurMovies_2024-11-21_20-37-20.738063.csv')
@@ -20,7 +20,6 @@ files = [
 channel_0_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_0_schedule.csv', parse_dates=['Date-Time'])
 channel_1_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_1_schedule.csv', parse_dates=['Date-Time'])
 channel_2_df = pd.read_csv('data/ADVERTS_FIRST_WEEK_channel_2_schedule.csv', parse_dates=['Date-Time'])
-
 
 for file in files:
     schedule_df = pd.read_csv(file)
@@ -37,7 +36,7 @@ for file in files:
         ['Action']
     ].count()
 
-    bought_comp_slots = no_ads_sold = schedule_df.loc[
+    bought_comp_slots = schedule_df.loc[
         (schedule_df['Action'] == "Advertise Movie") &
         (schedule_df['Channel'] != "Own Channel"),
         ['Action']

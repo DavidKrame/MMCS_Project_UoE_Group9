@@ -13,7 +13,7 @@ files = [
     'output/Sentivity_output_3LastDays_2024-11-23_23-41-48.705903_budget_29100000.csv',
     'output/Sentivity_output_3LastDays_2024-11-24_03-41-41.287624_budget_29050000.csv',
     'output/Sentivity_output_3LastDays_2024-11-24_06-51-31.148359_budget_29000000.csv',
-    # 'output/Sentivity_output_3LastDays_2024-11-23_23-41-48.705903_budget_28050000.csv'
+    'output/Sentivity_output_3LastDays_2024-11-24_17-25-04.411657_budget_28050000.csv'
 ]
 
 # three_day_no_budget_df = pd.read_csv('output/output_3LatDays_OurMovies_2024-11-21_20-37-20.738063.csv')
@@ -91,25 +91,38 @@ for file in files:
 
     # Create the plot
     plt.figure(figsize=(10, 6))
-    plt.plot(x, y, marker='o', linestyle='-', color='b', label='Data Points')
+    # plt.plot(x, y, marker='o', linestyle='-', color='b', label='Data Points')
+    plt.plot(x, y, marker='o', linestyle='-', label=f'Budget: {budget}')
 
     # Add titles and labels
     # plt.title('Plot of gp_dict', fontsize=16)
-    plt.title(f'Gross Profit vs Selling Price (Budget: {budget})', fontsize=16)
-    plt.xlabel('Selling Price', fontsize=14)
-    plt.ylabel('Gross Profit (%)', fontsize=14)
+    # plt.title(f'Gross Profit vs Selling Price (Budget: {budget})', fontsize=16)
+    # plt.xlabel('Selling Price', fontsize=14)
+    # plt.ylabel('Gross Profit (%)', fontsize=14)
 
     # Add grid
-    plt.grid(True)
+    # plt.grid(True)
 
     # Add legend
-    plt.legend()
+    # plt.legend()
 
     # Show the plot
     # plt.show()
-    output_plot_path = f'Image_Analysis/Gross_Profit_vs_Selling_Price_Budget_{budget}.jpg'
-    plt.savefig(output_plot_path)
+    # output_plot_path = f'Image_Analysis/Gross_Profit_vs_Selling_Price_Budget_{budget}.jpg'
+    # plt.savefig(output_plot_path)
 
-    print(f"Saved plot for budget {budget} to {output_plot_path}")
+    # print(f"Saved plot for budget {budget} to {output_plot_path}")
+# Graph combination
+plt.title('Gross Profit vs Selling Price for Various Budgets', fontsize=16)
+plt.xlabel('Selling Price', fontsize=14)
+plt.ylabel('Gross Profit (%)', fontsize=14)
+plt.grid(True)
+plt.legend(title='Budgets', fontsize=10, loc='lower right')
+
+output_combined_path = 'Image_Analysis/Gross_Profit_vs_Selling_Price_All_Budgets.jpg'
+plt.savefig(output_combined_path)
+plt.show()
+
+print(f"Combined plot saved to {output_combined_path}")
 
 print("Revenue calc completed!")
