@@ -1,0 +1,2403 @@
+Ad slot variables added,  0.5818397998809814
+Viewership variables added,  0.6140608787536621
+Variables added,  0.6140608787536621
+Constaint 1 added,  0.6262903213500977
+Constaint 2 added,  0.6305398941040039
+Constaint 3 added,  0.6305398941040039
+Constaint 4 added,  1.5497143268585205
+Constaint 5 added,  1.608581781387329
+Constaint 6 added,  1.740572214126587
+Constaint 7 added,  1.7891249656677246
+Constaint 8 added,  3.5612435340881348
+Constaint u added,  400.72187757492065
+Constaint 10 added,  400.86335730552673
+Constaint 11 added,  401.23378467559814
+time to intialise problem:  401.2581799030304
+FICO Xpress v9.4.2, Hyper, solve started 0:05:13, Nov 23, 2024
+Heap usage: 51MB (peak 51MB, 4697KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 6 seconds
+Heap usage: 72MB (peak 111MB, 4697KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  3.01e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 8.1GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   8s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.072E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  42s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+
+              Concurrent-Solve,  82s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  3.403E+09  5.464E+08
+ D  1.020E+08   .0000000 |  B  3.403E+09  5.464E+08
+ D  1.020E+08   .0000000 |  B  3.403E+09  5.464E+08
+ D  1.020E+08   .0000000 |  B  3.403E+09  5.464E+08
+ D  1.020E+08   .0000000 |  B  1.683E+09  3.181E+08
+ D  1.020E+08   .0000000 |  B  1.683E+09  3.181E+08
+ D  1.020E+08   .0000000 |  B  1.683E+09  3.181E+08
+ D  1.020E+08   .0000000 |  B  1.683E+09  3.181E+08
+ D  1.020E+08   .0000000 |                         
+------- optimal -------- | ----- interrupted ------
+Concurrent statistics:
+           Dual: 16904 simplex iterations, 23.92s
+        Barrier: 6 barrier and 0 simplex iterations, 98.60s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+ 16904       102000000.0      P      0     0        .000000   106
+Dual solved problem
+  16904 simplex iterations in 98.67 seconds at time 106
+
+Final objective                       : 1.020000000000017e+08
+  Max primal violation      (abs/rel) : 1.007e-11 / 1.007e-11
+  Max dual violation        (abs/rel) : 2.038e-07 / 1.225e-07
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   6273      0             2599    317
+   2  K                102000000.0      0   9574   5857             2867    430
+   3  K                102000000.0      0   9574   9548             2835    567
+   4  K                102000000.0      0   9574   9603             2277    748
+   5  K                102000000.0      0   9574   9598             2623    873
+   6  K                102000000.0      0   9574   9438             2459   1046
+   7  K                102000000.0      0   9574   9522             2563   1171
+   8  K                102000000.0      0   9574   9640             2375   1367
+   9  K                101374278.9      0   9574   9527             3162   1440
+  10  K                100769130.2      0   9574   9541             3254   1586
+  11  K                98471725.00      0   9574   7002             2821   1645
+  12  K                96661796.85      0   9574   9252             3018   1698
+  13  K                95686160.06      0   9574   8028             2965   1750
+  14  K                95520881.73      0   9574   6429             2904   1797
+  15  K                95403180.87      0   9574  11508             2899   1847
+  16  K                95354323.23      0   9574   8020             3010   1902
+  17  K                95296482.86      0   9574  11518             2970   1965
+  18  K                95279542.02      0   9574   7847             2837   2027
+  19  K                95274557.76      0   9574   9177             2680   2093
+  20  K                95272539.51      0   9574  25068             2518   2144
+  21  G                95254911.36      0   9574      0             2562   2179
+  22  G                95252164.06      0   9574  19516             3073   2199
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 1688
+Cut elements in the matrix : 69973
+Will try to keep branch and bound tree memory usage below 7.2GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 357MB (peak 623MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95251635.82      0      2      1             3069   2268
+       2               95241576.38      0      2      3             3178   2340
+       3               95241576.38      0      2      3             2689   2353
+       4               95214737.12      0      4      4             2790   2383
+       5               95214737.12      0      4      4             2943   2397
+       6               95214737.12      0      5      4             2898   2416
+       7               95100622.04      0      7      4             2849   2435
+Will try to keep branch and bound tree memory usage below 6.4GB
+       8               95099897.86      0      8      5             2768   2472
+       9               95099897.86      0      9      6             2780   2481
+      10               95099897.86      0     10      5             2926   2484
+      20               95069446.56      0     19      7             2931   2696
+      30               95056231.62      0     26     10             2647   2858
+      40               95056231.62      0     29     12             3155   2972
+      50               95056231.62      0     32     16             2682   3057
+      60               95056231.62      0     42     13             2893   3117
+      70               95056231.62      0     45     20             2864   3193
+      80               95056231.62      0     50     17             2637   3298
+      90               95056231.62      0     54     25             2577   3362
+     100               95056231.62      0     58     28             2451   3437
+Elapsed time (sec): 5526, estimated tree completion: 0.00000
+Heap usage: 1221MB (peak 1221MB, 19MB system)
+B&B tree size: 41MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               95056231.62      0    170     49             1667   5526
+     300               95056231.62      0    273     98             2222   7891
+Will try to keep branch and bound tree memory usage below 5.9GB
+     400               95056231.62      0    403     15             2628   9421
+     500               95056231.62      0    425    182             2004  10059
+     600               95056231.62      0    630     33             2075  10763
+     700               95053664.14      0    737    222             1572  11580
+     800               95053664.14      0    811     29             2060  12524
+     903               95053664.14      0    910     46             2434  13066
+Heuristic R running (50000 LP iterations in  145.1 seconds)
+Heuristic R running (100000 LP iterations in  434.2 seconds)
+Heuristic R running (150000 LP iterations in  542.1 seconds)
+    1003               95053664.14      0   1035     56             2154  13758
+Heuristic R running (200000 LP iterations in  645.0 seconds)
+    1103               95053664.14      0   1183     13             2477  14335
+    1203               95053664.14      0   1234     66             2095  15116
+    1303               95053664.14      0   1279    281             1824  15810
+    1403               95053664.14      0   1332    109             2457  16523
+    1503               94955590.76      0   1435     38             2704  17322
+    1603               94955590.76      0   1455    126             2650  18028
+    1703               94955590.76      0   1474     52             2320  18729
+    1803               94955590.76      0   1492     57             2054  19436
+    1903               94955590.76      0   1632    170             1371  20014
+    2003               94955590.76      0   1707    127             1939  20594
+    2103               94955590.76      0   1739     15             2874  21418
+Elapsed time (sec): 22142, estimated tree completion: 0.00009
+Heap usage: 4031MB (peak 4031MB, 32MB system)
+B&B tree size: 420MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2203               94955590.76      0   1792    187             2135  22142
+    2303               94955590.76      0   2087     34             2723  22932
+    2403               94955590.76      0   2142     85             2375  23577
+    2503               94955590.76      0   2250    164             1502  24401
+    2603               94955590.76      0   2250    187             1601  25190
+    2703               94955590.76      0   2483    197             1613  25929
+    2803               94955590.76      0   2507    187             2023  26720
+    2903               94955590.76      0   2507     40             2542  27546
+    3003               94955590.76      0   2731    135             2159  28296
+    3103               94955590.76      0   2791     98             2758  29147
+    3203               94938101.71      0   2877     64             1907  29957
+    3303               94938101.71      0   2980    172             2699  30697
+    3403               94938101.71      0   2980     67             2538  31394
+q   3488  21782892.36  94938101.71      1   3004    252   77.06%       0  31993
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=31993.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=32001.00).
+ *** Search unfinished ***    Time: 32001.44 Nodes:       3488
+Numerical issues encountered:
+   Dual failures    :     56 out of     32908 (ratio: 0.0017)
+   Singular bases   :      7 out of    110197 (ratio: 0.0001)
+Final MIP objective                   : 2.178289236119859e+07
+Final MIP bound                       : 9.493810170775148e+07
+  Solution time / primaldual integral :  32001.44s/ 99.994370%
+  Number of solutions found / nodes   :         1 /      3488
+  Max primal violation      (abs/rel) : 2.585e-07 / 2.585e-07
+  Max integer violation     (abs    ) : 2.585e-13
+solve time,  32402.755108594894
+29774392.84999997
+solution output,  32402.975655794144
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-23_08-58-35.053220_budget_30100000.csv, Time: 32403.054624319077
+Ad slot variables added,  0.07889151573181152
+Viewership variables added,  0.09450197219848633
+Variables added,  0.09450197219848633
+Constaint 1 added,  0.09450197219848633
+Constaint 2 added,  0.09450197219848633
+Constaint 3 added,  0.09450197219848633
+Constaint 4 added,  0.42764925956726074
+Constaint 5 added,  0.4473607540130615
+Constaint 6 added,  0.49796199798583984
+Constaint 7 added,  0.5110008716583252
+Constaint 8 added,  0.9483428001403809
+Constaint u added,  149.97566771507263
+Constaint 10 added,  150.02258920669556
+Constaint 11 added,  150.12163925170898
+time to intialise problem:  150.12163925170898
+FICO Xpress v9.4.2, Hyper, solve started 9:01:06, Nov 23, 2024
+Heap usage: 51MB (peak 51MB, 4727KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 1 seconds
+Heap usage: 72MB (peak 111MB, 4727KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  3.00e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 5.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   2s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.072E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  14s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+
+              Concurrent-Solve,  39s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |                         
+ D  1.020E+08   .0000000 |                         
+------- optimal -------- | ----- interrupted ------
+Concurrent statistics:
+           Dual: 15842 simplex iterations, 8.83s
+        Barrier: 4 barrier and 0 simplex iterations, 43.20s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+ 15842       102000000.0      P      0     0        .000000    45
+Dual solved problem
+  15842 simplex iterations in 43.23 seconds at time 45
+
+Final objective                       : 1.020000000000004e+08
+  Max primal violation      (abs/rel) : 1.084e-12 / 1.084e-12
+  Max dual violation        (abs/rel) : 7.080e-08 / 5.979e-08
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   7138      0             2161    133
+   2  K                102000000.0      0   9128   6708             2959    195
+   3  K                102000000.0      0   9574   9030             2632    252
+   4  K                102000000.0      0   9574   9619             2600    324
+   5  K                102000000.0      0   9574   9616             2514    389
+   6  K                102000000.0      0   9574   9597             2728    457
+   7  K                102000000.0      0   9574   9465             2791    542
+   8  K                102000000.0      0   9574   9521             2926    628
+   9  K                101370834.9      0   9574   9540             2955    693
+Heuristic R running (50000 LP iterations in   29.0 seconds)
+  10  K                100706420.1      0   9574   7336             3312    813
+  11  K                98962808.24      0   9574  11457             3076    829
+  12  K                96906725.29      0   9574   8089             2742    847
+  13  K                96189152.25      0   9574   4756             2740    861
+  14  K                95745308.85      0   9574  10024             2762    878
+  15  K                95538548.99      0   9574   8509             2563    893
+  16  K                95466471.15      0   9574  10699             2959    909
+  17  K                95409988.31      0   9574   9494             2941    921
+  18  K                95400993.79      0   9574  10439             2589    932
+  19  K                95399171.54      0   9574   9167             2816    944
+  20  K                95390520.69      0   9574  23949             2862    955
+  21  G                95316166.23      0   9574      0             2680    967
+  22  G                95309741.05      0   9574  18996             2907    977
+Heuristic search 'R' started
+Heuristic R running (50002 LP iterations in   88.2 seconds)
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 1735
+Cut elements in the matrix : 86026
+Will try to keep branch and bound tree memory usage below 4.5GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 355MB (peak 696MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95308642.07      0      2      1             3017   1291
+       2               95307220.73      0      2      3             2909   1317
+       3               95307220.73      0      2      3             2751   1319
+       4               95307220.73      0      3      4             2605   1330
+       5               95307220.73      0      4      4             2706   1333
+       6               95209250.64      0      6      4             2827   1354
+       7               95209250.64      0      6      5             2543   1359
+Will try to keep branch and bound tree memory usage below 3.9GB
+       8               95209250.64      0      7      5             2708   1361
+       9               95209250.64      0      7      5             2800   1361
+      10               95209250.64      0      9      6             2680   1366
+      20               95132004.95      0     18      6             2883   1446
+      30               95132004.95      0     27     11             2962   1506
+      40               95088643.59      0     35      9             2869   1569
+      50               95088643.59      0     41     14             2982   1613
+      60               95088643.59      0     45     17             2982   1694
+      70               95088643.59      0     63     20             2602   1776
+      80               95088643.59      0     63     23             2921   1868
+      90               95088643.59      0     66     27             2966   1934
+     100               95088643.59      0     71     29             2793   1997
+Elapsed time (sec): 2980, estimated tree completion: 0.00000
+Heap usage: 1144MB (peak 1144MB, 19MB system)
+B&B tree size: 39MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               95088643.59      0    223     65             2965   2980
+     300               95088643.59      0    268    111             2378   3941
+Will try to keep branch and bound tree memory usage below 3.7GB
+     400               95088643.59      0    369     15             2238   4672
+Heuristic R running (50000 LP iterations in   98.7 seconds)
+Heuristic R running (100000 LP iterations in  146.3 seconds)
+     500               95087594.63      0    434     15             2596   5739
+     600               95064191.85      0    613    177             1742   6556
+     700               95064191.85      0    670     47             2203   7099
+     800               95064191.85      0    690    213             1368   7727
+     900               95064191.85      0    768     99             2296   8424
+    1000               95061269.88      0   1040    119             2516   9293
+    1100               95061269.88      0   1088    111             2702   9991
+    1200               95061269.88      0   1092    307              357  10708
+d   1202  34897767.22  95061269.88      1   1092    309   63.29%       0  10719
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=10719.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=10721.00).
+ *** Search unfinished ***    Time: 10721.23 Nodes:       1202
+Numerical issues encountered:
+   Dual failures    :     18 out of     10622 (ratio: 0.0017)
+Final MIP objective                   : 3.489776721877182e+07
+Final MIP bound                       : 9.506126988487412e+07
+  Solution time / primaldual integral :  10721.23s/ 99.993214%
+  Number of solutions found / nodes   :         1 /      1202
+  Max primal violation      (abs/rel) : 1.188e-07 / 1.139e-10
+  Max integer violation     (abs    ) :       0.0
+solve time,  10871.393329143524
+29415486.019999996
+solution output,  10871.628642082214
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-23_11-59-47.870448_budget_30050000.csv, Time: 10871.7076151371
+Ad slot variables added,  0.11149072647094727
+Viewership variables added,  0.12912297248840332
+Variables added,  0.12912297248840332
+Constaint 1 added,  0.14212775230407715
+Constaint 2 added,  0.14798593521118164
+Constaint 3 added,  0.14798593521118164
+Constaint 4 added,  0.47345638275146484
+Constaint 5 added,  0.48908042907714844
+Constaint 6 added,  0.5791213512420654
+Constaint 7 added,  0.6112918853759766
+Constaint 8 added,  1.34564208984375
+Constaint u added,  150.09607362747192
+Constaint 10 added,  150.14319348335266
+Constaint 11 added,  150.2445502281189
+time to intialise problem:  150.25255298614502
+FICO Xpress v9.4.2, Hyper, solve started 12:02:19, Nov 23, 2024
+Heap usage: 51MB (peak 51MB, 4746KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 2 seconds
+Heap usage: 72MB (peak 111MB, 4746KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  3.00e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 5.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   3s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.072E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  17s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.808E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  1.327E+10  1.261E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+
+              Concurrent-Solve,  45s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.112E+09  1.339E+09
+ D  1.020E+08   .0000000 |  B  3.446E+09  5.577E+08
+ D  1.020E+08   .0000000 |  B  3.446E+09  5.577E+08
+ D  1.020E+08   .0000000 |  B  3.446E+09  5.577E+08
+ D  1.020E+08   .0000000 |  B  3.446E+09  5.577E+08
+ D  1.020E+08   .0000000 |  B  1.801E+09  2.787E+08
+ D  1.020E+08   .0000000 |  B  1.801E+09  2.787E+08
+ D  1.020E+08   .0000000 |  B  1.801E+09  2.787E+08
+ D  1.020E+08   .0000000 |  B  1.801E+09  2.787E+08
+ D  1.020E+08   .0000000 |                         
+------- optimal -------- | ----- interrupted ------
+Concurrent statistics:
+           Dual: 16743 simplex iterations, 10.36s
+        Barrier: 6 barrier and 0 simplex iterations, 61.27s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+ 16743       102000000.0      P      0     0        .000000    64
+Dual solved problem
+  16743 simplex iterations in 61.30 seconds at time 64
+
+Final objective                       : 1.020000000000004e+08
+  Max primal violation      (abs/rel) : 1.291e-13 / 1.145e-13
+  Max dual violation        (abs/rel) : 1.372e-07 / 1.372e-07
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   1444      0             2992    151
+   2  K                102000000.0      0   9574    828             2656    252
+   3  K                102000000.0      0   9574   9729             2778    365
+   4  K                102000000.0      0   9574   9540             2645    443
+   5  K                102000000.0      0   9574   9628             2434    540
+   6  K                102000000.0      0   9574   9508             2939    646
+   7  K                102000000.0      0   9574   9523             2784    796
+   8  K                102000000.0      0   9574   9438             2567    939
+   9  K                102000000.0      0   9574   9624             2558   1024
+  10  K                101197809.6      0   9574   9637             2754   1105
+  11  K                99581999.45      0   9574   9429             3287   1131
+  12  K                97624375.89      0   9574   7338             2642   1159
+  13  K                96549862.85      0   8814   7651             3039   1188
+  14  K                95839857.71      0   9574   8824             2898   1219
+  15  K                95557327.95      0   9574   6027             2910   1246
+  16  K                95384265.58      0   9574   6756             2814   1276
+  17  K                95328799.07      0   9574  11947             2833   1304
+  18  K                95302499.09      0   9574   9547             2674   1329
+  19  K                95275337.47      0   9574  10347             2771   1349
+  20  K                95261123.63      0   9574   9408             2835   1388
+  21  K                95255828.97      0   9574   7117             2755   1421
+  22  K                95174739.16      0   9574   9172             2805   1456
+  23  K                95168690.81      0   9574  14645             2963   1485
+  24  K                95161865.54      0   9574   9894             2836   1514
+  25  K                95160865.15      0   9574  22970             2811   1533
+  26  G                95153669.34      0   9574      0             2718   1545
+  27  G                95152586.31      0   9574  19563             3118   1552
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 1518
+Cut elements in the matrix : 65064
+Will try to keep branch and bound tree memory usage below 4.5GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 385MB (peak 661MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95148473.52      0      2      1             3063   1647
+       2               95116019.75      0      2      3             3258   1679
+       3               95116019.75      0      2      3             2708   1685
+       4               95075468.59      0      4      4             2879   1697
+       5               95075468.59      0      4      4             2848   1698
+       6               95051165.06      0      4      4             3295   1703
+       7               95051165.06      0      6      4             2683   1708
+Will try to keep branch and bound tree memory usage below 4.0GB
+       8               95027439.89      0      8      5             2796   1743
+       9               95027439.89      0      8      5             2972   1745
+      10               95027439.89      0     10      5             2934   1751
+      20               94907416.74      0     19      7             3143   1818
+      30               94859868.00      0     28      8             2771   1888
+      40               94859868.00      0     36     10             2757   1973
+      50               94859868.00      0     42     15             2776   2073
+      60               94859868.00      0     50     24             2793   2146
+      70               94843026.46      0     65     27             2727   2215
+      80               94843026.46      0     81     21             2733   2268
+      90               94843026.46      0     86     34             2714   2337
+     100               94843026.46      0     91     18             2923   2421
+Will try to keep branch and bound tree memory usage below 3.8GB
+Elapsed time (sec): 3175, estimated tree completion: 0.00000
+Heap usage: 1345MB (peak 1345MB, 20MB system)
+B&B tree size: 36MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               94843026.46      0    190     64             2453   3175
+     300               94842956.86      0    369     87             2551   4526
+     400               94842956.86      0    427    106             2139   6645
+     500               94842956.86      0    616    118             2736   9679
+     600               94842956.86      0    680    153             2487  11660
+     700               94842956.86      0    719    175             1911  14322
+     800               94842956.86      0    990    242             1303  16454
+     900               94842956.86      0   1146    277             1001  17925
+k    916  24707361.47  94842956.86      1   1153    283   73.95%       0  18092
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=18092.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=18095.00).
+ *** Search unfinished ***    Time: 18095.34 Nodes:        916
+Numerical issues encountered:
+   Dual failures    :      4 out of      1911 (ratio: 0.0021)
+Final MIP objective                   : 2.470736147154379e+07
+Final MIP bound                       : 9.484295685573025e+07
+  Solution time / primaldual integral :  18095.34s/ 99.995320%
+  Number of solutions found / nodes   :         1 /       916
+  Max primal violation      (abs/rel) : 4.970e-07 / 4.970e-07
+  Max integer violation     (abs    ) : 4.970e-13
+solve time,  18245.640204906464
+28990269.370000005
+solution output,  18245.921921491623
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-23_17-03-54.846653_budget_30000000.csv, Time: 18246.006868124008
+Ad slot variables added,  0.14673137664794922
+Viewership variables added,  0.16623926162719727
+Variables added,  0.16623926162719727
+Constaint 1 added,  0.16623926162719727
+Constaint 2 added,  0.18180155754089355
+Constaint 3 added,  0.18180155754089355
+Constaint 4 added,  0.7789907455444336
+Constaint 5 added,  0.8306269645690918
+Constaint 6 added,  0.944307804107666
+Constaint 7 added,  0.9859697818756104
+Constaint 8 added,  1.540759801864624
+Constaint u added,  152.07142424583435
+Constaint 10 added,  152.12017154693604
+Constaint 11 added,  152.26299929618835
+time to intialise problem:  152.27858924865723
+FICO Xpress v9.4.2, Hyper, solve started 17:06:28, Nov 23, 2024
+Heap usage: 51MB (peak 51MB, 4764KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 2 seconds
+Heap usage: 72MB (peak 111MB, 4764KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  2.91e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 5.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   3s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.112E+08   .0000000 |           factorize     
+ D  1.071E+08   .0000000 |           factorize     
+ D  1.069E+08   .0000000 |           factorize     
+ D  1.064E+08   .0000000 |           factorize     
+ D  1.063E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  18s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+
+              Concurrent-Solve,  46s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  3.385E+09  5.586E+08
+ D  1.020E+08   .0000000 |  B  3.385E+09  5.586E+08
+ D  1.020E+08   .0000000 |  B  3.385E+09  5.586E+08
+ D  1.020E+08   .0000000 |  B  3.385E+09  5.586E+08
+ D  1.020E+08   .0000000 |  B  1.831E+09  2.762E+08
+ D  1.020E+08   .0000000 |  B  1.831E+09  2.762E+08
+ D  1.020E+08   .0000000 |  B  1.831E+09  2.762E+08
+ D  1.020E+08   .0000000 |  B  1.831E+09  2.762E+08
+ D  1.020E+08   .0000000 |  B  1.212E+09  1.830E+08
+ D  1.020E+08   .0000000 |  B  1.212E+09  1.830E+08
+ D  1.020E+08   .0000000 |  B  1.212E+09  1.830E+08
+ D  1.020E+08   .0000000 |  B  1.212E+09  1.830E+08
+ D  1.020E+08   .0000000 |  B  9.139E+08  1.508E+08
+ D  1.020E+08   .0000000 |  B  9.139E+08  1.508E+08
+ D  1.020E+08   .0000000 |  B  9.139E+08  1.508E+08
+ D  1.020E+08   .0000000 |  B  4.965E+08  1.253E+08
+ D  1.020E+08   .0000000 |  B  4.965E+08  1.253E+08
+ D  1.020E+08   .0000000 |  B  4.965E+08  1.253E+08
+ D  1.020E+08   .0000000 |  B  4.965E+08  1.253E+08
+
+              Concurrent-Solve,  87s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  3.437E+08  1.162E+08
+ D  1.020E+08   .0000000 |  B  3.437E+08  1.162E+08
+ D  1.020E+08   .0000000 |  B  3.437E+08  1.162E+08
+ D  1.020E+08   .0000000 |  B  3.437E+08  1.162E+08
+ D  1.020E+08   .0000000 |  B  2.157E+08  1.091E+08
+ D  1.020E+08   .0000000 |  B  2.157E+08  1.091E+08
+ D  1.020E+08   .0000000 |  B  2.157E+08  1.091E+08
+ D  1.020E+08   .0000000 |  B  2.157E+08  1.091E+08
+ D  1.020E+08   .0000000 |  B  1.679E+08  1.056E+08
+ D  1.020E+08   .0000000 |  B  1.679E+08  1.056E+08
+ D  1.020E+08   .0000000 |  B  1.679E+08  1.056E+08
+ D  1.020E+08   .0000000 |  B  1.236E+08  1.007E+08
+ D  1.020E+08   .0000000 |  B  1.236E+08  1.007E+08
+ D  1.020E+08   .0000000 |  B  1.236E+08  1.007E+08
+ D  1.020E+08   .0000000 |  B  1.236E+08  1.007E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+
+              Concurrent-Solve, 116s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 122s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 123s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 124s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 125s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 126s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 127s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 128s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 129s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+------- optimal -------- | ----- interrupted ------
+Concurrent statistics:
+           Dual: 42991 simplex iterations, 102.97s
+        Barrier: 15 barrier and 7830 simplex iterations, 126.82s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support, crossover used 7 threads
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+ 42991       102000000.0      P      0     0        .000000   129
+Dual solved problem
+  42991 simplex iterations in 126.84 seconds at time 129
+
+Final objective                       : 1.020000000000007e+08
+  Max primal violation      (abs/rel) : 4.337e-12 / 4.337e-12
+  Max dual violation        (abs/rel) : 1.141e-08 / 1.141e-08
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   9574      0             2198    191
+   2  K                102000000.0      0   9574   9190             2512    235
+   3  K                102000000.0      0   9574   9526             2393    294
+   4  K                102000000.0      0   9574   9590             2692    352
+   5  K                102000000.0      0   9574   9497             2624    421
+   6  K                102000000.0      0   9574   9658             2970    492
+   7  K                102000000.0      0   9574   9459             2684    622
+   8  K                101364740.2      0   9574   9547             3005    667
+   9  K                100055348.2      0   9574   9350             3133    690
+  10  K                97189506.25      0   9574   6971             2861    716
+  11  K                96156467.34      0   6884   7422             2951    739
+  12  K                95890804.77      0   9574   5981             2990    767
+  13  K                95520839.66      0   9574   6319             2878    791
+  14  K                95403529.53      0   9574   7495             3071    818
+  15  K                95304215.26      0   9574   9230             2871    850
+  16  K                95243400.65      0   9574   7142             2853    878
+  17  K                95236596.55      0   9574  11442             3008    898
+  18  K                95173107.06      0   9574  10523             2840    924
+  19  K                95170198.66      0   9574   9928             2564    939
+  20  K                95168368.53      0   9574  28691             2690    957
+  21  G                95135184.59      0   8841      0             2634    986
+  22  G                95132593.27      0   5479  14413             2987   1012
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 1736
+Cut elements in the matrix : 133767
+Will try to keep branch and bound tree memory usage below 4.6GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 363MB (peak 676MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95128767.19      0      2      1             3042   1062
+       2               95108051.27      0      2      3             3089   1134
+       3               95108051.27      0      3      4             2931   1146
+       4               95108051.27      0      4      4             2945   1151
+       5               95108051.27      0      5      5             3012   1176
+Will try to keep branch and bound tree memory usage below 3.9GB
+       6               95108051.27      0      6      5             2955   1195
+       7               95108051.27      0      6      6             2797   1199
+       8               95108051.27      0      8      5             3139   1211
+       9               95108051.27      0      9      7             3156   1225
+      10               95108051.27      0      9      6             2807   1227
+      20               95108051.27      0     18      8             2852   1306
+      30               95108051.27      0     24     11             2767   1384
+      40               95080024.51      0     30     14             2850   1439
+      50               95037453.50      0     31     15             2782   1509
+      60               95037453.50      0     41     18             2984   1602
+      70               95037453.50      0     61     20             2713   1674
+      80               95037453.50      0     61     25             2721   1760
+      90               95016811.14      0     65     10             2932   1831
+     100               95016811.14      0     65     28             2572   1910
+Elapsed time (sec): 2841, estimated tree completion: 0.00000
+Heap usage: 1223MB (peak 1223MB, 19MB system)
+B&B tree size: 36MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               95016811.14      0    156     57             2145   2841
+Will try to keep branch and bound tree memory usage below 3.6GB
+     300               95016811.14      0    231     77             2608   3624
+     400               95016811.14      0    421     68             2804   4369
+     500               95016811.14      0    421     61             2386   5248
+     600               95015174.45      0    607     40             2677   6063
+     700               95015174.45      0    685    162             2633   6828
+     800               95015174.45      0    685    142             3102   7739
+     900               95015174.45      0    927     68             2670   8620
+Heuristic R running (50000 LP iterations in  208.4 seconds)
+Heuristic R running (100000 LP iterations in  482.1 seconds)
+Heuristic R running (150000 LP iterations in  572.6 seconds)
+Heuristic R running (200000 LP iterations in  670.7 seconds)
+Heuristic R running (250000 LP iterations in  779.2 seconds)
+Heuristic R running (300000 LP iterations in  884.2 seconds)
+Heuristic R running (350000 LP iterations in  958.0 seconds)
+    1000               95015174.45      0    927    164             2493   9542
+    1100               95015174.45      0    980     26             2851  10249
+    1200               94998230.99      0   1112    137             2692  11184
+    1300               94998230.99      0   1112    198             2228  12339
+    1400               94998230.99      0   1260    227             2016  13539
+Heuristic R running (50000 LP iterations in  221.0 seconds)
+Heuristic R running (100000 LP iterations in  498.0 seconds)
+Heuristic R running (150000 LP iterations in  628.6 seconds)
+Heuristic R running (200000 LP iterations in  750.0 seconds)
+    1500               94998230.99      0   1536    105             2569  14670
+    1600               94998230.99      0   1567    233             2277  15513
+Heuristic R running (50000 LP iterations in  298.8 seconds)
+    1700               94998230.99      0   1652    143             1839  16737
+Heuristic R running (100000 LP iterations in  856.8 seconds)
+Heuristic R running (150000 LP iterations in 1008.4 seconds)
+Heuristic R running (200000 LP iterations in 1135.0 seconds)
+Heuristic R running (250000 LP iterations in 1260.8 seconds)
+Heuristic R running (300000 LP iterations in 1403.6 seconds)
+    1800               94956784.99      0   1902     40             2612  17674
+Heuristic R running (350000 LP iterations in 1571.2 seconds)
+    1900               94956784.99      0   2069    264             1769  18610
+    2000               94956784.99      0   2113     56             2559  19695
+    2100               94950424.27      0   2182    289             1300  20732
+Elapsed time (sec): 21592, estimated tree completion: 0.00000
+Heap usage: 3082MB (peak 3082MB, 26MB system)
+B&B tree size: 411MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2200               94950424.27      0   2277    305             1150  21592
+    2300               94950424.27      0   2277     89             2518  22761
+q   2388  22941565.87  94950424.27      1   2470    214   75.84%       0  23716
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=23716.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=23720.00).
+ *** Search unfinished ***    Time: 23720.10 Nodes:       2388
+Numerical issues encountered:
+   Dual failures    :     23 out of     29189 (ratio: 0.0008)
+   Singular bases   :      3 out of     65503 (ratio: 0.0000)
+Final MIP objective                   : 2.294156587419006e+07
+Final MIP bound                       : 9.495042427303480e+07
+  Solution time / primaldual integral :  23720.10s/ 99.996194%
+  Number of solutions found / nodes   :         1 /      2388
+  Max primal violation      (abs/rel) : 2.451e-07 / 2.078e-10
+  Max integer violation     (abs    ) :       0.0
+solve time,  23872.426153421402
+28393074.049999997
+solution output,  23872.75809121132
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-23_23-41-48.705903_budget_29100000.csv, Time: 23872.83535170555
+Ad slot variables added,  0.10625648498535156
+Viewership variables added,  0.1310725212097168
+Variables added,  0.13237404823303223
+Constaint 1 added,  0.1334397792816162
+Constaint 2 added,  0.1469428539276123
+Constaint 3 added,  0.14945626258850098
+Constaint 4 added,  0.6803402900695801
+Constaint 5 added,  0.7115879058837891
+Constaint 6 added,  0.8367648124694824
+Constaint 7 added,  0.8667538166046143
+Constaint 8 added,  1.413599967956543
+Constaint u added,  154.03780674934387
+Constaint 10 added,  154.08936381340027
+Constaint 11 added,  154.19568514823914
+time to intialise problem:  154.19767475128174
+FICO Xpress v9.4.2, Hyper, solve started 23:44:24, Nov 23, 2024
+Heap usage: 51MB (peak 51MB, 4776KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 2 seconds
+Heap usage: 72MB (peak 111MB, 4776KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  2.90e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 5.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   3s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.112E+08   .0000000 |           factorize     
+ D  1.070E+08   .0000000 |           factorize     
+ D  1.069E+08   .0000000 |           factorize     
+ D  1.068E+08   .0000000 |           factorize     
+ D  1.065E+08   .0000000 |           factorize     
+ D  1.064E+08   .0000000 |           factorize     
+ D  1.064E+08   .0000000 |           factorize     
+ D  1.063E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  18s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+
+              Concurrent-Solve,  46s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  3.396E+09  5.655E+08
+ D  1.020E+08   .0000000 |  B  3.396E+09  5.655E+08
+ D  1.020E+08   .0000000 |  B  3.396E+09  5.655E+08
+ D  1.020E+08   .0000000 |  B  3.396E+09  5.655E+08
+ D  1.020E+08   .0000000 |  B  1.851E+09  2.802E+08
+ D  1.020E+08   .0000000 |  B  1.851E+09  2.802E+08
+ D  1.020E+08   .0000000 |  B  1.851E+09  2.802E+08
+ D  1.020E+08   .0000000 |  B  1.851E+09  2.802E+08
+ D  1.020E+08   .0000000 |  B  1.220E+09  1.848E+08
+ D  1.020E+08   .0000000 |  B  1.220E+09  1.848E+08
+ D  1.020E+08   .0000000 |  B  1.220E+09  1.848E+08
+ D  1.020E+08   .0000000 |  B  1.220E+09  1.848E+08
+ D  1.020E+08   .0000000 |  B  9.186E+08  1.522E+08
+ D  1.020E+08   .0000000 |  B  9.186E+08  1.522E+08
+ D  1.020E+08   .0000000 |  B  9.186E+08  1.522E+08
+ D  1.020E+08   .0000000 |  B  5.024E+08  1.262E+08
+ D  1.020E+08   .0000000 |  B  5.024E+08  1.262E+08
+ D  1.020E+08   .0000000 |  B  5.024E+08  1.262E+08
+ D  1.020E+08   .0000000 |  B  5.024E+08  1.262E+08
+
+              Concurrent-Solve,  84s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  3.548E+08  1.168E+08
+ D  1.020E+08   .0000000 |  B  3.548E+08  1.168E+08
+ D  1.020E+08   .0000000 |  B  3.548E+08  1.168E+08
+ D  1.020E+08   .0000000 |  B  3.548E+08  1.168E+08
+ D  1.020E+08   .0000000 |  B  2.131E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  2.131E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  2.131E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  2.131E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  1.565E+08  1.063E+08
+ D  1.020E+08   .0000000 |  B  1.565E+08  1.063E+08
+ D  1.020E+08   .0000000 |  B  1.565E+08  1.063E+08
+ D  1.020E+08   .0000000 |  B  1.219E+08  1.005E+08
+ D  1.020E+08   .0000000 |  B  1.219E+08  1.005E+08
+ D  1.020E+08   .0000000 |  B  1.219E+08  1.005E+08
+ D  1.020E+08   .0000000 |  B  1.219E+08  1.005E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.026E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+
+              Concurrent-Solve, 116s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 125s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 126s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 128s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 130s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 131s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 133s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 134s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 136s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 137s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 138s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 140s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 141s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+------- optimal -------- | ----- interrupted ------
+Concurrent statistics:
+           Dual: 49362 simplex iterations, 125.88s
+        Barrier: 15 barrier and 11061 simplex iterations, 138.79s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support, crossover used 7 threads
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+ 49362       102000000.0      P      0     0        .000000   142
+Dual solved problem
+  49362 simplex iterations in 138.83 seconds at time 142
+
+Final objective                       : 1.020000000000012e+08
+  Max primal violation      (abs/rel) : 2.168e-12 / 2.168e-12
+  Max dual violation        (abs/rel) : 2.561e-09 / 2.561e-09
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   7373      0             2475    217
+   2  K                102000000.0      0   9574   6858             2809    272
+   3  K                102000000.0      0   9574   9539             2451    375
+   4  K                102000000.0      0   9574   9636             2734    478
+   5  K                102000000.0      0   9574   9595             2821    570
+   6  K                102000000.0      0   9574   9438             2652    705
+   7  K                101860547.8      0   9574   9617             3015    831
+   8  K                100748477.2      0   9574   9129             3231    867
+   9  K                98195234.26      0   9574   8830             3208    900
+  10  K                96286802.22      0   5913   8147             3027   1139
+  11  K                95766511.14      0   9574   4480             2954   1173
+  12  K                95622815.92      0   9574   9086             2898   1201
+  13  K                95533766.30      0   9574   8241             2947   1230
+  14  K                95473586.75      0   9574   6431             2778   1250
+  15  K                95301142.17      0   9574   8878             2935   1283
+  16  K                95257273.24      0   9574  13535             2664   1313
+  17  K                95191000.02      0   9574   9545             2950   1339
+  18  K                95174584.46      0   9574   7240             2838   1362
+  19  K                95165861.27      0   9574   9107             2842   1384
+  20  K                95154708.38      0   9574  25848             2947   1404
+  21  G                95150596.34      0   9535      0             2883   1415
+  22  G                95148733.36      0   6395  15874             3170   1430
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 2494
+Cut elements in the matrix : 180476
+Will try to keep branch and bound tree memory usage below 4.6GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 374MB (peak 685MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95141204.45      0      2      1             3228   1481
+       2               95126662.54      0      2      3             2874   1531
+       3               95126662.54      0      2      3             3050   1535
+       4               95099642.61      0      4      4             2908   1551
+       5               95099642.61      0      4      4             2640   1555
+       6               95099642.61      0      5      4             2649   1561
+       7               95091540.78      0      7      4             2772   1582
+Will try to keep branch and bound tree memory usage below 3.9GB
+       8               95069059.77      0      7      5             2858   1595
+       9               95069059.77      0      7      5             2965   1597
+      10               95069059.77      0     10      6             3001   1620
+      20               95003569.15      0     17      6             2721   1695
+Will try to keep branch and bound tree memory usage below 3.7GB
+      30               95000432.22      0     23      7             2874   1794
+      40               94961100.50      0     30     11             2859   1876
+      50               94961100.50      0     53     11             2656   1955
+      60               94961100.50      0     57     13             2801   2086
+      70               94961100.50      0     61     20             3060   2189
+      80               94961100.50      0     81     20             2737   2300
+      90               94961100.50      0     85     11             2572   2411
+     100               94961100.50      0     89     26             2963   2476
+Elapsed time (sec): 3533, estimated tree completion: 0.15048
+Heap usage: 1578MB (peak 1578MB, 21MB system)
+B&B tree size: 33MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               94961100.50      0    252      7             2612   3533
+Will try to keep branch and bound tree memory usage below 3.5GB
+     300               94961100.50      0    272     86             2723   4568
+     400               94958149.82      0    363    105             2546   5508
+     500               94958149.82      0    518    128             2695   6476
+     600               94958149.82      0    538    137             2898   7510
+     700               94958149.82      0    899    170             2513   8765
+     800               94958149.82      0   1048    167             2662   9950
+     900               94958149.82      0   1103    205             2284  11329
+    1001               94958149.82      0   1222    152             1310  12672
+Heuristic R running (50000 LP iterations in  124.5 seconds)
+Heuristic R running (100000 LP iterations in  283.6 seconds)
+Heuristic R running (150000 LP iterations in  341.9 seconds)
+    1101               94958149.82      0   1293    198             2115  13896
+a   1136  23678892.85  94958149.82      1   1299    236   75.06%       0  14234
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=14234.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=14236.00).
+ *** Search unfinished ***    Time: 14236.55 Nodes:       1136
+Numerical issues encountered:
+   Dual failures    :     12 out of      7274 (ratio: 0.0016)
+   Singular bases   :      4 out of     20988 (ratio: 0.0002)
+Final MIP objective                   : 2.367889284817170e+07
+Final MIP bound                       : 9.495814981641778e+07
+  Solution time / primaldual integral :  14236.55s/ 99.996876%
+  Number of solutions found / nodes   :         1 /      1136
+  Max primal violation      (abs/rel) : 4.619e-06 / 4.619e-06
+  Max integer violation     (abs    ) : 7.645e-12
+solve time,  14390.806779623032
+28352577.53
+solution output,  14391.081269979477
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-24_03-41-41.287624_budget_29050000.csv, Time: 14391.173264503479
+Ad slot variables added,  0.103912353515625
+Viewership variables added,  0.12457489967346191
+Variables added,  0.12457489967346191
+Constaint 1 added,  0.14479923248291016
+Constaint 2 added,  0.15633010864257812
+Constaint 3 added,  0.1573324203491211
+Constaint 4 added,  0.5159785747528076
+Constaint 5 added,  0.5528848171234131
+Constaint 6 added,  0.6189913749694824
+Constaint 7 added,  0.6357331275939941
+Constaint 8 added,  1.2155394554138184
+Constaint u added,  160.87176990509033
+Constaint 10 added,  160.93961095809937
+Constaint 11 added,  161.11510801315308
+time to intialise problem:  161.1301383972168
+FICO Xpress v9.4.2, Hyper, solve started 3:44:24, Nov 24, 2024
+Heap usage: 51MB (peak 51MB, 4790KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 2 seconds
+Heap usage: 72MB (peak 111MB, 4790KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  2.90e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 5.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   3s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.113E+08   .0000000 |           factorize     
+ D  1.081E+08   .0000000 |           factorize     
+ D  1.073E+08   .0000000 |           factorize     
+ D  1.072E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  18s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.474E+10 -3.810E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  1.325E+10  1.214E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+
+              Concurrent-Solve,  49s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.111E+09  1.329E+09
+ D  1.020E+08   .0000000 |  B  3.397E+09  5.670E+08
+ D  1.020E+08   .0000000 |  B  3.397E+09  5.670E+08
+ D  1.020E+08   .0000000 |  B  3.397E+09  5.670E+08
+ D  1.020E+08   .0000000 |  B  3.397E+09  5.670E+08
+ D  1.020E+08   .0000000 |  B  1.852E+09  2.805E+08
+ D  1.020E+08   .0000000 |  B  1.852E+09  2.805E+08
+ D  1.020E+08   .0000000 |  B  1.852E+09  2.805E+08
+ D  1.020E+08   .0000000 |  B  1.852E+09  2.805E+08
+ D  1.020E+08   .0000000 |  B  1.222E+09  1.852E+08
+ D  1.020E+08   .0000000 |  B  1.222E+09  1.852E+08
+ D  1.020E+08   .0000000 |  B  1.222E+09  1.852E+08
+ D  1.020E+08   .0000000 |  B  1.222E+09  1.852E+08
+ D  1.020E+08   .0000000 |  B  9.207E+08  1.526E+08
+ D  1.020E+08   .0000000 |  B  9.207E+08  1.526E+08
+ D  1.020E+08   .0000000 |  B  9.207E+08  1.526E+08
+ D  1.020E+08   .0000000 |  B  5.047E+08  1.266E+08
+ D  1.020E+08   .0000000 |  B  5.047E+08  1.266E+08
+ D  1.020E+08   .0000000 |  B  5.047E+08  1.266E+08
+ D  1.020E+08   .0000000 |  B  5.047E+08  1.266E+08
+
+              Concurrent-Solve,  87s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  3.298E+08  1.126E+08
+ D  1.020E+08   .0000000 |  B  3.298E+08  1.126E+08
+ D  1.020E+08   .0000000 |  B  3.298E+08  1.126E+08
+ D  1.020E+08   .0000000 |  B  3.298E+08  1.126E+08
+ D  1.020E+08   .0000000 |  B  1.996E+08  1.070E+08
+ D  1.020E+08   .0000000 |  B  1.996E+08  1.070E+08
+ D  1.020E+08   .0000000 |  B  1.996E+08  1.070E+08
+ D  1.020E+08   .0000000 |  B  1.996E+08  1.070E+08
+ D  1.020E+08   .0000000 |  B  1.363E+08  1.044E+08
+ D  1.020E+08   .0000000 |  B  1.363E+08  1.044E+08
+ D  1.020E+08   .0000000 |  B  1.363E+08  1.044E+08
+ D  1.020E+08   .0000000 |  B  1.134E+08  1.010E+08
+ D  1.020E+08   .0000000 |  B  1.134E+08  1.010E+08
+ D  1.020E+08   .0000000 |  B  1.134E+08  1.010E+08
+ D  1.020E+08   .0000000 |  B  1.134E+08  1.010E+08
+ D  1.020E+08   .0000000 |  B  1.022E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.022E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.022E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.022E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+
+              Concurrent-Solve, 118s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 129s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 130s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 132s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+------- optimal -------- | ----- interrupted ------
+Concurrent statistics:
+           Dual: 29172 simplex iterations, 53.15s
+        Barrier: 15 barrier and 4242 simplex iterations, 130.35s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support, crossover used 7 threads
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+ 29172       102000000.0      P      0     0        .000000   133
+Dual solved problem
+  29172 simplex iterations in 130.38 seconds at time 133
+
+Final objective                       : 1.020000000000007e+08
+  Max primal violation      (abs/rel) : 4.337e-12 / 4.337e-12
+  Max dual violation        (abs/rel) : 6.613e-09 / 6.384e-09
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   8909      0             2174    234
+   2  K                102000000.0      0   9574   8453             2915    313
+   3  K                102000000.0      0   9574   9596             2719    395
+   4  K                102000000.0      0   9574   9633             2845    480
+   5  K                102000000.0      0   9574   9485             2932    609
+   6  K                102000000.0      0   9574   9567             3028    710
+   7  K                102000000.0      0   9574   9488             2574    849
+   8  K                101069448.9      0   9574   9727             3087    905
+   9  K                99377112.16      0   9574   8809             3533    938
+  10  K                97873640.58      0   9574   8149             3154    974
+  11  K                97046541.83      0   9574   8161             2962    996
+  12  K                96646005.55      0   9574   9433             2916   1021
+  13  K                96444490.97      0   9574  10770             3117   1041
+  14  K                96093286.96      0   9574   8841             3019   1068
+  15  K                95966781.75      0   9574   9310             2872   1087
+  16  K                95865322.07      0   9574   9624             2963   1115
+  17  K                95372801.79      0   9574   8886             2973   1138
+  18  K                95325257.65      0   9574  10650             2822   1159
+  19  K                95267544.59      0   9574   3922             2983   1191
+  20  K                95192381.46      0   9574  12977             2911   1216
+  21  K                95166694.27      0   9574  10399             2856   1242
+  22  K                95157714.37      0   9574   9409             2927   1262
+  23  K                95153349.02      0   9574   9475             3083   1286
+  24  K                95151097.17      0   9574   8086             3150   1306
+  25  K                95150567.66      0   9574  23480             3034   1321
+  26  G                95128435.05      0   9574      0             3032   1335
+  27  G                95122060.26      0   7734  17729             3289   1357
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 1934
+Cut elements in the matrix : 88645
+Will try to keep branch and bound tree memory usage below 4.5GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 367MB (peak 713MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95114136.75      0      2      1             3082   1572
+       2               95098211.42      0      2      3             3133   1615
+       3               95098211.42      0      2      3             3074   1622
+       4               95091730.38      0      4      4             2913   1640
+       5               95091730.38      0      4      4             2833   1641
+       6               95089216.80      0      6      4             2677   1657
+       7               95089216.80      0      6      4             3280   1659
+Will try to keep branch and bound tree memory usage below 3.9GB
+       8               95080408.45      0      8      5             2805   1694
+       9               95080408.45      0      8      5             2908   1694
+      10               95080408.45      0      9      6             2921   1700
+      20               95020273.19      0     18      6             2773   1806
+      30               95020273.19      0     27      9             2892   1881
+      40               95020270.72      0     35     11             3073   1976
+      50               95020270.72      0     39     11             2888   2020
+      60               95020270.72      0     43     16             2710   2069
+      70               95020270.72      0     47     16             2825   2134
+      80               95020270.72      0     60     22             2462   2196
+      90               95020270.72      0    109     22             2556   2279
+     100               95020270.72      0    114     26             2277   2351
+Will try to keep branch and bound tree memory usage below 3.7GB
+Elapsed time (sec): 3000, estimated tree completion: 0.00071
+Heap usage: 1383MB (peak 1383MB, 20MB system)
+B&B tree size: 37MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               95020270.72      0    174     22             2561   3000
+     300               95007489.43      0    304     47             2522   3757
+     400               95007489.43      0    504     22             2545   4547
+     500               95007489.43      0    614     79             2735   5306
+     600               95002633.55      0    677    127             2307   5977
+     700               95002633.55      0    710    117             2057   6577
+     800               95002633.55      0    762     96             1911   7322
+     900               95002633.55      0    942    169             1950   8197
+    1000               95002633.55      0   1121    125             2038   8847
+    1100               95002633.55      0   1186    142             1860   9592
+    1200               95002633.55      0   1345    156             1973  10303
+    1300               95002633.55      0   1554    241             2289  11047
+g   1319  31059167.17  95002633.55      1   1558    253   67.31%       0  11225
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=11225.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=11227.00).
+ *** Search unfinished ***    Time: 11227.11 Nodes:       1319
+Numerical issues encountered:
+   Dual failures    :      3 out of      3567 (ratio: 0.0008)
+Final MIP objective                   : 3.105916716859958e+07
+Final MIP bound                       : 9.500263354760209e+07
+  Solution time / primaldual integral :  11227.11s/ 99.996332%
+  Number of solutions found / nodes   :         1 /      1319
+  Max primal violation      (abs/rel) : 1.273e-11 / 1.474e-15
+  Max integer violation     (abs    ) :       0.0
+solve time,  11388.272547483444
+28731757.56
+solution output,  11388.494503974915
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-24_06-51-31.148359_budget_29000000.csv, Time: 11388.572650671005
+Ad slot variables added,  0.14171552658081055
+Viewership variables added,  0.15717315673828125
+Variables added,  0.15717315673828125
+Constaint 1 added,  0.16925406455993652
+Constaint 2 added,  0.17423391342163086
+Constaint 3 added,  0.17525219917297363
+Constaint 4 added,  0.5026040077209473
+Constaint 5 added,  0.5309147834777832
+Constaint 6 added,  0.6002407073974609
+Constaint 7 added,  0.6228876113891602
+Constaint 8 added,  1.1308019161224365
+Constaint u added,  167.21569418907166
+Constaint 10 added,  167.24758625030518
+Constaint 11 added,  167.33036184310913
+time to intialise problem:  167.34196162223816
+FICO Xpress v9.4.2, Hyper, solve started 6:54:19, Nov 24, 2024
+Heap usage: 51MB (peak 51MB, 4811KB system)
+Maximizing MILP noname using up to 8 threads and up to 15GB memory, with these control settings:
+MAXTIME = 120
+OUTPUTLOG = 1
+HEURFREQ = -1
+NLPPOSTSOLVE = 1
+XSLP_DELETIONCONTROL = 0
+XSLP_OBJSENSE = -1
+Original problem has:
+     50960 rows        27300 cols      1100022 elements     23244 entities
+Presolved problem has:
+     38298 rows        21035 cols       993494 elements     16979 entities
+LP relaxation tightened
+Presolve finished in 1 seconds
+Heap usage: 72MB (peak 111MB, 4811KB system)
+
+Coefficient range                    original                 solved        
+  Coefficients   [min,max] : [ 1.00e+00,  3.08e+06] / [ 1.95e-03,  2.00e+00]
+  RHS and bounds [min,max] : [ 1.00e+00,  2.80e+07] / [ 1.00e+00,  6.24e+02]
+  Objective      [min,max] : [ 1.00e+00,  1.00e+00] / [ 3.28e+04,  1.31e+05]
+Autoscaling applied standard scaling
+
+Will try to keep branch and bound tree memory usage below 5.5GB
+Starting concurrent solve with dual (1 thread) and barrier (7 threads)
+
+              Concurrent-Solve,   2s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  4.591E+08   .0000000 |           factorize     
+ D  1.161E+08   .0000000 |           factorize     
+ D  1.100E+08   .0000000 |           factorize     
+ D  1.092E+08   .0000000 |           factorize     
+ D  1.081E+08   .0000000 |           factorize     
+ D  1.030E+08   .0000000 |           factorize     
+ D  1.030E+08   .0000000 |           factorize     
+ D  1.030E+08   .0000000 |           factorize     
+ D  1.030E+08   .0000000 |           factorize     
+ D  1.030E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+
+              Concurrent-Solve,  14s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |           factorize     
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.194E+10   .0000000
+ D  1.020E+08   .0000000 |  B  1.473E+10 -3.777E+09
+ D  1.020E+08   .0000000 |  B  1.473E+10 -3.777E+09
+ D  1.020E+08   .0000000 |  B  1.473E+10 -3.777E+09
+ D  1.020E+08   .0000000 |  B  1.473E+10 -3.777E+09
+ D  1.020E+08   .0000000 |  B  1.328E+10  1.235E+09
+ D  1.020E+08   .0000000 |  B  1.328E+10  1.235E+09
+ D  1.020E+08   .0000000 |  B  1.328E+10  1.235E+09
+ D  1.020E+08   .0000000 |  B  8.207E+09  1.439E+09
+ D  1.020E+08   .0000000 |  B  8.207E+09  1.439E+09
+ D  1.020E+08   .0000000 |  B  8.207E+09  1.439E+09
+
+              Concurrent-Solve,  42s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  8.207E+09  1.439E+09
+ D  1.020E+08   .0000000 |  B  3.940E+09  7.548E+08
+ D  1.020E+08   .0000000 |  B  3.940E+09  7.548E+08
+ D  1.020E+08   .0000000 |  B  3.940E+09  7.548E+08
+ D  1.020E+08   .0000000 |  B  3.940E+09  7.548E+08
+ D  1.020E+08   .0000000 |  B  1.729E+09  4.653E+08
+ D  1.020E+08   .0000000 |  B  1.729E+09  4.653E+08
+ D  1.020E+08   .0000000 |  B  1.729E+09  4.653E+08
+ D  1.020E+08   .0000000 |  B  1.729E+09  4.653E+08
+ D  1.020E+08   .0000000 |  B  1.115E+09  2.727E+08
+ D  1.020E+08   .0000000 |  B  1.115E+09  2.727E+08
+ D  1.020E+08   .0000000 |  B  1.115E+09  2.727E+08
+ D  1.020E+08   .0000000 |  B  1.115E+09  2.727E+08
+ D  1.020E+08   .0000000 |  B  8.477E+08  2.318E+08
+ D  1.020E+08   .0000000 |  B  8.477E+08  2.318E+08
+ D  1.020E+08   .0000000 |  B  8.477E+08  2.318E+08
+ D  1.020E+08   .0000000 |  B  6.561E+08  1.833E+08
+ D  1.020E+08   .0000000 |  B  6.561E+08  1.833E+08
+ D  1.020E+08   .0000000 |  B  6.561E+08  1.833E+08
+ D  1.020E+08   .0000000 |  B  6.561E+08  1.833E+08
+
+              Concurrent-Solve,  76s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  4.867E+08  1.586E+08
+ D  1.020E+08   .0000000 |  B  4.867E+08  1.586E+08
+ D  1.020E+08   .0000000 |  B  4.867E+08  1.586E+08
+ D  1.020E+08   .0000000 |  B  4.867E+08  1.586E+08
+ D  1.020E+08   .0000000 |  B  3.846E+08  1.423E+08
+ D  1.020E+08   .0000000 |  B  3.846E+08  1.423E+08
+ D  1.020E+08   .0000000 |  B  3.846E+08  1.423E+08
+ D  1.020E+08   .0000000 |  B  3.846E+08  1.423E+08
+ D  1.020E+08   .0000000 |  B  2.517E+08  1.224E+08
+ D  1.020E+08   .0000000 |  B  2.517E+08  1.224E+08
+ D  1.020E+08   .0000000 |  B  2.517E+08  1.224E+08
+ D  1.020E+08   .0000000 |  B  2.053E+08  1.164E+08
+ D  1.020E+08   .0000000 |  B  2.053E+08  1.164E+08
+ D  1.020E+08   .0000000 |  B  2.053E+08  1.164E+08
+ D  1.020E+08   .0000000 |  B  2.053E+08  1.164E+08
+ D  1.020E+08   .0000000 |  B  1.491E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  1.491E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  1.491E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  1.491E+08  1.108E+08
+ D  1.020E+08   .0000000 |  B  1.265E+08  1.074E+08
+
+              Concurrent-Solve, 102s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  1.265E+08  1.074E+08
+ D  1.020E+08   .0000000 |  B  1.265E+08  1.074E+08
+ D  1.020E+08   .0000000 |  B  1.265E+08  1.074E+08
+ D  1.020E+08   .0000000 |  B  1.169E+08  1.056E+08
+ D  1.020E+08   .0000000 |  B  1.169E+08  1.056E+08
+ D  1.020E+08   .0000000 |  B  1.169E+08  1.056E+08
+ D  1.020E+08   .0000000 |  B  1.095E+08  1.037E+08
+ D  1.020E+08   .0000000 |  B  1.095E+08  1.037E+08
+ D  1.020E+08   .0000000 |  B  1.095E+08  1.037E+08
+ D  1.020E+08   .0000000 |  B  1.095E+08  1.037E+08
+ D  1.020E+08   .0000000 |  B  1.031E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.031E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.031E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.031E+08  1.019E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+
+              Concurrent-Solve, 128s
+            Dual                      Barrier      
+    objective   dual inf        p.obj.     d.obj.  
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |  B  1.020E+08  1.020E+08
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |           crossover     
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+
+              Concurrent-Solve, 140s
+            Dual                      Barrier      
+    objective   dual inf       objective   sum inf 
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+ D  1.020E+08   .0000000 |  P  1.020E+08   .0000000
+----- interrupted ------ | ------- optimal --------
+Concurrent statistics:
+           Dual: 31081 simplex iterations, 65.56s
+        Barrier: 20 barrier and 4245 simplex iterations, 140.53s
+            Barrier used 7 threads 4 cores
+            Barrier used AVX2 support, crossover used 7 threads
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+  1446       102000000.0      P      0     0        .000000   142
+Barrier solved problem
+  20 barrier and 4245 simplex iterations in 140.55 seconds at time 142
+
+Final objective                       : 1.020000000000000e+08
+  Max primal violation      (abs/rel) :       0.0 /       0.0
+  Max dual violation        (abs/rel) : 7.154e-08 / 4.271e-08
+  Max complementarity viol. (abs/rel) :       0.0 /       0.0
+
+Starting root cutting & heuristics
+Deterministic mode with up to 1 additional thread
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                102000000.0      0   9574      0             3411    206
+   2  K                102000000.0      0   4137   9452             2981    228
+   3  K                102000000.0      0   2197   3816             2671    251
+   4  K                102000000.0      0   2589   2016             2844    273
+   5  K                102000000.0      0   7205   2768             2567    314
+   6  K                102000000.0      0   7157   7167             2930    344
+   7  K                101572551.7      0   2835   7091             2899    372
+   8  K                100447380.8      0   3373   2323             3098    386
+   9  K                98760431.21      0   7347   2989             3011    399
+  10  K                97264168.05      0   8830   4456             3195    578
+  11  K                97040801.48      0   9574   9569             2673    589
+  12  K                96805540.68      0   4869   9475             2950    605
+  13  K                96208329.57      0   9445   6045             2916    623
+  14  K                95957945.25      0   7067   9345             2778    637
+  15  K                95551845.61      0   6318   7021             2871    653
+  16  K                95467076.72      0   4192   6350             3002    667
+  17  K                95432152.28      0   6125   4114             3042    680
+  18  K                95394634.09      0   4892   5826             2981    701
+  19  K                95360281.42      0   7494   4787             2877    718
+  20  K                95339543.47      0   4039  12965             2802    736
+  21  G                95273807.92      0   9574      0             2906    754
+  22  G                95253009.38      0   7808  17378             3032    773
+Heuristic search 'R' started
+Heuristic search 'R' stopped
+ 
+Cuts in the matrix         : 1688
+Cut elements in the matrix : 105133
+Will try to keep branch and bound tree memory usage below 4.6GB
+
+Starting tree search.
+Deterministic mode with up to 8 running threads and up to 16 tasks.
+Heap usage: 345MB (peak 695MB, 15MB system)
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1               95252713.02      0      2      1             2996    880
+       2               95252402.31      0      2      3             2938    911
+       3               95239471.13      0      3      4             2908    922
+       4               95239471.13      0      3      3             2782    926
+       5               95237442.01      0      5      4             2898    941
+       6               95237442.01      0      6      4             2907    949
+       7               95152079.35      0      6      4             3028    956
+Will try to keep branch and bound tree memory usage below 3.9GB
+       8               95152079.35      0      8      5             2884    987
+       9               95152079.35      0      9      5             3176    999
+      10               95152079.35      0      9      6             2833   1000
+      20               95100000.78      0     19      7             3100   1105
+      30               95099993.49      0     27      7             2725   1188
+      40               95051818.06      0     32     11             2963   1262
+      50               95051818.06      0     41     12             3046   1341
+      60               95051818.06      0     64     17             2951   1397
+      70               95051818.06      0     66     17             2909   1470
+      80               95051818.06      0     68     20             2907   1527
+      90               95051818.06      0    109     22             2693   1586
+     100               95051818.06      0    111     25             2776   1649
+Elapsed time (sec): 2207, estimated tree completion: 0.00000
+Heap usage: 1273MB (peak 1273MB, 20MB system)
+B&B tree size: 32MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200               95051818.06      0    205     47             2825   2207
+     300               95051818.06      0    225     67             2776   2802
+     400               94968924.36      0    362     54             2648   3549
+     500               94968924.36      0    583     79             2940   4411
+     600               94968924.36      0    658    125             2547   5302
+     700               94968924.36      0    825    146             2146   6278
+     800               94968924.36      0    846    171             2817   7046
+Heuristic R running (50000 LP iterations in   93.9 seconds)
+     900               94968924.36      0    891     29             2441   7925
+Heuristic R running (50000 LP iterations in   67.0 seconds)
+    1000               94962107.39      0   1362     55             2654   8761
+Heuristic R running (100000 LP iterations in  134.1 seconds)
+Heuristic R running (150000 LP iterations in  201.3 seconds)
+    1100               94962107.39      0   1373    211             1478   9444
+    1200               94925772.26      0   1509     80             2783  10117
+    1300               94925772.26      0   1532     94             2759  10943
+    1400               94925772.26      0   1543    106             2692  11714
+    1500               94925772.26      0   1560    127             2981  12567
+    1600               94925772.26      0   1828    345              790  13240
+Heuristic R running (50000 LP iterations in  166.0 seconds)
+Heuristic R running (100000 LP iterations in  317.3 seconds)
+Heuristic R running (150000 LP iterations in  396.2 seconds)
+Heuristic R running (200000 LP iterations in  480.3 seconds)
+    1700               94925772.26      0   1949    380              835  14120
+    1800               94923020.04      0   2058     44             2346  14808
+    1900               94923020.04      0   2110     60             2447  15352
+    2000               94923020.04      0   2305     53             2651  16246
+Heuristic R running (50000 LP iterations in  244.1 seconds)
+Heuristic R running (100000 LP iterations in  395.7 seconds)
+Heuristic R running (150000 LP iterations in  523.1 seconds)
+    2100               94923020.04      0   2426     78             2612  17208
+Heuristic R running (50000 LP iterations in   37.9 seconds)
+Elapsed time (sec): 17957, estimated tree completion: 0.00000
+Heap usage: 3110MB (peak 3110MB, 27MB system)
+B&B tree size: 403MB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2200               94923020.04      0   2620     29             2719  17957
+    2300               94900744.19      0   2738    155             2469  18556
+    2400               94900744.19      0   2945    161             2341  19256
+    2500               94900744.19      0   2971    136             2217  20097
+    2602               94900744.19      0   3117     92             2288  20842
+    2702               94900744.19      0   3117     78             2930  21661
+    2802               94900696.71      0   3171    139             2278  22613
+    2902               94900696.71      0   3313     60             2791  23630
+    3002               94900696.71      0   3506    160             2508  24587
+    3102               94900696.71      0   3604     86             2710  25445
+    3202               94900696.71      0   3726    107             2687  26281
+    3302               94900696.71      0   3748    125             2251  27067
+    3402               94900696.71      0   3748    121             2866  27798
+    3502               94900696.71      0   3748    197             2056  28805
+    3602               94887598.16      0   4032     31             2526  29668
+Heuristic R running (50000 LP iterations in  301.3 seconds)
+Heuristic R running (100000 LP iterations in  612.1 seconds)
+Heuristic R running (150000 LP iterations in  785.3 seconds)
+Heuristic R running (200000 LP iterations in  956.8 seconds)
+Heuristic R running (50000 LP iterations in  256.9 seconds)
+    3702               94887598.16      0   4226     27             2653  30601
+Heuristic R running (100000 LP iterations in  810.4 seconds)
+Heuristic R running (150000 LP iterations in  974.8 seconds)
+    3802               94887598.16      0   4345     33             2563  31350
+    3902               94887598.16      0   4345    215             2358  32022
+    4002               94885592.33      0   4589     78             2702  32653
+    4102               94885592.33      0   4640    248             1421  33368
+Elapsed time (sec): 34121, estimated tree completion: 0.00000
+Heap usage: 4520MB (peak 4520MB, 32MB system)
+B&B tree size: 0.7GB total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    4202               94885592.33      0   4772    175             2513  34121
+    4302               94885592.33      0   4894     91             2863  34953
+    4402               94885592.33      0   4937    102             2758  35743
+Heuristic R running (50000 LP iterations in  356.9 seconds)
+    4502               94885592.33      0   4937    307             1018  36589
+Heuristic R running (100000 LP iterations in  789.3 seconds)
+Heuristic R running (150000 LP iterations in  984.5 seconds)
+    4602               94885592.33      0   5149    110             2812  37411
+b   4658  28328084.25  94885592.33      1   5254    337   70.15%       0  37833
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=37833.00).
+STOPPING - MAXTIME limit reached (TIMELIMIT=120.00  time=37844.00).
+ *** Search unfinished ***    Time: 37844.48 Nodes:       4658
+Numerical issues encountered:
+   Dual failures    :     42 out of     63216 (ratio: 0.0007)
+   Singular bases   :      7 out of    168742 (ratio: 0.0000)
+Final MIP objective                   : 2.832808424940999e+07
+Final MIP bound                       : 9.488559233469895e+07
+  Solution time / primaldual integral :  37844.48s/ 99.991627%
+  Number of solutions found / nodes   :         1 /      4658
+  Max primal violation      (abs/rel) : 5.284e-07 / 5.284e-07
+  Max integer violation     (abs    ) : 1.390e-12
+solve time,  38011.86435508728
+27561679.409999996
+solution output,  38012.12381649017
+Solution output written to ./output/Sentivity_output_3LastDays_2024-11-24_17-25-04.411657_budget_28050000.csv, Time: 38012.213851451874

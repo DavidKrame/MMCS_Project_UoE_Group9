@@ -1,0 +1,5 @@
+vote_average : between 5.5 and 7.5
+release_date : after 2000
+revenue > budget
+license_fee < 1e6
+

@@ -1,0 +1,136 @@
+Total cost: 28990269.370000005
+MIP gap: 73.94918685514284
+At 2024-10-05 07:00:00 show movie Doctor Strange in the Multiverse of Madness, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-05 07:30:00 show movie Doctor Strange in the Multiverse of Madness, on own channel advertise movie Indiana Jones and the Dial of Destiny
+, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 08:30:00 show movie Doctor Strange in the Multiverse of Madness, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 09:00:00 show movie Doctor Strange in the Multiverse of Madness, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 09:30:00 show movie Pirates of the Caribbean: At World's End, sell adslot with viewership 33634.220266589786
+, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 10:30:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 11:00:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie Fast X
+At 2024-10-05 11:30:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 12:00:00 show movie Pirates of the Caribbean: At World's End, on own channel advertise movie Black Panther: Wakanda Forever
+, on own channel advertise movie The Flash
+At 2024-10-05 13:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 317819.1759196003
+At 2024-10-05 13:30:00 show movie Spider-Man: Homecoming, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 14:00:00 show movie Spider-Man: Homecoming, sell adslot with viewership 336190.260090701
+At 2024-10-05 14:30:00 show movie Spider-Man: Homecoming, sell adslot with viewership 346026.68165104603
+At 2024-10-05 15:00:00 show movie Spider-Man: Homecoming, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 15:30:00 show movie Fast X, sell adslot with viewership 257374.95694998984
+At 2024-10-05 16:00:00 show movie Fast X, sell adslot with viewership 265945.3416499899
+At 2024-10-05 16:30:00 show movie Fast X, sell adslot with viewership 272976.44191665656
+At 2024-10-05 17:00:00 show movie Fast X, sell adslot with viewership 278015.38714998984
+At 2024-10-05 17:30:00 show movie Fast X, sell adslot with viewership 280789.5832499899
+At 2024-10-05 18:00:00 show movie Fast X, sell adslot with viewership 281263.5629499899
+, sell adslot with viewership 152503.87368980973
+At 2024-10-05 19:00:00 show movie Justice League, sell adslot with viewership 148769.84645547063
+, sell adslot with viewership 143737.51756049655
+At 2024-10-05 20:00:00 show movie Justice League, sell adslot with viewership 137909.74146276238
+At 2024-10-05 20:30:00 show movie Justice League, sell adslot with viewership 131662.58004631064
+At 2024-10-05 21:00:00 show movie The Flash, sell adslot with viewership 298265.4234545189
+At 2024-10-05 21:30:00 show movie The Flash, sell adslot with viewership 291682.6160211855
+At 2024-10-05 22:00:00 show movie The Flash, sell adslot with viewership 285006.44832118554
+At 2024-10-05 22:30:00 show movie The Flash, sell adslot with viewership 278219.0490211855
+At 2024-10-05 23:00:00 show movie The Flash, sell adslot with viewership 271311.3594878522
+At 2024-10-05 23:30:00 show movie The Flash, sell adslot with viewership 264889.8794078523
+, on own channel advertise movie The Amazing Spider-Man
+, on own channel advertise movie Indiana Jones and the Dial of Destiny
+, on own channel advertise movie Black Panther: Wakanda Forever
+, on own channel advertise movie Black Panther: Wakanda Forever
+, on own channel advertise movie Black Panther: Wakanda Forever
+, on own channel advertise movie Black Panther: Wakanda Forever
+, on own channel advertise movie Black Panther: Wakanda Forever
+, on own channel advertise movie Black Panther: Wakanda Forever
+At 2024-10-06 11:00:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 840969.7440166718
+At 2024-10-06 11:30:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 847421.4819500052
+At 2024-10-06 12:00:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 854582.2469500052
+At 2024-10-06 12:30:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 862452.2258833385
+At 2024-10-06 13:00:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 871045.4999833384
+At 2024-10-06 13:30:00 show movie Black Panther: Wakanda Forever, sell adslot with viewership 880360.475850005
+At 2024-10-06 14:00:00 show movie Deadpool 2, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 14:30:00 show movie Deadpool 2, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 15:00:00 show movie Deadpool 2, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 15:30:00 show movie Deadpool 2, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 16:00:00 show movie Deadpool 2, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 16:30:00 show movie Frozen II, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 17:30:00 show movie Frozen II, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 18:00:00 show movie Frozen II, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 18:30:00 show movie The Hunger Games: Mockingjay - Part 1, on own channel advertise movie The Hobbit: The Battle of the Five Armies
+At 2024-10-06 19:00:00 show movie The Hunger Games: Mockingjay - Part 1, sell adslot with viewership 142140.0059347779
+At 2024-10-06 19:30:00 show movie The Hunger Games: Mockingjay - Part 1, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 20:00:00 show movie The Hunger Games: Mockingjay - Part 1, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 20:30:00 show movie The Hunger Games: Mockingjay - Part 1, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-06 21:00:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 440659.3215637809
+At 2024-10-06 21:30:00 show movie The Hobbit: The Battle of the Five Armies, on own channel advertise movie The Meg
+At 2024-10-06 22:00:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 426699.62083044753
+At 2024-10-06 22:30:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 419741.1560971141
+At 2024-10-06 23:00:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 412735.77079711424
+At 2024-10-06 23:30:00 show movie The Hobbit: The Battle of the Five Armies, sell adslot with viewership 406265.050023781
+, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 07:30:00 show movie Shrek Forever After, on own channel advertise movie Indiana Jones and the Dial of Destiny
+, on own channel advertise movie The Amazing Spider-Man
+, on own channel advertise movie The Amazing Spider-Man
+At 2024-10-07 09:00:00 show movie The Meg
+At 2024-10-07 09:30:00 show movie The Meg
+At 2024-10-07 10:00:00 show movie The Meg, sell adslot with viewership 539323.8152722477
+At 2024-10-07 10:30:00 show movie The Meg, sell adslot with viewership 544147.8446055809
+At 2024-10-07 11:00:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 11:30:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 12:00:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 12:30:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 13:00:00 show movie The Amazing Spider-Man, sell adslot with viewership 1000000.0
+At 2024-10-07 13:30:00 show movie Indiana Jones and the Dial of Destiny
+At 2024-10-07 14:00:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 14:30:00 show movie Indiana Jones and the Dial of Destiny, sell adslot with viewership 246292.17292261487
+At 2024-10-07 15:00:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie Minions: The Rise of Gru
+At 2024-10-07 15:30:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie Minions: The Rise of Gru
+At 2024-10-07 16:00:00 show movie Indiana Jones and the Dial of Destiny, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 16:30:00 show movie Iron Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 17:00:00 show movie Iron Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 17:30:00 show movie Iron Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 18:00:00 show movie Iron Man 2
+At 2024-10-07 18:30:00 show movie Iron Man 2, on own channel advertise movie The Hobbit: An Unexpected Journey
+At 2024-10-07 19:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 996008.4463301636
+At 2024-10-07 19:30:00 show movie The Hobbit: An Unexpected Journey, on own channel advertise movie Minions: The Rise of Gru
+At 2024-10-07 20:00:00 show movie The Hobbit: An Unexpected Journey, on own channel advertise movie Minions: The Rise of Gru
+At 2024-10-07 20:30:00 show movie The Hobbit: An Unexpected Journey, on own channel advertise movie Minions: The Rise of Gru
+At 2024-10-07 21:00:00 show movie The Hobbit: An Unexpected Journey, on own channel advertise movie Minions: The Rise of Gru
+At 2024-10-07 21:30:00 show movie The Hobbit: An Unexpected Journey
+At 2024-10-07 22:00:00 show movie The Hobbit: An Unexpected Journey, sell adslot with viewership 956359.4348493571
+At 2024-10-07 22:30:00 show movie Minions: The Rise of Gru, sell adslot with viewership 643076.7819928528
+At 2024-10-07 23:00:00 show movie Minions: The Rise of Gru, sell adslot with viewership 637682.9910680008
+At 2024-10-07 23:30:00 show movie Minions: The Rise of Gru, sell adslot with viewership 632917.6672912511
+At 2024-10-05 12:45:00 on channel 0 advertise movie Fast X
+At 2024-10-05 14:15:00 on channel 0 advertise movie Fast X
+At 2024-10-06 15:40:00 on channel 0 advertise movie The Amazing Spider-Man
+At 2024-10-05 08:00:00 on channel 1 advertise movie Spider-Man: Homecoming
+At 2024-10-05 08:30:00 on channel 1 advertise movie Spider-Man: Homecoming
+At 2024-10-05 09:00:00 on channel 1 advertise movie Spider-Man: Homecoming
+At 2024-10-05 09:30:00 on channel 1 advertise movie Spider-Man: Homecoming
+At 2024-10-05 10:00:00 on channel 1 advertise movie Spider-Man: Homecoming
+At 2024-10-05 12:40:00 on channel 1 advertise movie The Meg
+At 2024-10-05 13:10:00 on channel 1 advertise movie Fast X
+At 2024-10-05 13:40:00 on channel 1 advertise movie The Meg
+At 2024-10-05 14:45:00 on channel 1 advertise movie The Meg
+At 2024-10-05 15:45:00 on channel 1 advertise movie The Meg
+At 2024-10-05 16:15:00 on channel 1 advertise movie Shrek Forever After
+At 2024-10-05 16:50:00 on channel 1 advertise movie Cars 2
+At 2024-10-05 17:20:00 on channel 1 advertise movie Cars 2
+At 2024-10-06 14:35:00 on channel 1 advertise movie The Meg
+At 2024-10-06 15:10:00 on channel 1 advertise movie The Meg
+At 2024-10-06 15:40:00 on channel 1 advertise movie The Meg
+At 2024-10-06 16:10:00 on channel 1 advertise movie The Meg
+At 2024-10-05 10:50:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 11:20:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 11:50:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 12:20:00 on channel 2 advertise movie Spider-Man: Homecoming
+At 2024-10-05 14:55:00 on channel 2 advertise movie Black Panther: Wakanda Forever
+At 2024-10-05 15:30:00 on channel 2 advertise movie The Flash
+At 2024-10-05 17:00:00 on channel 2 advertise movie Black Panther: Wakanda Forever
+At 2024-10-07 12:35:00 on channel 2 advertise movie Indiana Jones and the Dial of Destiny
+At 2024-10-07 17:50:00 on channel 2 advertise movie Minions: The Rise of Gru
+At 2024-10-07 18:20:00 on channel 2 advertise movie Minions: The Rise of Gru
+At 2024-10-07 18:50:00 on channel 2 advertise movie Minions: The Rise of Gru
+At 2024-10-07 19:20:00 on channel 2 advertise movie Minions: The Rise of Gru
