@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Images_EDA
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: David
+    family-names: Krame
+  - given-names: Rónán
+    family-names: Sweeney McCarron
+  - given-names: Hariaksh
+  - given-names: Adeyinka
+    family-names: Badmus
