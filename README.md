@@ -4,7 +4,7 @@
 
 ### 0. Summary of Results
 
-![[Optimization Results](./Stuffs_For_Github/Report_MMCS_Project.pdf)](./Stuffs_For_Github/Cover_Github2.png)
+[![Optimization Results](./Stuffs_For_Github/Cover_Github2.png)](./Stuffs_For_Github/Report_MMCS_Project.pdf)
 
 Click the image above to access the full project report in PDF format.
 
