@@ -2,7 +2,15 @@
 
 ## Mathematical, Modelling and Consulting Skills – MSc Operational Research 2024/2025
 
-### 0. Repository Content Summary
+### 0. Summary of Results
+
+![Optimization Results](./Stuffs_For_Github/Cover_Github2.png)(./Stuffs_For_Github/Report_MMCS_Project.pdf)
+
+Click the image above to access the full project report in PDF format.
+
+---
+
+### 1. Repository Content Summary
 
 This repository contains all the materials and scripts used for analyzing and optimizing strategies for a TV channel competing in a multi-channel environment. Below is a guide to its structure and key components:
 
@@ -46,7 +54,7 @@ This repository contains all the materials and scripts used for analyzing and op
 
 ---
 
-### 1. Introduction
+### 2. Introduction
 
 This project presents a small-scale set of competitor TV channels, exploring optimal solutions for maximizing viewership through intelligent scheduling and planning a cost-effective advertising strategy. The challenge considers four channels streaming movies all the time, with daily programming running from 7 AM until midnight and 5-minute time slots every 30 minutes.
 
@@ -54,7 +62,7 @@ As consultants hired by a TV channel, we received a blank timeline along with th
 
 ---
 
-### 2. Key Facts About the Data
+### 3. Key Facts About the Data
 
 The simulated data aims to represent realistic distributions and logical relationships, although gaps and inconsistencies may exist. The following datasets are included:
 
@@ -84,13 +92,13 @@ The simulated data aims to represent realistic distributions and logical relatio
 
 ---
 
-### 3. Stochastic Modelling
+### 4. Stochastic Modelling
 
 Advertising increases viewership through probabilities, with viewership calculated based on baseline counts multiplied by popularity. The model incorporates conversion rates based on advertising placements on competitors’ channels.
 
 ---
 
-### 4. Key Objectives and Constraints
+### 5. Key Objectives and Constraints
 
 The main objectives are to maximize overall viewership through:
 - Intelligent scheduling aligned with competitors’ schedules.
@@ -100,13 +108,13 @@ Expenses include streaming license fees and advertising costs, while revenue is 
 
 ---
 
-### 5. Timeline and Iterative Approach
+### 6. Timeline and Iterative Approach
 
 The model optimizes the TV channel’s schedule and advertising over the first week, starting from 01 October 2024. An iterative approach will refine strategies based on weekly learnings and adjustments to advertising budgets.
 
 ---
 
-### 6. Exploratory Questions
+### 7. Exploratory Questions
 
 The executive board seeks recommendations to enhance the optimization strategy, focusing on aspects such as optimal pricing for advert slots, competitor scheduling tactics, minimum revenue thresholds, demographic trends, content strategies, and more.
 
