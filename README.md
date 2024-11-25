@@ -48,7 +48,7 @@ This repository contains all the materials and scripts used for analyzing and op
 
 ---
 
-### Link to the Mathematical Model in Overleaf
+### Link to the Mathematical Model in Overleaf (Authors only)
 
 [Click here to view the model on Overleaf](https://www.overleaf.com/9631347139bgqygbhyzjjz#7ba809)
 
